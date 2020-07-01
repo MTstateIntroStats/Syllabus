@@ -1,0 +1,120 @@
+---
+title: 'STAT 216: Introduction to Statistics'
+author: "Syllabus: Fall 2020"
+date: "Last updated: `r Sys.Date()`"
+output:
+  html_document:
+      theme: cerulean
+      toc: TRUE
+      toc_depth: 2
+      toc_float: TRUE
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning=FALSE, message=FALSE)
+
+library(RColorBrewer)
+
+pal <- brewer.pal(4, 'Pastel1')
+```
+
+
+---
+
+# Instructor contact information  {.tabset .tabset-fade .tabset-pills}
+Your primary contact in STAT 216 is your instructor. If you have
+concerns that cannot be answered by your instructor, you may reach
+out to the Student Success Coordinator or the Course Supervisor.
+
+Refer to your section's _D2L Announcements_ page for your
+instructor and co-instructor/TA contact information.
+
+## Student Success Coordinator
+**Jade Schmidt**  
+email: jade.schmidt2@montana.edu  
+Office: Wilson 2-263  
+Phone: (406) 994-6557
+
+---
+
+## Assistant Coordinator
+**Melinda Yager**  
+email: melinda.yager@montana.edu  
+Office: Wilson 1-145  
+Phone: (406) 994-6876
+
+---
+
+## Course Supervisor
+**Dr. Stacey Hancock**  
+email: stacey.hancock@montana.edu  
+Office: Wilson 2-195  
+Phone: (406) 993-5350  
+
+
+---
+
+# Course description
+Stat 216 is designed to engage you in the statistical investigation process from developing a research question and data collection methods to analyzing and communicating results. This course introduces basic descriptive and inferential statistics using both traditional (normal and t-distribution) and simulation approaches including confidence intervals and hypothesis testing on means (one-sample, two-sample, paired), proportions (one-sample, two-sample), regression and correlation. You will be exposed to numerous examples of real-world applications of statistics that are designed to help you develop a conceptual understanding of statistics. After taking this course, you should be able to:
+
+- Understand and appreciate how statistics affects your daily life and the fundamental role of statistics in all disciplines
+- Evaluate statistics and statistical studies you encounter in your other courses
+- Critically read news stories based on statistical studies as an informed consumer of data
+- Assess the role of randomness and variability in different contexts
+- Use basic methods to conduct and analyze statistical studies
+- Evaluate and communicate answers to the four pillars of statistical inference: How strong is the evidence of an effect? What is the size of the effect? How broadly do the conclusions apply? Can we say what caused the observed difference?
+
+### MUS STAT 216 Learning Outcomes
+1. Understand how to describe the characteristics of a distribution.
+2. Understand how data can be collected, and how data collection dictates the choice of statistical method and appropriate statistical inference.
+3. Interpret and communicate the outcomes of estimation and hypothesis tests in the context of a problem.
+4. To understand the scope of inference for a given dataset.
+
+### CORE 2.0
+This course fulfills the Quantitative Reasoning (Q) CORE 2.0 requirement because learning probability and statistics allows us to disentangle what's really happening in nature from “noise” inherent in data collection. It allows us to evaluate claims from advertisements and results of polls and builds critical thinking skills which form the basis of statistical inference. Students completing a Core 2.0 Quantitative Reasoning (Q) course should demonstrate an ability to:
+
+Interpret and draw inferences from mathematical models such as formulas, graphs, diagrams or tables.
+Represent mathematical information numerically, symbolically and visually.
+Employ quantitative methods in symbolic systems such as, arithmetic, algebra, or geometry to solve problems.
+
+ <a href="#top">Back to top</a>
+ 
+ ---
+ 
+# Prerequisites
+Entrance to STAT 216 requires at least one of the following be met:
+
+- Grade of C- or better in a 100-level math course (or equivalent)
+- Grade of B or better in MATH 096
+- Level 3H on the [Math Placement Exam](http://www.montana.edu/testing/MPLEX.html) or a good score on Math portion of SAT (540 or higher) or ACT (23 or higher)
+
+You should have familiarity with computers and technology (e.g., Internet browsing, word processing, opening/saving files, converting files to PDF format, sending and receiving e-mail, etc.).
+
+
+ <a href="#top">Back to top</a>
+ 
+ ---
+ 
+# Course materials and resources
+
+### Online Textbook
+
+### Applets
+
+### RStudio
+
+### STAT 216 YouTube Channel
+Visit our [YouTube Channel](https://www.youtube.com/channel/UClGAq0KVt2d2sKd4aIAI4qQ/videos) for short instructional videos on course material.
+
+### Learning Management Tools
+
+- [**D2L**](https://ecat1.montana.edu/): Find your instructor and co-instructor/TA contact info, announcements, exploration information, instructor notes, exam review material, assignment and data files, discussion forums, gradebook.
+
+- [**Gradescope**](https://www.gradescope.com/): Submit and review quizzes and assignments, review exam grades. For more details, see our [Gradescope Help for Students](http://www.math.montana.edu/courses/s216/GradescopeHelpForStudents.pdf) document
+
+
+ <a href="#top">Back to top</a>
+ 
+ ---
+ 
+#
