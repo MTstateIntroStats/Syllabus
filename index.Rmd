@@ -6,7 +6,7 @@ output:
   html_document:
       theme: cerulean
       toc: TRUE
-      toc_depth: 2
+      toc_depth: 3
       toc_float: TRUE
 ---
 
@@ -14,14 +14,14 @@ output:
 knitr::opts_chunk$set(echo = FALSE, warning=FALSE, message=FALSE)
 
 library(RColorBrewer)
+library(tidyverse)
 
-pal <- brewer.pal(4, 'Pastel1')
+pal <- brewer.pal(6, 'Pastel1')
 ```
-
 
 ---
 
-# Instructor contact information  {.tabset .tabset-fade .tabset-pills}
+# Instructor contact information  {.tabset .tabset-fade}
 Your primary contact in STAT 216 is your instructor. If you have
 concerns that cannot be answered by your instructor, you may reach
 out to the Student Success Coordinator or the Course Supervisor.
@@ -54,7 +54,16 @@ Phone: (406) 993-5350
 
 ---
 
-# Course description
+# Course calendars
+
+* STAT 216 calendar for students in Mon/Wed/Fri sections
+* STAT 216 calendar for students in Tue/Thur sections
+* STAT 216 calendar for students in online sections
+* [MSU academic calendar](http://catalog.montana.edu/academiccalendar/)
+
+---
+
+# Course description and objectives
 Stat 216 is designed to engage you in the statistical investigation process from developing a research question and data collection methods to analyzing and communicating results. This course introduces basic descriptive and inferential statistics using both traditional (normal and t-distribution) and simulation approaches including confidence intervals and hypothesis testing on means (one-sample, two-sample, paired), proportions (one-sample, two-sample), regression and correlation. You will be exposed to numerous examples of real-world applications of statistics that are designed to help you develop a conceptual understanding of statistics. After taking this course, you should be able to:
 
 - Understand and appreciate how statistics affects your daily life and the fundamental role of statistics in all disciplines
@@ -64,7 +73,7 @@ Stat 216 is designed to engage you in the statistical investigation process from
 - Use basic methods to conduct and analyze statistical studies
 - Evaluate and communicate answers to the four pillars of statistical inference: How strong is the evidence of an effect? What is the size of the effect? How broadly do the conclusions apply? Can we say what caused the observed difference?
 
-### MUS STAT 216 Learning Outcomes
+### MUS STAT 216 learning outcomes
 1. Understand how to describe the characteristics of a distribution.
 2. Understand how data can be collected, and how data collection dictates the choice of statistical method and appropriate statistical inference.
 3. Interpret and communicate the outcomes of estimation and hypothesis tests in the context of a problem.
@@ -97,24 +106,172 @@ You should have familiarity with computers and technology (e.g., Internet browsi
  
 # Course materials and resources
 
-### Online Textbook
+### Online textbook and in-class activities
+The free, online textbook for this course can be found at [https://mtstateintrostats.github.io/IntroStatTextbook/](https://mtstateintrostats.github.io/IntroStatTextbook/) (also linked in D2L).
 
-### Applets
+A workbook of in-class activities is available for purchase in the MSU Bookstore. Activities are also available online, but students are expected to bring a printed copy of that week's activity to class.
+
+**Note that online sections will be using the previous textbook for this course, _Introduction to Statistical Investigations_ by Tintle et al., through the WileyPLUS platform.** Students enrolled in the online section will need to purchase a subscription to WileyPLUS, but will not need to purchase the activity workbook from the MSU Bookstore. See your section's D2L page for more details.
+
+### STAT 216 YouTube channel
+Visit our [YouTube channel](https://www.youtube.com/channel/UClGAq0KVt2d2sKd4aIAI4qQ/videos) for short instructional videos on course material (also linked in D2L).
 
 ### RStudio
+We will be using the statistical software [R](https://www.r-project.org/) through the IDE [RStudio](https://rstudio.com/products/rstudio/) for data visualization and statistical analyses. Students have four options for accessing this free software:
 
-### STAT 216 YouTube Channel
-Visit our [YouTube Channel](https://www.youtube.com/channel/UClGAq0KVt2d2sKd4aIAI4qQ/videos) for short instructional videos on course material.
+1. Download to your own laptop. (Note R and RStudio will not run on iPad, notebooks, or Chromebooks. If you have one of these devices, see the cloud-based option below.)
 
-### Learning Management Tools
+* Download and install [R](https://cloud.r-project.org/).
+* Download and install [RStudio Desktop](https://rstudio.com/products/rstudio/).
+* Install the `catstats` package.
+
+2. Use RStudio through the RStudio Cloud. This resource allows you to use RStudio through a web browser. It is free for use, but it does limit you to a certain number of project hours per month.
+
+3. Use RStudio through an MSU [virtual machine](https://studentlabs.montana.edu/remotelabs/howto.html).
+
+4. Use RStudio in an MSU on-campus computer lab. 
+
+### Learning management tools
 
 - [**D2L**](https://ecat1.montana.edu/): Find your instructor and co-instructor/TA contact info, announcements, exploration information, instructor notes, exam review material, assignment and data files, discussion forums, gradebook.
 
-- [**Gradescope**](https://www.gradescope.com/): Submit and review quizzes and assignments, review exam grades. For more details, see our [Gradescope Help for Students](http://www.math.montana.edu/courses/s216/GradescopeHelpForStudents.pdf) document
+- [**Gradescope**](https://www.gradescope.com/saml): Submit and review quizzes and assignments, review exam grades. For more details, see our [Gradescope Help for Students](http://www.math.montana.edu/courses/s216/GradescopeHelpForStudents.pdf) document
 
 
  <a href="#top">Back to top</a>
  
  ---
  
-#
+# Course format and organization
+ 
+Most sections of Stat 216 will be using a blended classroom format. Each week, students will:
+
+* meet with your fellow student cohort in your assigned classroom one class period per week for **in-class group activities and discussion**,
+* **read** assigned sections of the online textbook and **watch videos** on that week's content,
+* read that week's **case study** and answer **discussion questions** on the case study via [D2L](https://ecat1.montana.edu/),
+* complete one **assignment** in [Gradescope](https://www.gradescope.com/saml).
+
+Online sections will be available for those students who would prefer not to meet face-to-face in the classroom. If you are unable to attend the face-to-face portions of the blended class, please make sure to register for an online section. 
+
+ <a href="#top">Back to top</a>
+ 
+ ---
+ 
+# Course assessment
+
+Your grade in STAT 216 will contain the following components.
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+grades <- tribble(
+  ~category,  ~percent,
+  "Case study and D2L discussion", 5,
+  "Videos", 5,
+  "In-class activities", 10,
+  "Assignments", 30,
+  "Midterm exams (2)", 30,
+  "Final group project", 20
+)
+grades$category <- fct_relevel(grades$category, "Case study and D2L discussion", "Videos", "In-class activities", "Assignments", "Midterm exams (2)", "Final group project")
+grades$location <- rep(1, 6)
+grades %>% ggplot(aes(x=location, y=percent)) +
+  geom_col(aes(fill=category), col='black') + 
+  guides(fill=FALSE) + 
+  geom_text(aes(x=rep(1, 6), 
+                label=c("Case study and D2L discussion (5%)",
+                        "Videos (5%)",
+                        "In-class activities (10%)",
+                        "Assignments (30%)",
+                        "Midterm exams (30%)",
+                        "Final group project (20%)"), 
+                y=c(97.5,92.5,85,65,35,10))) + 
+  labs(x='', y='Cumulative percent') + 
+  theme(axis.text.x = element_blank()) +
+  scale_fill_manual(values=pal)
+```
+
+1. Case study and D2L discussion (5%): Each week, you will read a case study and answer reading questions on that case study, posting answers and discussion in the D2L Discussion Forum.
+2. Videos (5%): You will be expected to complete the assigned textbook reading and videos prior to attending the in-class activity for each week. Check-in questions will be embedded in the videos.
+3. In-class activities (10%): You will meet with your cohort and instructor once per week to work through an group activity focused on the material for that week. Attendance and completion of the activity counts towards this portion of your grade.
+4. Assignments (30%): You will complete weekly assignments in [Gradescope](https://www.gradescope.com/saml).
+5. Midterm exams (30%): There will be two in-class midterm exams (worth 15% each). Midterm exam 1 will be during the week of September 22-25; Midterm exam 1 during November 4-10. Potential midterm exam questions will be released the week prior to the exam, and you will be given a randomly chosen subset of these questions during your cohort's scheduled in-class time.
+6. Final group project (20%): In lieu of a final exam, you will complete a group project. The project will involve a complete data analysis on a research question of your choice, a written report, and a recorded 5-minute presentation.
+
+### Letter grades
+
+Final course grades will be determined according to the following scale.
+
+Letter Grade|Weighted Score
+---|---
+A|93-100%
+A-|90-92.99%
+B+|87-89.99%
+B|83-86.99%
+B-|80-82.99%
+C+|77-79.99%
+C|73-76.99%
+C-|70-72.99%
+D|60-69.99%
+F|<59.99%
+
+The grade cutoffs may be shifted _downward_ at the end of the semester based on student performance (never upward).
+
+
+<a href="#top">Back to top</a>
+ 
+---
+ 
+# COVID-19-related expectations
+
+### Wearing masks in classrooms is required
+
+Face coverings are required in all indoor spaces and all enclosed or partially enclosed outdoor spaces. MSU requires all students to wear face masks or cloth face coverings in classrooms, laboratories and other similar spaces where in-person instruction occurs. MSU requires the wearing of masks in physical classrooms to help mitigate the transmission of SARS-CoV-2, which causes COVID-19.  The MSU community views the adoption of these practices as a mark of good citizenship and respectful care of fellow classmates, faculty, and staff.
+
+The complete details about MSU’s mask requirement can be found at [https://www.montana.edu/health/coronavirus/index.html](https://www.montana.edu/health/coronavirus/index.html). 
+
+These requirements from the Office of the Commissioner of Higher Education are detailed in the [MUS Healthy Fall 2020 Guidelines, Appendix B](https://www.mus.edu/coronavirus/Appendix%20B%20Face%20Covering%20Requirement.pdf).
+
+For more information: [https://www.montana.edu/health/coronavirus/prevention/index.html](https://www.montana.edu/health/coronavirus/prevention/index.html)
+
+Compliance with the face-covering protocol is expected. If a you do not comply with a classroom rule, you may be requested to leave class.  Section 460.00 of the [MSU Code of Student Conduct](https://www.montana.edu/policy/student_conduct/#460) covers “disruptive student behavior.” 
+
+### Accommodations for not wearing a mask
+Individuals whose unique and individual circumstances require an exception to the face covering requirement, as indicated by a medical professional, may request one in accordance with the campus ADA policies. Students should contact the Office of Disability Services at 994-2824 or drv@montana.edu to receive written permission from the Office of Disability Services at MSU. It is strongly recommended that students make contact prior to arriving on campus in order to provide adequate time for their request to be evaluated.
+
+### Health-related class absences
+Please evaluate your own health status regularly and refrain from attending class and other on-campus events if you are ill.  MSU students who miss class due to illness will be given opportunities to access course materials online. You are encouraged to seek appropriate medical attention for treatment of illness.  In the event of contagious illness, please do not come to class or to campus to turn in work. Instead notify us by email about your absence as soon as practical, so that accommodations can be made.  Please note that documentation (a Doctor’s note) for medical excuses is not required.  MSU University Health Partners--as part their commitment to maintain patient confidentiality, to encourage more appropriate use of healthcare resources, and to support meaningful dialogue between instructors and students--does not provide such documentation.
+
+
+ <a href="#top">Back to top</a>
+ 
+ ---
+
+# Diversity and inclusivity statements
+
+Respect for Diversity: It is our intent that students from all diverse backgrounds and perspectives be well-served by this course, that students' learning needs be addressed both in and out of class, and that the diversity that students bring to this class be viewed as a resource, strength and benefit. It is our intent to present materials and activities that are respectful of diversity: gender identity, sexual orientation, disability, age, socioeconomic status, ethnicity, race, religion, culture, perspective, and other background characteristics. Your suggestions about how to improve the value of diversity in this course are encouraged and appreciated. Please let us know ways to improve the effectiveness of the course for you personally or for other students or student groups.
+
+In addition, in scheduling exams, we have attempted to avoid conflicts with major religious holidays. If, however, we have inadvertently scheduled an exam or major deadline that creates a conflict with your religious observances, please let us know as soon as possible so that we can make other arrangements. 
+
+Support for Inclusivity: We support an inclusive learning environment where diversity and individual differences are understood, respected, appreciated, and recognized as a source of strength. We expect that students, faculty, administrators and staff at MSU will respect differences and demonstrate diligence in understanding how other peoples' perspectives, behaviors, and worldviews may be different from their own.
+
+<a href="#top">Back to top</a>
+ 
+---
+
+# Policy on academic misconduct
+
+Students in an academic setting are responsible for approaching all assignments with rigor, integrity, and in compliance with the University Code of Student Conduct. This responsibility includes:
+
+1. consulting and analyzing sources that are relevant to the topic of inquiry;
+2. clearly acknowledging when they draw from the ideas or the phrasing of those sources in their own writing;
+3. learning and using appropriate citation conventions within the field in which they are studying; and
+4. asking their instructor for guidance when they are uncertain of how to acknowledge the contributions of others in their thinking and writing.
+
+When students fail to adhere to these responsibilities, they may intentionally or unintentionally "use someone else’s language, ideas, or other original (not common-knowledge) material without properly acknowledging its source" [http://www.wpacouncil.org](http://www.wpacouncil.org). When the act is intentional, the student has engaged in plagiarism.
+
+Plagiarism is an act of academic misconduct, which carries with it consequences including, but not limited to, receiving a course grade of “F” and a report to the Office of the Dean of Students. Unfortunately, it is not always clear if the misuse of sources is intentional or unintentional, which means that you may be accused of plagiarism even if you do not intentionally plagiarize. If you have any questions regarding use and citation of sources in your academic writing, you are responsible for consulting with your instructor before the assignment due date. In addition, you can work with an MSU Writing Center tutor at any point in your writing process, including when you are integrating or citing sources. You can make an appointment and find citation resources at www.montana.edu/writingcenter.
+
+**In STAT 216, students involved in plagiarism on assignments (all parties involved) will receive a warning on the first offense and a 50% reduction in score. The second offense will result in a zero on that assignment, and the incident will be reported to the Dean of Students. Academic misconduct on an exam will result in a zero on that exam and will be reported to the Dean of Students, without exception.**
+
+[More information about Academic Misconduct from the Dean of Students](https://www.montana.edu/deanofstudents/syllabus.html)
+
+<a href="#top">Back to top</a>
