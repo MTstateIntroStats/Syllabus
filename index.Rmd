@@ -21,7 +21,7 @@ pal <- brewer.pal(6, 'Pastel1')
 
 ---
 
-> **_NOTE_**: This syllabus is only for blended sections of STAT 216. For online sections of STAT 216, refer to the [online section syllabus].
+> **_NOTE_**: This syllabus is only for blended sections of STAT 216. For online sections of STAT 216, refer to the [online section syllabus](http://www.math.montana.edu/courses/s216/syllabus.html).
 
 ---
 
