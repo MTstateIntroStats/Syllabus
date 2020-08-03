@@ -1,7 +1,6 @@
 ---
 title: 'STAT 216: Introduction to Statistics'
 author: "Syllabus for Blended Sections: Fall 2020"
-date: "Last updated: `r Sys.Date()`"
 output:
   html_document:
       theme: cerulean
