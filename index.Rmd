@@ -1,6 +1,6 @@
 ---
 title: 'STAT 216: Introduction to Statistics'
-author: "Syllabus: Fall 2020"
+author: "Syllabus for Blended Sections: Fall 2020"
 date: "Last updated: `r Sys.Date()`"
 output:
   html_document:
@@ -20,6 +20,11 @@ pal <- brewer.pal(6, 'Pastel1')
 ```
 
 ---
+
+> **_NOTE_**: This syllabus is only for blended sections of STAT 216. For online sections of STAT 216, refer to the [online section syllabus].
+
+---
+
 
 # Instructor contact information  {.tabset .tabset-fade}
 Your primary contact in STAT 216 is your instructor. If you have
@@ -56,9 +61,8 @@ Phone: (406) 993-5350
 
 # Course calendars
 
-* STAT 216 calendar for students in Mon/Wed/Fri sections
-* STAT 216 calendar for students in Tue/Thur sections
-* STAT 216 calendar for students in online sections
+* STAT 216 calendar for students in blended Mon/Wed/Fri sections
+* STAT 216 calendar for students in blended Tue/Thur sections
 * [MSU academic calendar](http://catalog.montana.edu/academiccalendar/)
 
 ---
