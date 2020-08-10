@@ -128,7 +128,7 @@ We will be using the statistical software [R](https://www.r-project.org/) throug
 * Download and install [RStudio Desktop](https://rstudio.com/products/rstudio/).
 * Install the `catstats` package.
 
-2. Use RStudio through the RStudio Cloud. This resource allows you to use RStudio through a web browser. It is free for use, but it does limit you to a certain number of project hours per month.
+2. Use RStudio through the [RStudio Cloud](https://login.rstudio.cloud/register?redirect=https%3A%2F%2Fclient.login.rstudio.cloud%2Foauth%2Flogin%3Fshow_auth%3D0%26show_login%3D1%26show_setup%3D1). This resource allows you to use RStudio through a web browser. It is free for use, but it does limit you to a certain number of project hours per month.
 
 3. Use RStudio through an MSU [virtual machine](https://studentlabs.montana.edu/remotelabs/howto.html).
 
