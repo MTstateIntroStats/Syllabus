@@ -98,7 +98,8 @@ Entrance to STAT 216 requires at least one of the following be met:
 
 - Grade of C- or better in a 100-level math course (or equivalent)
 - Grade of B or better in MATH 096
-- Level 3H on the [Math Placement Exam](http://www.montana.edu/testing/MPLEX.html) or a good score on Math portion of SAT (540 or higher) or ACT (23 or higher)
+- Level 30 on the [Math Placement Exam](http://www.montana.edu/testing/MPLEX.html) or a combination of a good score on Math portion of SAT (540 or higher) or ACT (23 or higher) and/or good high school GPA
+  + See the [Math Prerequisite Flowchart](http://www.math.montana.edu/undergrad/documents/MHiearchyFlowchart.pdf) for more details.
 
 You should have familiarity with computers and technology (e.g., Internet browsing, word processing, opening/saving files, converting files to PDF format, sending and receiving e-mail, etc.).
 
@@ -137,9 +138,12 @@ We will be using the statistical software [R](https://www.r-project.org/) throug
 ### Learning management tools
 
 - [**D2L**](https://ecat1.montana.edu/): Find your instructor and co-instructor/TA contact info, announcements, exploration information, instructor notes, exam review material, assignment and data files, discussion forums, gradebook.
+  + *Important*: Make sure you are receiving email notifications for any D2L activity. In D2L, click on your name, then Notifications. Check that D2L is using an email address that you regularly check; you have the option of registering a mobile number. Check the boxes to get notifications for announcements, content, discussions, and grades. 
+  + If you have a question about the course materials, computing, or logistics, please post your question to your D2L discussion board instead of emailing your instructor. This ensures all students can benefit from the responses. Other students are encouraged to respond. 
 
 - [**Gradescope**](https://www.gradescope.com/saml): Submit and review quizzes and assignments, review exam grades. For more details, see our [Gradescope Help for Students](http://www.math.montana.edu/courses/s216/GradescopeHelpForStudents.pdf) document
 
+- [**Math Learning Center**](http://www.math.montana.edu/undergrad/mlc/index.html): Free drop-in tutoring for 100- and 200-level math and stat courses.
 
  <a href="#top">Back to top</a>
  
