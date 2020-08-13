@@ -196,10 +196,10 @@ grades %>% ggplot(aes(x=location, y=percent)) +
   scale_fill_manual(values=pal)
 ```
 
-1. Case study and D2L discussion (5%): Each week, you will read a case study and answer reading questions on that case study, posting answers and discussion in the D2L Discussion Forum.  Discussion posts on case studies will be due **Sunday at 11pm MST.**
+1. Case study and D2L discussion (5%): Each week, you will read a case study and answer reading questions on that case study, posting answers and discussion in the D2L Discussion Forum.  You are expected to contribute **2 discussion posts per week, at least one of which must be an original post, not a reply to a classmate.** Discussion posts on case studies will be due each **Sunday at 11pm MST.**
 2. Videos (5%): You will be expected to complete the assigned textbook reading and videos prior to attending the in-class activity for each week. Check-in questions will be embedded in the videos.
 3. In-class activities (10%): You will meet with your cohort and instructor once per week to work through an group activity focused on the material for that week. Attendance and completion of the activity counts towards this portion of your grade.
-4. Assignments (30%): You will complete weekly assignments in [Gradescope](https://www.gradescope.com/).  Weekly assignments will be due **at 11pm MST one week after the in-class activity** on the same content. (If you attend class on Mondays, your assignments will be due each Monday at 11pm MST.)
+4. Assignments (30%): You will complete weekly assignments in [Gradescope](https://www.gradescope.com/).  Weekly assignments will be due **at 11pm MST 5 days after the in-class activity** on the same content. (E.g. If you attend class on Mondays, your assignments will be due each Saturday at 11pm MST.)  *Assignment due dates may be shifted the week leading up to an exam.  Please see the calendar posted on D2L.*
 5. Midterm exams (30%): There will be two in-class midterm exams (worth 15% each). Midterm exam 1 will be during the week of **September 22-28**; Midterm exam 2 during **November 4-10**. Potential midterm exam questions will be released the week prior to the exam, and you will be given a randomly chosen subset of these questions during your cohort's scheduled in-class time.
 6. Final group project (20%): In lieu of a final exam, you will complete a group project. The project will involve a complete data analysis on a research question of your choice, a written report, and a recorded 5-minute presentation.
 
