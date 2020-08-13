@@ -135,6 +135,9 @@ We will be using the statistical software [R](https://www.r-project.org/) throug
 
 4. Use RStudio in an MSU on-campus computer lab. 
 
+View this [tutorial video on installing R and RStudio](https://greenwood-stat.shinyapps.io/InstallDemo/) if you would
+like additional installation instructions.
+
 ### Learning management tools
 
 - [**D2L**](https://ecat1.montana.edu/): Find your instructor and co-instructor/TA contact info, announcements, exploration information, instructor notes, exam review material, assignment and data files, discussion forums, gradebook.
