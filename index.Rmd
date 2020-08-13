@@ -154,7 +154,7 @@ We will be using the statistical software [R](https://www.r-project.org/) throug
 Most sections of Stat 216 will be using a blended classroom format. Each week, students will:
 
 * meet with your fellow student cohort in your assigned classroom one class period per week for **in-class group activities and discussion**,
-* **read** assigned sections of the online textbook and **watch videos** on that week's content,
+* **read** assigned sections of the online textbook and **watch videos** on that week's content ***prior*** to attending your assigned in-person class day,
 * read that week's **case study** and answer **discussion questions** on the case study via [D2L](https://ecat1.montana.edu/),
 * complete one **assignment** in [Gradescope](https://www.gradescope.com/saml).
 
