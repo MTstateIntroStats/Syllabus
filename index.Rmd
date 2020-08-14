@@ -60,8 +60,12 @@ Phone: (406) 993-5350
 
 # Course calendars
 
-* STAT 216 calendar for students in blended Mon/Wed/Fri sections
-* STAT 216 calendar for students in blended Tue/Thur sections
+* STAT 216 calendar for students in...
+    - [Monday cohorts](https://math.montana.edu/courses/s216/Stat216_Calendar-Monday.pdf)
+    - [Tuesday cohorts](https://math.montana.edu/courses/s216/Stat216_Calendar-Tuesday.pdf)
+    - [Wednesday cohorts](https://math.montana.edu/courses/s216/Stat216_Calendar-Wednesday.pdf)
+    - [Thursday cohorts](https://math.montana.edu/courses/s216/Stat216_Calendar-Thursday.pdf)
+    - [Friday cohorts](https://math.montana.edu/courses/s216/Stat216_Calendar-Friday.pdf)
 * [MSU academic calendar](http://catalog.montana.edu/academiccalendar/)
 
 ---
