@@ -148,7 +148,7 @@ like additional installation instructions.
   + *Important*: Make sure you are receiving email notifications for any D2L activity. In D2L, click on your name, then Notifications. Check that D2L is using an email address that you regularly check; you have the option of registering a mobile number. Check the boxes to get notifications for announcements, content, discussions, and grades. 
   + If you have a question about the course materials, computing, or logistics, please post your question to your D2L discussion board instead of emailing your instructor. This ensures all students can benefit from the responses. Other students are encouraged to respond. 
 
-- [**Gradescope**](https://www.gradescope.com/saml): Submit and review quizzes and assignments, review exam grades. For more details, see our [Gradescope Help for Students](http://www.math.montana.edu/courses/s216/GradescopeHelpForStudents.pdf) document
+- [**Gradescope**](https://www.gradescope.com/): Submit and review quizzes and assignments, review exam grades. For more details, see our [Gradescope Help for Students](http://www.math.montana.edu/courses/s216/GradescopeHelpForStudents.pdf) document
 
 - [**Math Learning Center**](http://www.math.montana.edu/undergrad/mlc/index.html): Free drop-in tutoring for 100- and 200-level math and stat courses.
 
@@ -163,7 +163,7 @@ Most sections of Stat 216 will be using a blended classroom format. Each week, s
 * meet with your fellow student cohort in your assigned classroom one class period per week for **in-class group activities and discussion**,
 * **read** assigned sections of the online textbook and **watch videos** on that week's content ***prior*** to attending your assigned in-person class day,
 * read that week's **case study** and answer **discussion questions** on the case study via [D2L](https://ecat1.montana.edu/),
-* complete one **assignment** in [Gradescope](https://www.gradescope.com/saml).
+* complete one **assignment** in [Gradescope](https://www.gradescope.com/).
 
 Online sections will be available for those students who would prefer not to meet face-to-face in the classroom. If you are unable to attend the face-to-face portions of the blended class, please make sure to register for an online section. 
 
