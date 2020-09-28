@@ -1,12 +1,15 @@
 ---
 title: 'STAT 216: Introduction to Statistics'
-author: "Syllabus for Blended Sections: Fall 2020"
+author: 'Syllabus for Blended Sections: Fall 2020'
 output:
   html_document:
-      theme: cerulean
-      toc: TRUE
-      toc_depth: 3
-      toc_float: TRUE
+    theme: cerulean
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+  pdf_document:
+    toc: yes
+    toc_depth: '3'
 ---
 
 ```{r setup, include=FALSE}
@@ -175,7 +178,7 @@ Online sections will be available for those students who would prefer not to mee
 
 Your grade in STAT 216 will contain the following components.
 
-```{r, echo=FALSE, warning=FALSE, message=FALSE}
+```{r, echo=FALSE, warning=FALSE, message=FALSE, out.width="75%", fig.align="center"}
 grades <- tribble(
   ~category,  ~percent,
   "Case study and D2L discussion", 5,
@@ -206,9 +209,26 @@ grades %>% ggplot(aes(x=location, y=percent)) +
 1. Case study and D2L discussion (5%): Each week, you will read a case study and answer reading questions on that case study, posting answers and discussion in the D2L Discussion Forum.  You are expected to contribute **2 discussion posts per week, at least one of which must be an original post, not a reply to a classmate.** Discussion posts on case studies will be due each **Sunday at 11pm MST.**
 2. Videos (5%): You will be expected to complete the assigned textbook reading and videos prior to attending the in-class activity for each week. Check-in questions will be embedded in the videos.
 3. In-class activities (10%): You will meet with your cohort and instructor once per week to work through an group activity focused on the material for that week. Attendance and completion of the activity counts towards this portion of your grade.
-4. Assignments (30%): You will complete weekly assignments in [Gradescope](https://www.gradescope.com/).  Weekly assignments will be due **at 11pm MST 5 days after the in-class activity** on the same content. (E.g. If you attend class on Mondays, your assignments will be due each Saturday at 11pm MST.)  *Assignment due dates may be shifted the week leading up to an exam.  Please see the calendar posted on D2L.*
+4. Assignments (30%): You will complete weekly assignments in [Gradescope](https://www.gradescope.com/).  Weekly assignments will be due **at 11pm MST 5 days after the in-class activity** on the same content. (E.g. If you attend class on Mondays, your assignments will be due each Saturday at 11pm MST.)  *Assignment due dates may be shifted the week leading up to an exam.  Please see the calendar posted on D2L.* The lowest assignment grade will be dropped.
 5. Midterm exams (30%): There will be two in-class midterm exams (worth 15% each). Midterm exam 1 will be during the week of **September 22-28**; Midterm exam 2 during **November 4-10**. Potential midterm exam questions will be released the week prior to the exam, and you will be given a randomly chosen subset of these questions during your cohort's scheduled in-class time.
 6. Final group project (20%): In lieu of a final exam, you will complete a group project. The project will involve a complete data analysis on a research question of your choice, a written report, and a recorded 5-minute presentation.
+
+### Late work policies
+
+Given the uniqueness of a semester in the midst of a pandemic, we are aware that illnesses and quarantine may occur more often than in a typical semester. Here are the policies we have in place to accommodate excused absences and late work in a fair way to all students enrolled in this course.
+
+_Online coursework:_
+
+* **Case study discussion posts and assignments**: Case study discussion posts and assignments are typically available at least five days prior to the due date. Thus, extensions on these posts and assignments are not given unless for extenuating circumstances that prevent the student from working on the post/assignment for that entire period.
+* **Videos**: To maximize your learning experience in class, you should watch the required videos prior to that week's in-class activity. You may take the in-video quizzes as many times as you like -- the most recent quiz score will be the recorded grade for that video in D2L. Note that if you re-watch a video without taking the quiz, D2L will record a zero for that quiz, even if you took the quiz previously. Thus, we recommend you take notes as you watch the video and write down the quiz questions and your answers. Then, if you choose to review the video, you can re-enter your correct answers.
+
+_In-person coursework:_
+
+* **In-class activities**: Students are expected to be in class during in-class activities to provide support to each other and their teammates while working through the material; the in-class activity score is also a proxy for course attendance and engagement. If you need to miss a class period due to illness, quarantine, or other extenuating circumstances, please email your instructor a picture or scan of your completed activity due that day, and we can give you credit for your completed activity. If the activity is not received by the end of the day it is due, you may not receive credit.
+* **Exams**: 
+    - Students that are in quarantine but healthy enough to take the exam should email Student Success Coordinator [Jade Schmidt](mailto: jade.schmidt2@montana.edu) to arrange to take the exam at home while being proctored via Zoom.
+    - If you are ill to the point of not being able to take the exam, please email Student Success Coordinator [Jade Schmidt](mailto: jade.schmidt2@montana.edu) to arrange a time to take the exam remotely via Zoom when you are feeling better within the week of the exam.
+    - Students who miss the exam without contacting the instructor prior to the exam will receive a zero on the exam. Work is not a legitimate reason for an exam absence.
 
 ### Letter grades
 
