@@ -1,6 +1,6 @@
 ---
 title: 'STAT 216: Introduction to Statistics'
-author: 'Syllabus for Blended Sections: Fall 2020'
+author: 'Spring 2021 Syllabus'
 output:
   pdf_document:
     toc: yes
@@ -20,12 +20,6 @@ library(tidyverse)
 
 pal <- brewer.pal(6, 'Pastel1')
 ```
-
----
-
-> **_NOTE_**: This syllabus is for blended sections of STAT 216 only. For online sections of STAT 216, refer to the [online section syllabus](https://mtstateintrostats.github.io/OnlineSyllabus/).
-
----
 
 
 # Instructor contact information  {.tabset .tabset-fade}
@@ -64,11 +58,10 @@ Phone: (406) 993-5350
 # Course calendars
 
 * STAT 216 calendar for students in...
-    - [Monday cohorts](https://math.montana.edu/courses/s216/Stat216_Calendar-Monday.pdf)
-    - [Tuesday cohorts](https://math.montana.edu/courses/s216/Stat216_Calendar-Tuesday.pdf)
-    - [Wednesday cohorts](https://math.montana.edu/courses/s216/Stat216_Calendar-Wednesday.pdf)
-    - [Thursday cohorts](https://math.montana.edu/courses/s216/Stat216_Calendar-Thursday.pdf)
-    - [Friday cohorts](https://math.montana.edu/courses/s216/Stat216_Calendar-Friday.pdf)
+    - Monday cohorts
+    - Wednesday cohorts
+    - Friday cohorts
+    - Online sections
 * [MSU academic calendar](http://catalog.montana.edu/academiccalendar/)
 
 ---
@@ -117,33 +110,17 @@ You should have familiarity with computers and technology (e.g., Internet browsi
  
 # Course materials and resources
 
-### Online textbook and in-class activities
+### Online textbook and coursepack
 The free, online textbook for this course can be found at [https://mtstateintrostats.github.io/IntroStatTextbook/](https://mtstateintrostats.github.io/IntroStatTextbook/) (also linked in D2L).
 
-A workbook of in-class activities is available for purchase in the MSU Bookstore. Activities are also available online, but students are expected to bring a printed copy of that week's activity to class.
+A coursepack of in-class activities is available for purchase in the MSU Bookstore. This coursepack is required, and students are expected to bring the coursepack to class each day.
 
-**Note that online sections will be using the previous textbook for this course, _Introduction to Statistical Investigations_ by Tintle et al., through the WileyPLUS platform.** Students enrolled in the online section will need to purchase a subscription to WileyPLUS, but will not need to purchase the activity workbook from the MSU Bookstore. See your section's D2L page for more details.
-
-### STAT 216 YouTube channel
-Visit our [YouTube channel](https://www.youtube.com/channel/UClGAq0KVt2d2sKd4aIAI4qQ/videos) for short instructional videos on course material (also linked in D2L).
 
 ### RStudio
-We will be using the statistical software [R](https://www.r-project.org/) through the IDE [RStudio](https://rstudio.com/products/rstudio/) for data visualization and statistical analyses. Students have four options for accessing this free software:
+We will be using the statistical software [R](https://www.r-project.org/) through the IDE [RStudio](https://rstudio.com/products/rstudio/) for data visualization and statistical analyses. 
 
-1. Download to your own laptop. (Note R and RStudio will not run on iPad, notebooks, or Chromebooks. If you have one of these devices, see the cloud-based option below.)
+You will access this software through the MSU RStudio server: [https://rstudio.math.montana.edu/](https://rstudio.math.montana.edu/).
 
-* Download and install [R](https://cloud.r-project.org/).
-* Download and install [RStudio Desktop](https://rstudio.com/products/rstudio/).
-* Install the `catstats` package.
-
-2. Use RStudio through the [RStudio Cloud](https://login.rstudio.cloud/register?redirect=https%3A%2F%2Fclient.login.rstudio.cloud%2Foauth%2Flogin%3Fshow_auth%3D0%26show_login%3D1%26show_setup%3D1). This resource allows you to use RStudio through a web browser. It is free for use, but it does limit you to a certain number of project hours per month.
-
-3. Use RStudio through an MSU [virtual machine](https://studentlabs.montana.edu/remotelabs/howto.html). Use your NetID to log in at [remotelabs.msu.montana.edu](https://remotelabs.msu.montana.edu/), then click on "CLS-STAT-REMOTE". If you do not see an option for "CLS-STAT-REMOTE", please email Student Success Coordinator, [Jade Schmidt](mailto:jade.schmidt2@montana.edu)
-
-4. Use RStudio in an MSU on-campus computer lab. 
-
-View this [tutorial video on installing R and RStudio](https://greenwood-stat.shinyapps.io/InstallDemo/) if you would
-like additional installation instructions.
 
 ### Learning management tools
 
@@ -161,14 +138,14 @@ like additional installation instructions.
  
 # Course format and organization
  
-Most sections of Stat 216 will be using a blended classroom format. Each week, students will:
+Stat 216 will be using a blended classroom format. Each week, students will:
 
 * meet with your fellow student cohort in your assigned classroom one class period per week for **in-class group activities and discussion**,
 * **read** assigned sections of the online textbook and **watch videos** on that week's content ***prior*** to attending your assigned in-person class day,
 * read that week's **case study** and answer **discussion questions** on the case study via [D2L](https://ecat1.montana.edu/),
 * complete one **assignment** in [Gradescope](https://www.gradescope.com/).
 
-Online sections will be available for those students who would prefer not to meet face-to-face in the classroom. If you are unable to attend the face-to-face portions of the blended class, please make sure to register for an online section. 
+Online sections are available for those students who would prefer not to meet face-to-face in the classroom. _If you are unable to attend the face-to-face portions of the blended class, please make sure to register for an online section._ 
 
  <a href="#top">Back to top</a>
  
@@ -209,9 +186,9 @@ grades %>% ggplot(aes(x=location, y=percent)) +
 1. Case study and D2L discussion (5%): Each week, you will read a case study and answer reading questions on that case study, posting answers and discussion in the D2L Discussion Forum.  You are expected to contribute **2 discussion posts per week, at least one of which must be an original post, not a reply to a classmate.** Discussion posts on case studies will be due each **Sunday at 11pm MST.** The lowest two case study discussion posts will be dropped.
 2. Videos (5%): You will be expected to complete the assigned textbook reading and videos prior to attending the in-class activity for each week. Check-in questions will be embedded in the videos. Since you can retake the video quizzes (the most recent grade will be recorded in D2L), no video grades will be dropped.
 3. In-class activities (10%): You will meet with your cohort and instructor once per week to work through an group activity focused on the material for that week. Attendance and completion of the activity counts towards this portion of your grade. The lowest activity grade will be dropped.
-4. Assignments (30%): You will complete weekly assignments in [Gradescope](https://www.gradescope.com/).  Weekly assignments will be due **at 11pm MST 5 days after the in-class activity** on the same content. (E.g. If you attend class on Mondays, your assignments will be due each Saturday at 11pm MST.)  *Assignment due dates may be shifted the week leading up to an exam.  Please see the calendar posted on D2L.* The lowest assignment grade will be dropped.
-5. Midterm exams (30%): There will be two in-class midterm exams (worth 15% each). Midterm exam 1 will be during the week of **September 22-28**; Midterm exam 2 during **November 4-10**. Potential midterm exam questions will be released the week prior to the exam, and you will be given a randomly chosen subset of these questions during your cohort's scheduled in-class time.
-6. Final group project (20%): In lieu of a final exam, you will complete a group project. The project will involve a complete data analysis on a research question of your choice, a written report, and a recorded 5-minute presentation. Full details for the project are in the linked Google Doc:  [STAT 216 Project Instructions](https://docs.google.com/document/d/1pQy2zcuRCfObE6tzRZm39I9cQQvF3t9eTifWE3MOXk8/edit?usp=sharing)
+4. Assignments (30%): You will complete weekly assignments in [Gradescope](https://www.gradescope.com/).  Weekly assignments will be due **at 11pm MST 5 days after the in-class activity** on the same content. (E.g. If you attend class on Mondays, your assignments will be due each Saturday at 11pm MST.)  *Assignment due dates may be shifted the week leading up to an exam.  Please refer to your cohort's calendar.* The lowest assignment grade will be dropped.
+5. Midterm exams (30%): There will be two in-class midterm exams (worth 15% each). Midterm exam 1 will be during the week of **February 15-19**; Midterm exam 2 during **April 12-16**. Potential midterm exam questions will be released the week prior to the exam, and you will be given a randomly chosen subset of these questions during your cohort's scheduled in-class time.
+6. Final group project (20%): In lieu of a final exam, you will complete a group project. The project will involve a complete data analysis on a research question of your choice, a written report, and a recorded 5-minute presentation. 
 
 ### Late work policies
 
