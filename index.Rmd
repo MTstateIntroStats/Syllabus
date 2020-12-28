@@ -89,9 +89,7 @@ Interpret and draw inferences from mathematical models such as formulas, graphs,
 Represent mathematical information numerically, symbolically and visually.
 Employ quantitative methods in symbolic systems such as, arithmetic, algebra, or geometry to solve problems.
 
- <a href="#top">Back to top</a>
- 
- ---
+---
  
 # Prerequisites
 Entrance to STAT 216 requires at least one of the following be met:
@@ -104,9 +102,9 @@ Entrance to STAT 216 requires at least one of the following be met:
 You should have familiarity with computers and technology (e.g., Internet browsing, word processing, opening/saving files, converting files to PDF format, sending and receiving e-mail, etc.).
 
 
- <a href="#top">Back to top</a>
  
- ---
+ 
+---
  
 # Course materials and resources
 
@@ -132,9 +130,9 @@ You will access this software through the MSU RStudio server: [https://rstudio.m
 
 - [**Math Learning Center**](http://www.math.montana.edu/undergrad/mlc/index.html): Free drop-in tutoring for 100- and 200-level math and stat courses.
 
- <a href="#top">Back to top</a>
  
- ---
+ 
+---
  
 # Course format and organization
  
@@ -147,9 +145,9 @@ Stat 216 will be using a blended classroom format. Each week, students will:
 
 Online sections are available for those students who would prefer not to meet face-to-face in the classroom. _If you are unable to attend the face-to-face portions of the blended class, please make sure to register for an online section._ 
 
- <a href="#top">Back to top</a>
  
- ---
+ 
+---
  
 # Course assessment
 
@@ -227,7 +225,7 @@ F|<59.99%
 The grade cutoffs may be shifted _downward_ at the end of the semester based on student performance (never upward).
 
 
-<a href="#top">Back to top</a>
+
  
 ---
  
@@ -252,9 +250,9 @@ Individuals whose unique and individual circumstances require an exception to th
 Please evaluate your own health status regularly and refrain from attending class and other on-campus events if you are ill.  MSU students who miss class due to illness will be given opportunities to access course materials online. You are encouraged to seek appropriate medical attention for treatment of illness.  In the event of contagious illness, please do not come to class or to campus to turn in work. Instead notify us by email about your absence as soon as practical, so that accommodations can be made.  Please note that documentation (a Doctor’s note) for medical excuses is not required.  MSU University Health Partners--as part their commitment to maintain patient confidentiality, to encourage more appropriate use of healthcare resources, and to support meaningful dialogue between instructors and students--does not provide such documentation.
 
 
- <a href="#top">Back to top</a>
  
- ---
+ 
+---
 
 # Diversity and inclusivity statements
 
@@ -264,7 +262,7 @@ In addition, in scheduling exams, we have attempted to avoid conflicts with majo
 
 Support for Inclusivity: We support an inclusive learning environment where diversity and individual differences are understood, respected, appreciated, and recognized as a source of strength. We expect that students, faculty, administrators and staff at MSU will respect differences and demonstrate diligence in understanding how other peoples' perspectives, behaviors, and worldviews may be different from their own.
 
-<a href="#top">Back to top</a>
+
  
 ---
 
@@ -285,4 +283,4 @@ Plagiarism is an act of academic misconduct, which carries with it consequences 
 
 [More information about Academic Misconduct from the Dean of Students](https://www.montana.edu/deanofstudents/syllabus.html)
 
-<a href="#top">Back to top</a>
+
