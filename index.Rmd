@@ -66,8 +66,8 @@ Phone: (406) 993-5350
 
 ---
 
-# Course description and objectives
-Stat 216 is designed to engage you in the statistical investigation process from developing a research question and data collection methods to analyzing and communicating results. This course introduces basic descriptive and inferential statistics using both traditional (normal and t-distribution) and simulation approaches including confidence intervals and hypothesis testing on means (one-sample, two-sample, paired), proportions (one-sample, two-sample), regression and correlation. You will be exposed to numerous examples of real-world applications of statistics that are designed to help you develop a conceptual understanding of statistics. After taking this course, you should be able to:
+# Course description
+Stat 216 is designed to engage you in the statistical investigation process from developing a research question and data collection methods to analyzing and communicating results. This course introduces basic descriptive and inferential statistics using both traditional (normal and $t$-distribution) and simulation approaches including confidence intervals and hypothesis testing on means (one-sample, two-sample, paired), proportions (one-sample, two-sample), regression and correlation. You will be exposed to numerous examples of real-world applications of statistics that are designed to help you develop a conceptual understanding of statistics. After taking this course, you should be able to:
 
 - Understand and appreciate how statistics affects your daily life and the fundamental role of statistics in all disciplines
 - Evaluate statistics and statistical studies you encounter in your other courses
@@ -115,7 +115,7 @@ Two "textbooks" are required for this course:
 1. [_Montana State Introductory Statistics with R_](https://mtstateintrostats.github.io/IntroStatTextbook/) --- our free, online textbook
 2. _STAT 216 Coursepack_ --- workbook with reading guides and in-class activities
 
-The *Stat 216 Coursepack* of in-class activities is available for purchase in the [MSU Bookstore](https://www.msubookstore.org/). Students are expected to bring the coursepack to class each day. 
+The *Stat 216 Coursepack* of in-class activities is available for purchase in the [MSU Bookstore](https://www.msubookstore.org/). Students are expected to bring the coursepack to class each day and to complete the activities within the coursepack. 
 
 The coursepack is currently being printed and will be available for purchase through the [MSU Bookstore](https://www.msubookstore.org/) starting **Monday, January 11**. You may purchase the coursepack in person, or you may purchase online and have the coursepack shipped to you. Chapter 1 of the coursepack is provided here if you do not have the coursepack by your first day of class.
 
@@ -148,12 +148,16 @@ You will access this software through the MSU RStudio server: [rstudio.math.mont
 Stat 216 will be using a blended classroom format. Each week, students will:
 
 * meet with your fellow student cohort in your assigned classroom one class period per week for **in-class group activities and discussion**,
-* **read** assigned sections of the online textbook and **watch videos** on that week's content ***prior*** to attending your assigned in-person class day,
+* **read** assigned sections of the online textbook and **watch videos** on that week's content ***prior*** to attending your assigned in-person class day, including concept check video quizzes embedded in the videos,
 * read that week's **case study** and answer **discussion questions** on the case study via [D2L](https://ecat1.montana.edu/),
 * complete one **assignment** in [Gradescope](https://www.gradescope.com/).
 
 Online sections are available for those students who would prefer not to meet face-to-face in the classroom. _If you are unable to attend the face-to-face portions of the blended class, please make sure to register for an online section._ 
 
+### Online section format
+
+STAT 216 online sections will operate similarly to the blended sections; the only difference will be that the in-class activities are completed online rather than face-to-face, and exams will differ in format and be conducted via Gradescope. Online students will complete their readings, videos and video quizzes, case study discussions, assignments, and group project in the same way as the blended sections.
+Online students will complete the "in-class" activities through watching a guided video posted in D2L, and working through the activity during the video.
  
  
 ---
@@ -167,12 +171,12 @@ grades <- tribble(
   ~category,  ~percent,
   "Case study and D2L discussion", 5,
   "Videos", 5,
-  "In-class activities", 10,
+  "Activities", 10,
   "Assignments", 30,
   "Midterm exams (2)", 30,
-  "Final group project", 20
+  "Group project", 20
 )
-grades$category <- fct_relevel(grades$category, "Case study and D2L discussion", "Videos", "In-class activities", "Assignments", "Midterm exams (2)", "Final group project")
+grades$category <- fct_relevel(grades$category, "Case study and D2L discussion", "Videos", "Activities", "Assignments", "Midterm exams (2)", "Group project")
 grades$location <- rep(1, 6)
 grades %>% ggplot(aes(x=location, y=percent)) +
   geom_col(aes(fill=category), col='black') + 
@@ -180,39 +184,86 @@ grades %>% ggplot(aes(x=location, y=percent)) +
   geom_text(aes(x=rep(1, 6), 
                 label=c("Case study and D2L discussion (5%)",
                         "Videos (5%)",
-                        "In-class activities (10%)",
+                        "Activities (10%)",
                         "Assignments (30%)",
                         "Midterm exams (30%)",
-                        "Final group project (20%)"), 
+                        "Group project (20%)"), 
                 y=c(97.5,92.5,85,65,35,10))) + 
   labs(x='', y='Cumulative percent') + 
   theme(axis.text.x = element_blank()) +
   scale_fill_manual(values=pal)
 ```
 
-1. Case study and D2L discussion (5%): Each week, you will read a case study and answer reading questions on that case study, posting answers and discussion in the D2L Discussion Forum.  You are expected to contribute **2 discussion posts per week, at least one of which must be an original post, not a reply to a classmate.** Discussion posts on case studies will be due each **Sunday at 11pm MST.** The lowest two case study discussion posts will be dropped.
-2. Videos (5%): You will be expected to complete the assigned textbook reading and videos prior to attending the in-class activity for each week. Check-in questions will be embedded in the videos. Since you can retake the video quizzes (the most recent grade will be recorded in D2L), no video grades will be dropped.
-3. In-class activities (10%): You will meet with your cohort and instructor once per week to work through an group activity focused on the material for that week. Attendance and completion of the activity counts towards this portion of your grade. The lowest activity grade will be dropped.
-4. Assignments (30%): You will complete weekly assignments in [Gradescope](https://www.gradescope.com/).  Weekly assignments will be due **at 11pm MST 5 days after the in-class activity** on the same content. (E.g. If you attend class on Mondays, your assignments will be due each Saturday at 11pm MST.)  *Assignment due dates may be shifted the week leading up to an exam.  Please refer to your cohort's calendar.* The lowest assignment grade will be dropped.
-5. Midterm exams (30%): There will be two in-class midterm exams (worth 15% each). Midterm exam 1 will be during the week of **February 15-19**; Midterm exam 2 during **April 12-16**. Potential midterm exam questions will be released the week prior to the exam, and you will be given a randomly chosen subset of these questions during your cohort's scheduled in-class time.
-6. Final group project (20%): In lieu of a final exam, you will complete a group project. The project will involve a complete data analysis on a research question of your choice, a written report, and a recorded 5-minute presentation. 
+### Case study and discussion (5%)
 
-### Late work policies
+Each week, you will read a case study and answer reading questions on that case study, then post answers to discussion questions in the D2L Discussion Forum.  You are expected to contribute **2 discussion posts per week --- one original post and one reply to a classmate.** 
 
-Given the uniqueness of a semester in the midst of a pandemic, we are aware that illnesses and quarantine may occur more often than in a typical semester. Here are the policies we have in place to accommodate excused absences and late work in a fair way to all students enrolled in this course.
+* _All sections:_ Discussion posts on case studies will be due in D2L each **Sunday by 11pm MST.** 
+* The lowest two case study discussion posts will be dropped.
 
-_Online coursework:_
+### Videos (5%)
 
-* **Case study discussion posts and assignments**: Case study discussion posts and assignments are typically available at least five days prior to the due date. Thus, extensions on these posts and assignments are not given unless for extenuating circumstances that prevent the student from working on the post/assignment for that entire period.
-* **Videos**: To maximize your learning experience in class, you should watch the required videos prior to that week's in-class activity. You may take the in-video quizzes as many times as you like -- the most recent quiz score will be the recorded grade for that video in D2L. Note that if you re-watch a video without taking the quiz, D2L will record a zero for that quiz, even if you took the quiz previously. Thus, we recommend you take notes as you watch the video and write down the quiz questions and your answers. Then, if you choose to review the video, you can re-enter your correct answers.
+You will be expected to complete the assigned textbook reading and D2L videos using the reading guides provided in the coursepack prior to attending the in-class activity for each week. Concept check quiz questions will be embedded in the videos up through the due date. Up until the deadline, you can retake the video quizzes as many times as you like (the most recent grade will be recorded in D2L). (Note that if you re-watch a video without taking the quiz, D2L will record a zero for that quiz, even if you took the quiz previously.) After the due date, videos will still be available to review, but quiz questions will no longer be included in the video. 
 
-_In-person coursework:_
+* _Blended sections:_ Video quizzes are due by the **start of your in-class period for the week**.
+* _Online sections:_ Video quizzes are due each **Friday by 11pm MST**.
+* No video grades will be dropped.
 
-* **In-class activities**: Students are expected to be in class during in-class activities to provide support to each other and their teammates while working through the material; the in-class activity score is also a proxy for course attendance and engagement. If you need to miss a class period due to illness, quarantine, or other extenuating circumstances, please email your instructor a picture or scan of your completed activity due that day, and we can give you credit for your completed activity. If the activity is not received by the end of the day it is due, you may not receive credit.
-* **Exams**: 
-    - Students that are in quarantine but healthy enough to take the exam should email Student Success Coordinator [Jade Schmidt](mailto: jade.schmidt2@montana.edu) to arrange to take the exam at home while being proctored via Zoom.
-    - If you are ill to the point of not being able to take the exam, please email Student Success Coordinator [Jade Schmidt](mailto: jade.schmidt2@montana.edu) to arrange a time to take the exam remotely via Zoom when you are feeling better within the week of the exam.
-    - Students who miss the exam without contacting the instructor prior to the exam will receive a zero on the exam. Work is not a legitimate reason for an exam absence.
+### Activities (10%)
+
+_Blended sections:_
+
+You will meet with your cohort and instructor once per week to work through that week's coursepack group activity. Attendance and completion of the activity counts towards this portion of your grade. 
+
+* Activities must be completed on the activity worksheet. If you prefer to complete the activity on a pdf copy using a stylist-enabled device, please speak to your instructor, and he or she will provide you with the appropriate materials.
+* Activities will be checked for completion at the **beginning of the following class period**.
+* If you have an excused absence the day the activity is due (e.g., quarantine or ill), you may email your instructor a scanned copy of the completed activity for credit. This must be received by **11pm MST on class day**.
+* The lowest activity grade will be dropped.
+
+_Online sections:_
+
+Each week, you will work through that week's coursepack group activity while watching a guided activity video on D2L. Completion of the activity counts towards this portion of your grade.
+
+* Activities must be completed on the activity worksheet. If you prefer to complete the activity on a pdf copy using a stylist-enabled device, please speak to your instructor, and he or she will provide you with the appropriate materials.
+* Completed activities are due in Gradescope each **Friday by 11pm MST**.
+* The lowest activity grade will be dropped.
+
+
+### Assignments (30%)
+
+You will complete weekly assignments in [Gradescope](https://www.gradescope.com/).  
+
+* _Blended sections:_ Weekly assignments will be due **by 11pm MST 5 days after the in-class activity** on the same content. (E.g. If you attend class on Mondays, your assignments will be due each Saturday at 11pm MST.)  
+* _Online sections:_ Weekly assignments will be due each **Wednesday by 11pm MST**, starting in the second week of classes.
+* The lowest assignment grade will be dropped.
+
+### Midterm exams (30%)
+
+There will be two in-class midterm exams (worth 15% each). Details and instructions for each exam will be posted the week prior to the exam in D2L.
+
+_Blended sections_:
+
+Midterm exam 1 will be during the week of **February 15--19**; Midterm exam 2 during **April 12--16**. Potential midterm exam questions will be released the week prior to the exam, and you will be given a randomly chosen subset of these questions for your exam, taken in-class during your cohort's scheduled in-class time.
+
+_Online sections_:
+
+Midterm exam 1 will be on **Friday, February 19**; Midterm exam 2 will be on **Friday, April 16**. The exam will be taken in [Gradescope](https://www.gradescope.com/). The exam window will be open 6am--11pm on exam day, and you will have 75 minutes from the time you start the exam or until 11pm (whichever comes first) to complete the exam.
+
+### Group project (20%)
+
+Throughout the semester you will complete a group project. The project will involve a complete data analysis on a research question of your choice based on a study you design and data you collect from the virtual human population of [The Islands](https://islands.smp.uq.edu.au/login.php). Project components include:
+
+* Project proposal
+* Data collection
+* Written report including the following sections:
+    - Background
+    - Methods
+    - Results
+    - Discussion and conclusions
+    - Appendix
+* Recorded 6--8-minute video presentation 
+
+This project is in lieu of a final exam. Video presentations will be posted in D2L and viewed by your fellow students and instructors during finals week.
 
 ### Letter grades
 
@@ -234,6 +285,32 @@ F|<59.99%
 The grade cutoffs may be shifted _downward_ at the end of the semester based on student performance (never upward).
 
 
+ 
+---
+
+# Late work policies
+
+Given the uniqueness of a semester in the midst of a pandemic, we are aware that illnesses and quarantine may occur more often than in a typical semester. Here are the policies we have in place to accommodate excused absences and late work in a fair way to all students enrolled in this course.
+
+
+* **Case study discussion posts and assignments** (_all sections_): Case study discussion posts (D2L) and assignments (Gradescope) are typically available at least five days prior to the due date. Thus, extensions on these posts and assignments are not given unless for extenuating circumstances that prevent the student from working on the post/assignment for that entire period.
+
+* **Videos** (_all sections_): You may take the in-video quizzes as many times as you like up until the due date --- the most recent quiz score will be the recorded grade for that video in D2L. Videos are available in D2L at least one week prior to the due date, so extensions on these quizzes are not given unless for extenuating circumstances that prevent the student from viewing the video for that entire period.
+
+* **Activities** (_blended sections_): Attendance in the blended sections is required, and the in-class activity score is a proxy for attendance and engagement. Students are expected to be in class during in-class activities to provide support to each other and their teammates while working through the material. If you need to miss a class period due to illness, quarantine, or other extenuating circumstances, please email your instructor a picture or scan of your completed activity due that day by 11pm, and we can give you credit for your completed activity. If the activity is not received by 11pm on the day it is due, you will not receive credit unless for extenuating circumstances that prevented you from completing the activity for the entire week prior to the due date.
+
+* **Activities** (_online sections_): Guiding videos for the activities are available in D2L at least five days prior to the due date. Thus, extensions on activities are not given unless for extenuating circumstances that prevent the student from working on the activity for that entire period.
+
+* **Exams** (_blended sections_): 
+    - Students that are in quarantine but healthy enough to take the exam should email Student Success Coordinator [Jade Schmidt](mailto: jade.schmidt2@montana.edu) to arrange to take the exam at home while being proctored via Zoom.
+    - If you are ill to the point of not being able to take the exam, please email Student Success Coordinator [Jade Schmidt](mailto: jade.schmidt2@montana.edu) to arrange a time to take the exam remotely via Zoom when you are feeling better within the week of the exam.
+    - Students who miss the exam without contacting the instructor prior to the exam will receive a zero on the exam.
+    - Work is not a legitimate reason for an exam absence.
+
+* **Exams** (_online sections_): 
+    - If you are ill to the point of not being able to take the exam, please email Student Success Coordinator [Jade Schmidt](mailto: jade.schmidt2@montana.edu) to arrange a time to take the exam when you are feeling better within the week of the exam.
+    - Students who miss the exam without contacting the instructor prior to the exam will receive a zero on the exam. 
+    - Work is not a legitimate reason for an exam absence.
 
  
 ---
@@ -263,7 +340,7 @@ Please evaluate your own health status regularly and refrain from attending clas
  
 ---
 
-# Diversity and inclusivity statements
+# Diversity and inclusivity
 
 Respect for Diversity: It is our intent that students from all diverse backgrounds and perspectives be well-served by this course, that students' learning needs be addressed both in and out of class, and that the diversity that students bring to this class be viewed as a resource, strength and benefit. It is our intent to present materials and activities that are respectful of diversity: gender identity, sexual orientation, disability, age, socioeconomic status, ethnicity, race, religion, culture, perspective, and other background characteristics. Your suggestions about how to improve the value of diversity in this course are encouraged and appreciated. Please let us know ways to improve the effectiveness of the course for you personally or for other students or student groups.
 
