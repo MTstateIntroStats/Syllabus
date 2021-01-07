@@ -58,10 +58,10 @@ Phone: (406) 993-5350
 # Course calendars
 
 * STAT 216 calendar for students in...
-    - Monday cohorts
-    - Wednesday cohorts
-    - Friday cohorts
-    - Online sections
+    - [Monday cohorts](calendars/S21-Stat216_Calendar-Monday.pdf)
+    - [Wednesday cohorts](calendars/S21-Stat216_Calendar-Wednesday.pdf)
+    - [Friday cohorts](calendars/S21-Stat216_Calendar-Friday.pdf)
+    - [Online sections](calendars/S21-Stat216_Calendar-Online.pdf)
 * [MSU academic calendar](http://catalog.montana.edu/academiccalendar/)
 
 ---
