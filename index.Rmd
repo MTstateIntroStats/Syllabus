@@ -109,15 +109,23 @@ You should have familiarity with computers and technology (e.g., Internet browsi
 # Course materials and resources
 
 ### Online textbook and coursepack
-The free, online textbook for this course can be found at [https://mtstateintrostats.github.io/IntroStatTextbook/](https://mtstateintrostats.github.io/IntroStatTextbook/) (also linked in D2L).
 
-A coursepack of in-class activities is available for purchase in the MSU Bookstore. This coursepack is required, and students are expected to bring the coursepack to class each day.
+Two "textbooks" are required for this course:
+
+1. [_Montana State Introductory Statistics with R_](https://mtstateintrostats.github.io/IntroStatTextbook/) --- our free, online textbook
+2. _STAT 216 Coursepack_ --- workbook with reading guides and in-class activities
+
+The *Stat 216 Coursepack* of in-class activities is available for purchase in the [MSU Bookstore](https://www.msubookstore.org/). Students are expected to bring the coursepack to class each day. 
+
+The coursepack is currently be printed and will be available for purchase through the [MSU Bookstore](https://www.msubookstore.org/) starting **Monday, January 11**. You may purchase the coursepack in person, or you may purchase online and have the coursepack shipped to you. Chapter 1 of the coursepack is provided here if you do not have the coursepack by your first day of class.
+
+* [_STAT 216 Coursepack: Chapter 1_](Coursepack-Ch1.pdf)
 
 
 ### RStudio
 We will be using the statistical software [R](https://www.r-project.org/) through the IDE [RStudio](https://rstudio.com/products/rstudio/) for data visualization and statistical analyses. 
 
-You will access this software through the MSU RStudio server: [https://rstudio.math.montana.edu/](https://rstudio.math.montana.edu/). Your username is your NetID, and your password is the password associated with your NetID.
+You will access this software through the MSU RStudio server: [rstudio.math.montana.edu](https://rstudio.math.montana.edu/). Your username is your NetID, and your password is the password associated with your NetID.
 
 
 ### Learning management tools
@@ -284,3 +292,17 @@ Plagiarism is an act of academic misconduct, which carries with it consequences 
 [More information about Academic Misconduct from the Dean of Students](https://www.montana.edu/deanofstudents/syllabus.html)
 
 
+<!-- Online sections: -->
+
+<!-- - Activities and video quizzes due Fridays at 11pm; Case studies Sundays; Homework Wednesdays -->
+
+<!-- Regular sections - video quizzes due prior to attending class -->
+
+<!-- Instructors: 3 office hours; 1 R help session per week -->
+
+<!-- - Exams: Give them a time-frame; choose an hour to log into the proctor - in Gradescope; 75 min one day 6am-11pm -->
+<!-- - Notes on what to do with internet issues within time period -->
+
+
+<!-- - Add to syllabus: -->
+<!-- * activities due same day of class - can email instructor by 11pm -->
