@@ -252,17 +252,9 @@ Midterm exam 1 will be on **Friday, February 26**; Midterm exam 2 will be on **F
 
 ### Group project (20%)
 
-Throughout the semester you will complete a group project. The project will involve a complete data analysis on a research question of your choice based on a study you design and data you collect from the virtual human population of [The Islands](https://islands.smp.uq.edu.au/login.php). Project components include:
+Throughout the semester you will complete a group project. The project will involve a complete data analysis on a research question of your choice based on a study you design and data you collect from the virtual human population of [The Islands](https://islands.smp.uq.edu.au/login.php). 
 
-* Project proposal
-* Data collection
-* Written report including the following sections:
-    - Background
-    - Methods
-    - Results
-    - Discussion and conclusions
-    - Appendix
-* Recorded 6--8-minute video presentation 
+Detailed project instructions can be found at: [http://bit.ly/stat216-project-s21](http://bit.ly/stat216-project-s21)
 
 This project is in lieu of a final exam. Video presentations will be posted in D2L and viewed by your fellow students and instructors during finals week.
 
