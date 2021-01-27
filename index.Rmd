@@ -2,15 +2,15 @@
 title: 'STAT 216: Introduction to Statistics'
 author: 'Spring 2021 Syllabus'
 output:
-  pdf_document:
-    toc: yes
-    toc_depth: '3'
   html_document:
     theme: cerulean
     toc: yes
     toc_depth: 3
     toc_float: yes
     css: styles.css
+  pdf_document:
+    toc: yes
+    toc_depth: '3'
 ---
 
 ```{r setup, include=FALSE}
@@ -127,7 +127,9 @@ The coursepack is currently being printed and will be available for purchase thr
 ### RStudio
 We will be using the statistical software [R](https://www.r-project.org/) through the IDE [RStudio](https://rstudio.com/products/rstudio/) for data visualization and statistical analyses. 
 
-You will access this software through the MSU RStudio server: [rstudio.math.montana.edu](https://rstudio.math.montana.edu/). Your username is your NetID, and your password is the password associated with your NetID.
+You will access this software through the MSU RStudio server: [rstudio.math.montana.edu](https://rstudio.math.montana.edu/). Your username is your 7-character NetID (in the form x##x###, where x is a letter and # is a number), and your password is the password associated with your NetID. Your email address will not work to log in to the RStudio server.
+
+See the Welcome or Preliminaries chapter in our textbook for more information on accessing RStudio.
 
 
 ### Learning management tools
