@@ -129,7 +129,7 @@ We will be using the statistical software [R](https://www.r-project.org/) throug
 
 You will access this software through the MSU RStudio server: [rstudio.math.montana.edu](https://rstudio.math.montana.edu/). Your username is your 7-character NetID (in the form x##x###, where x is a letter and # is a number), and your password is the password associated with your NetID. Your email address will not work to log in to the RStudio server.
 
-See the Welcome or Preliminaries chapter in our textbook for more information on accessing RStudio.
+See the [Statistical Computing](https://mtstateintrostats.github.io/IntroStatTextbook/#stat-computing) section in the Welcome chapter of our textbook for alternative options for accessing RStudio.
 
 
 ### Learning management tools
