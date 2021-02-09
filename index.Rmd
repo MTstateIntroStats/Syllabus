@@ -201,7 +201,7 @@ grades %>% ggplot(aes(x=location, y=percent)) +
 
 Each week, you will read a case study and answer reading questions on that case study, then post answers to discussion questions in the D2L Discussion Forum.  You are expected to contribute **2 discussion posts per week --- one original post and one reply to a classmate.** 
 
-* _All sections:_ Discussion posts on case studies will be due in D2L each **Sunday by 11pm MST.** 
+* _All sections:_ Discussion posts on case studies will be due in D2L each **Sunday by 11pm Mountain Time.** 
 * The lowest two case study discussion posts will be dropped.
 
 ### Videos (5%)
@@ -209,7 +209,7 @@ Each week, you will read a case study and answer reading questions on that case 
 You will be expected to complete the assigned textbook reading and D2L videos using the reading guides provided in the coursepack prior to attending the in-class activity for each week. Concept check quiz questions will be embedded in the videos up through the due date. Up until the deadline, you can retake the video quizzes as many times as you like (the most recent grade will be recorded in D2L). (Note that if you re-watch a video without taking the quiz, D2L will record a zero for that quiz, even if you took the quiz previously.) After the due date, videos will still be available to review, but quiz questions will no longer be included in the video. 
 
 * _Blended sections:_ Video quizzes are due by the **start of your in-class period for the week**.
-* _Online sections:_ Video quizzes are due each **Friday by 11pm MST**.
+* _Online sections:_ Video quizzes are due each **Friday by 11pm Mountain Time**.
 * No video grades will be dropped.
 
 ### Activities (10%)
@@ -220,7 +220,7 @@ You will meet with your cohort and instructor once per week to work through that
 
 * Activities must be completed on the activity worksheet. If you prefer to complete the activity on a pdf copy using a stylus-enabled device, please speak to your instructor, and he or she will provide you with the appropriate materials.
 * Activities will be checked for completion, both the in-class portion and the out-of-class portion of the activity, at the **beginning of the following class period**.
-* If you have an excused absence the day the activity is due (e.g., quarantine or ill), you may email your instructor a scanned copy of the completed activity for credit. This must be received by **11pm MST on class day**.
+* If you have an excused absence the day the activity is due (e.g., quarantine or ill), you may email your instructor a scanned copy of the completed activity for credit. This must be received by **11pm Mountain Time on class day**.
 * The lowest activity grade will be dropped.
 
 _Online sections:_
@@ -228,7 +228,7 @@ _Online sections:_
 Each week, you will work through that week's coursepack group activity while watching a guided activity video on D2L. Completion of the activity counts towards this portion of your grade.
 
 * Activities must be completed on the activity worksheet. If you prefer to complete the activity on a pdf copy using a stylus-enabled device, please speak to your instructor, and he or she will provide you with the appropriate materials.
-* Completed activities, including both the "in-class" and "out-of-class" portions, are due in Gradescope each **Friday by 11pm MST**.
+* Completed activities, including both the "in-class" and "out-of-class" portions, are due in Gradescope each **Friday by 11pm Mountain Time**.
 * The lowest activity grade will be dropped.
 
 
@@ -236,21 +236,32 @@ Each week, you will work through that week's coursepack group activity while wat
 
 You will complete weekly assignments in [Gradescope](https://www.gradescope.com/).  
 
-* _Blended sections:_ Weekly assignments will be due **by 11pm MST 5 days after the in-class activity** on the same content. (E.g. If you attend class on Mondays, your assignments will be due each Saturday at 11pm MST.)  
-* _Online sections:_ Weekly assignments will be due each **Wednesday by 11pm MST**, starting in the second week of classes.
+* _Blended sections:_ Weekly assignments will be due **by 11pm Mountain Time 5 days after the in-class activity** on the same content. (E.g. If you attend class on Mondays, your assignments will be due each Saturday at 11pm Mountain Time.)  
+* _Online sections:_ Weekly assignments will be due each **Wednesday by 11pm Mountain Time**, starting in the second week of classes.
 * The lowest assignment grade will be dropped.
 
 ### Midterm exams (30%)
 
-There will be two in-class midterm exams (worth 15% each). Details and instructions for each exam will be posted the week prior to the exam in D2L.
+There will be two midterm exams (worth 15% of the course grade each). Each exam has an in-class (blended sections) or timed online (online sections) exam, which comprises 90% of the exam grade. The other 10% of the exam grade is a set of questions based on a case study submitted through Gradescope. The case study portion of the exam is due in Gradescope by 11pm Mountain Time on the first Sunday following the exam.
 
-_Blended sections_:
+A practice exam will be released in D2L two weeks prior to the exam, with solutions to the practice exam released in D2L one week prior to the exam. Further details, resources, and instructions for each exam will be posted the week prior to the exam in D2L.
 
-Midterm exam 1 will be during the week of **February 22--26**; Midterm exam 2 during **April 12--16**. Potential midterm exam questions will be released the week prior to the exam, and you will be given a randomly chosen subset of these questions for your exam, taken in-class during your cohort's scheduled in-class time.
+#### _Exam format for blended sections_:
 
-_Online sections_:
+Midterm exams will be taken in class during your cohort's scheduled in-class time. Midterm exam 1 will be during the week of **February 22--26**; Midterm exam 2 during **April 12--16**. 
 
-Midterm exam 1 will be on **Friday, February 26**; Midterm exam 2 will be on **Friday, April 16**. The exam will be taken in [Gradescope](https://www.gradescope.com/). The exam window will be open 6am--11pm on exam day, and you will have 75 minutes from the time you start the exam or until 11pm (whichever comes first) to complete the exam.
+* Potential midterm exam questions will be released one week prior to the exam. All exam questions will be selected from this set.
+* On your exam day, you will be given a randomly chosen subset of the previously released potential midterm exam questions for your exam.
+* Midterm exams are closed book, closed notes. A formula sheet will be provided to use during the exam (also released with the potential midterm exam questions).
+
+#### _Exam format for online sections_:
+
+Midterm exams will be taken online on the Friday of exam week. Midterm exam 1 will be on **Friday, February 26**; Midterm exam 2 will be on **Friday, April 16**. 
+
+* The exam will be taken in [Gradescope](https://www.gradescope.com/). 
+* The exam window will be open 6am--11pm Mountain Time on exam day, and you will have 75 minutes from the time you start the exam or until 11pm Mountain Time (whichever comes first) to complete the exam.
+* Potential midterm exam questions will **not** be released in advance (as in the blended sections).
+* Midterm exams are open book, open notes, and open resources that might typically be used in a research setting. Websites that provide tutoring or answers, such as Chegg, are not allowed; we will acquire a list of all students that accessed Chegg and other similar sites during the exam window, and those students will receive a zero on the exam and the incident will be reported to the Dean of Students. 
 
 ### Group project (20%)
 
@@ -292,7 +303,7 @@ Given the uniqueness of a semester in the midst of a pandemic, we are aware that
 
 * **Videos** (_all sections_): You may take the in-video quizzes as many times as you like up until the due date --- the most recent quiz score will be the recorded grade for that video in D2L. Videos are available in D2L at least one week prior to the due date, so extensions on these quizzes are not given unless for extenuating circumstances that prevent the student from viewing the video for that entire period.
 
-* **Activities** (_blended sections_): Attendance in the blended sections is required, and the in-class activity score is a proxy for attendance and engagement. Students are expected to be in class during in-class activities to provide support to each other and their teammates while working through the material. If you need to miss a class period due to illness, quarantine, or other extenuating circumstances, please email your instructor a picture or scan of your completed activity due that day by 11pm, and we can give you credit for your completed activity. If the activity is not received by 11pm on the day it is due, you will not receive credit unless for extenuating circumstances that prevented you from completing the activity for the entire week prior to the due date.
+* **Activities** (_blended sections_): Attendance in the blended sections is required, and the in-class activity score is a proxy for attendance and engagement. Students are expected to be in class during in-class activities to provide support to each other and their teammates while working through the material. If you need to miss a class period due to illness, quarantine, or other extenuating circumstances, please email your instructor a picture or scan of your completed activity due that day by 11pm Mountain Time, and we can give you credit for your completed activity. If the activity is not received by 11pm Mountain Time on the day it is due, you will not receive credit unless for extenuating circumstances that prevented you from completing the activity for the entire week prior to the due date.
 
 * **Activities** (_online sections_): Guiding videos for the activities are available in D2L at least five days prior to the due date. Thus, extensions on activities are not given unless for extenuating circumstances that prevent the student from working on the activity for that entire period.
 
