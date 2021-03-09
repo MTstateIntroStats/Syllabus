@@ -318,7 +318,8 @@ Given the uniqueness of a semester in the midst of a pandemic, we are aware that
     - Students who miss the exam without contacting the instructor prior to the exam will receive a zero on the exam. 
     - Work is not a legitimate reason for an exam absence.
 
- 
+* **Group project** (_all sections_): The deadlines for the group project are scaffolded throughout the semester to allow for sufficient time to work on each portion of the project. You should start early on the components of the written report and the project presentation, as these components often take more time than expected. As it is a group project, all members of the group are responsible for ensuring that the project component is completed and submitted prior to the deadline. Because the project deadlines are released far in advance, late submissions are generally not accepted.
+
 ---
  
 # COVID-19-related expectations
