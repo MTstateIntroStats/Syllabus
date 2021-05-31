@@ -223,6 +223,7 @@ There will be two midterm exams (worth 15% of the course grade each). Midterm ex
 
 Individual midterm exam 1 will be **September 29th**; Individual midterm exam 2 will be **November 3rd**. 
 
+* Individual portions of the midterms will be worth 80% of your midterm exam grade.
 * Potential individual midterm exam questions will be released one week prior to the exam. All exam questions will be selected from this set.
 * On the exam day, you will be given a randomly chosen subset of the previously released potential exam questions for your exam.
 * Individual midterm exams are closed book, closed notes. 
@@ -234,6 +235,7 @@ Individual midterm exam 1 will be **September 29th**; Individual midterm exam 2 
 
 Group midterm exam 1 will be **October 1st**; Group midterm exam 2 will be **November 5th**. 
 
+* Group portions of the midterms are worth 20% of your midterm exam grade.
 * Group midterm exams are open book, open notes. 
 * You will be allowed a calculator on the group midterm exams. 
 * You **will** be required to use Rstudio on the group midterm exams.
@@ -246,6 +248,7 @@ The final exam will be taken in class during your normal in-class time and will 
 
 Individual final exam will be **December 10th** 
 
+* the individual portion of the final exam will be worth 80% of your exam grade.
 * Potential final exam questions will be released one week prior to the exam. All exam questions will be selected from this set.
 * On the exam day, you will be given a randomly chosen subset of the previously released potential exam questions for your exam.
 * The individual final exam is closed book, closed notes. 
@@ -257,6 +260,7 @@ Individual final exam will be **December 10th**
 
 Group final exam will be **December 13th**. 
 
+* The group portion of the final exam will be worth 20% of your exam grade.
 * The group final exams is open book, open notes. 
 * You will be allowed a calculator on the group final exam. 
 * You **will** be required to use Rstudio on the group final exam.
