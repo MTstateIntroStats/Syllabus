@@ -254,7 +254,7 @@ Individual final exam will be **December 10th**
 * The individual final exam is closed book, closed notes. 
 * A formula sheet will be provided to use during the exam (also released with the potential midterm exam questions).
 * You will be allowed a calculator on the individual final exam. 
-* You will **not** be required to use Rstudio on the invdividual final exams.
+* You will **not** be required to use Rstudio on the individual final exams.
 
 #### _Group portion_:
 
@@ -337,5 +337,13 @@ When students fail to adhere to these responsibilities, they may intentionally o
 Plagiarism is an act of academic misconduct, which carries with it consequences including, but not limited to, receiving a course grade of “F” and a report to the Office of the Dean of Students. Unfortunately, it is not always clear if the misuse of sources is intentional or unintentional, which means that you may be accused of plagiarism even if you do not intentionally plagiarize. If you have any questions regarding use and citation of sources in your academic writing, you are responsible for consulting with your instructor before the assignment due date. In addition, you can work with an MSU Writing Center tutor at any point in your writing process, including when you are integrating or citing sources. You can make an appointment and find citation resources at www.montana.edu/writingcenter.
 
 **In STAT 216, students involved in plagiarism on assignments (all parties involved) will receive a zero grade on that assignment. The second offense will result in a zero on that assignment, and the incident will be reported to the Dean of Students. Academic misconduct on an exam will result in a zero on that exam and will be reported to the Dean of Students, without exception.**
+
+[More information about Academic Misconduct from the Dean of Students](https://www.montana.edu/deanofstudents/syllabus.html)
+
+---
+
+# Policy on intellectual property
+
+This syllabus, course lectures and presentations, and any course materials provided throughout this term are protected by U.S. copyright laws.  Students enrolled in the course may use them for their own research and educational purposes.  However, reproducing, selling or otherwise distributing these materials without written permission of the copyright owner is expressly prohibited, including providing materials to commercial platforms such as Chegg or CourseHero.  Doing so may constitute a violation of U.S. copyright law as well as MSU’s Code of Student Conduct.
 
 [More information about Academic Misconduct from the Dean of Students](https://www.montana.edu/deanofstudents/syllabus.html)
