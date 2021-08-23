@@ -115,7 +115,7 @@ Two "textbooks" are required for this course:
 The *Stat 216 Coursepack* of in-class activities is available for purchase in the [MSU Bookstore](https://www.msubookstore.org/). You may purchase the coursepack in person, or you may purchase online and have the coursepack shipped to you. Students are expected to bring the coursepack to class each day and to complete the activities within the coursepack. Chapter 1 of the coursepack is provided here if you do not have the coursepack by your first day of class.  
 
 * [_STAT 216 Coursepack_: Preface](Coursepack-Preface.pdf)
-* [_STAT 216 Coursepack_: Chapter 1](Coursepack-Ch1.pdf)
+* [_STAT 216 Coursepack_: Chapter 1](https://math.montana.edu/courses/s216/Week1_Coursepack.pdf)
 
 
 ### RStudio
