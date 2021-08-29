@@ -2,15 +2,15 @@
 title: 'STAT 216: Introduction to Statistics'
 author: 'Fall 2021 Syllabus'
 output:
-  pdf_document:
-    toc: yes
-    toc_depth: '3'
   html_document:
     theme: cerulean
     toc: yes
     toc_depth: 3
     toc_float: yes
     css: styles.css
+  pdf_document:
+    toc: yes
+    toc_depth: '3'
 ---
 
 ```{r setup, include=FALSE}
@@ -116,7 +116,7 @@ The *Stat 216 Coursepack* of in-class activities is available for purchase in th
 
 * [_STAT 216 Coursepack_: Preface](Coursepack-Preface.pdf)
 * [_STAT 216 Coursepack_: Chapter 1](https://math.montana.edu/courses/s216/Week1_Coursepack.pdf)
-
+* [_STAT 216 Coursepack_: Chapter 2](Stat216Coursepack-Chapter2.pdf)
 
 ### RStudio
 We will be using the statistical software [R](https://www.r-project.org/) through the IDE [RStudio](https://rstudio.com/products/rstudio/) for data visualization and statistical analyses. 
