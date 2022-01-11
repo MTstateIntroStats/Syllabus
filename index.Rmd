@@ -1,6 +1,6 @@
 ---
 title: 'STAT 216: Introduction to Statistics'
-author: 'Fall 2021 Syllabus'
+author: 'Spring 2022 Syllabus'
 output:
   html_document:
     theme: cerulean
@@ -48,29 +48,30 @@ Phone: (406) 994-6557
 ---
 
 ## Course Supervisor
-[**Dr. Nicole Carnegie**](https://math.montana.edu/directory/faculty/2040044/nicole-carnegie){target="_blank"}  
-email: nicole.carnegie@montana.edu  
-Office: Wilson 2-197  
-Phone: (406) 994-6875 
+[**Dr. Stacey Hancock**](http://www.math.montana.edu/shancock/){target="_blank"}  
+email: stacey.hancock@montana.edu  
+Office: Wilson 2-195  
+Phone: (406) 994-5350 
 
 
 ---
 
 # Course calendars
 
-* [STAT 216 calendar](calendars/F21-Stat216_Calendar.pdf)
+* [STAT 216 calendar](calendars/S22-Stat216_Calendar.pdf)
 * [MSU academic calendar](http://catalog.montana.edu/academiccalendar/)
+* [MSU finals week schedule](https://www.montana.edu/registrar/Schedules.html)
 
 ---
 
 # Course description
 Stat 216 is designed to engage you in the statistical investigation process from developing a research question and data collection methods to analyzing and communicating results. This course introduces basic descriptive and inferential statistics using both traditional (normal and $t$-distribution) and simulation approaches including confidence intervals and hypothesis testing on means (one-sample, two-sample, paired), proportions (one-sample, two-sample), regression and correlation. You will be exposed to numerous examples of real-world applications of statistics that are designed to help you develop a conceptual understanding of statistics. After taking this course, you should be able to:
 
-- Understand and appreciate how statistics affects your daily life and the fundamental role of statistics in all disciplines
-- Evaluate statistics and statistical studies you encounter in your other courses
-- Critically read news stories based on statistical studies as an informed consumer of data
-- Assess the role of randomness and variability in different contexts
-- Use basic methods to conduct and analyze statistical studies
+- Understand and appreciate how statistics affects your daily life and the fundamental role of statistics in all disciplines.
+- Evaluate statistics and statistical studies you encounter in your other courses.
+- Critically read news stories based on statistical studies as an informed consumer of data.
+- Assess the role of randomness and variability in different contexts.
+- Use basic methods to conduct and analyze statistical studies using statistical software.
 - Evaluate and communicate answers to the four pillars of statistical inference: How strong is the evidence of an effect? What is the size of the effect? How broadly do the conclusions apply? Can we say what caused the observed difference?
 
 ### MUS STAT 216 learning outcomes
