@@ -2,15 +2,15 @@
 title: 'STAT 216: Introduction to Statistics'
 author: 'Spring 2022 Syllabus'
 output:
-  pdf_document:
-    toc: yes
-    toc_depth: '3'
   html_document:
     theme: cerulean
     toc: yes
     toc_depth: 3
     toc_float: yes
     css: styles.css
+  pdf_document:
+    toc: yes
+    toc_depth: '3'
 ---
 
 ```{r setup, include=FALSE}
@@ -251,7 +251,7 @@ The group final exam will be taken in class during your normal in-class time. A 
 
 #### _Group portion_:
 
-Group final exam will be **May 6th (during normal class time)**. 
+Group final exam will be **May 4th AND May 6th (during normal class time)**. 
 
 * The group portion of the final exam will be worth 20% of your exam grade.
 * The group final exams is open book, open notes. 
