@@ -1,6 +1,6 @@
 ---
 title: 'STAT 216: Introduction to Statistics'
-author: 'Spring 2022 Syllabus'
+author: 'Fall 2022 Syllabus'
 output:
   html_document:
     theme: cerulean
@@ -58,7 +58,7 @@ Phone: (406) 994-5350
 
 # Course calendars
 
-* [STAT 216 calendar](calendars/S22-Stat216_Calendar.pdf)
+* [STAT 216 calendar](calendars/F22-Stat216_Calendar.pdf)
 * [MSU academic calendar](http://catalog.montana.edu/academiccalendar/)
 * [MSU finals week schedule](https://www.montana.edu/registrar/Schedules.html)
 
@@ -147,8 +147,8 @@ See the [Statistical Computing](https://mtstateintrostats.github.io/IntroStatTex
  
 Stat 216 will meet 3 times per week. Each week, students will:
 
-* **read** assigned sections of the online textbook and **watch videos** on that week's content ***prior*** to attending your assigned in-person class day, including concept check video quizzes embedded in the videos,
-* meet with your fellow students in your assigned classroom three class periods per week for **in-class group activities and discussion** (Mondays and Wednesdays) and **in-class Rstudio labs** (Friday),
+* **read** assigned sections of the online textbook and **watch videos** on that week's content ***prior*** to attending your assigned in-person class day, including concept check video quizzes located in Gradescope,
+* students will work in assigned groups three class periods per week for **in-class group activities and discussion** (Mondays and Wednesdays) and **in-class Rstudio labs** (Friday), with these groups changing each unit. 
 * complete one **assignment** in [Gradescope](https://www.gradescope.com/).
 
 
@@ -168,7 +168,7 @@ grades <- tribble(
   "Midterm exams (2)", 30,
   "Final exam", 20
 )
-grades$category <- fct_relevel(grades$category, "Videos", "Activities", "Labs" , "Assignments", "Midterm exams (2)", "Group project")
+grades$category <- fct_relevel(grades$category, "Videos", "Activities", "Labs" , "Assignments", "Midterm exams (2)", "Final exam")
 grades$location <- rep(1, 6)
 grades %>% ggplot(aes(x=location, y=percent)) +
   geom_col(aes(fill=category), col='black') + 
@@ -188,7 +188,7 @@ grades %>% ggplot(aes(x=location, y=percent)) +
 
 ### Videos (10%)
 
-You will be expected to complete the assigned textbook reading and D2L videos using the reading guides provided in the coursepack prior to attending the in-class activity for each week. Concept check quiz questions will be embedded in the videos up through the due date. Up until the deadline, you can retake the video quizzes as many times as you like (the most recent grade will be recorded in D2L). *(Note that if you re-watch a video without taking the quiz, D2L will record a zero for that quiz, even if you took the quiz previously.)* After the due date, videos will still be available to review, but quiz questions will no longer be included in the video. 
+You will be expected to complete the assigned textbook reading and we recommend using the reading guides provided in the coursepack prior to each Monday class.  Additionally, you need to view the required videos (as shown on the [STAT 216 calendar](calendars/F22-Stat216_Calendar.pdf)) and complete the video concept check quizzes found on Gradescope by **8am every Monday**. Up until the 8am Monday deadline, you can retake the video quizzes as many times as you like by clicking Resubmit in Gradescope to open and edit any question answer. After the due date, videos will still be available to review, but the Gradescope video quiz will be closed. 
 
 * Video quizzes are due **Monday at 8am Mountain Time each week**.
 * The two lowest video grades will be dropped.
