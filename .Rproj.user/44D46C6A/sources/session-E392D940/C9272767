@@ -3,23 +3,23 @@
     "path": "C:/Users/14064/OneDrive - Montana State University/Desktop/Syllabus/index.Rmd",
     "project_path": "index.Rmd",
     "type": "r_markdown",
-    "hash": "1690149588",
+    "hash": "2812244436",
     "contents": "",
     "dirty": false,
     "created": 1622131467834.0,
     "source_on_save": false,
     "relative_order": 1,
     "properties": {
-        "cursorPosition": "150,220",
-        "scrollLine": "136",
+        "cursorPosition": "307,1159",
+        "scrollLine": "303",
         "Source": "Source"
     },
     "folds": "",
-    "lastKnownWriteTime": 1660840295,
+    "lastKnownWriteTime": 1660842491,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1660840295751,
+    "last_content_update": 1660842491387,
     "read_only": false,
     "read_only_alternatives": []
 }
