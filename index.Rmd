@@ -161,12 +161,12 @@ Your grade in STAT 216 will contain the following components.
 ```{r, echo=FALSE, warning=FALSE, message=FALSE, out.width="75%", fig.align="center"}
 grades <- tribble(
   ~category,  ~percent,
-  "Videos", 10,
+  "Videos", 5,
   "Activities", 10,
-  "Labs", 15,
-  "Assignments", 15,
-  "Midterm exams (2)", 30,
-  "Final exam", 20
+  "Labs", 10,
+  "Assignments", 10,
+  "Midterm exams (2)", 40,
+  "Final exam", 25
 )
 grades$category <- fct_relevel(grades$category, "Videos", "Activities", "Labs" , "Assignments", "Midterm exams (2)", "Final exam")
 grades$location <- rep(1, 6)
@@ -174,19 +174,19 @@ grades %>% ggplot(aes(x=location, y=percent)) +
   geom_col(aes(fill=category), col='black') + 
   guides(fill=FALSE) + 
   geom_text(aes(x=rep(1, 6), 
-                label=c("Videos (10%)",
+                label=c("Videos (5%)",
                         "Activities (10%)",
-                        "Labs (15%)",
-                        "Assignments (15%)",
-                        "Midterm exams (30%)",
-                        "Final exam (20%)"), 
-                y=c(95,85,72.5,57.5,35,10))) + 
+                        "Labs (10%)",
+                        "Assignments (10%)",
+                        "Midterm exams (40%)",
+                        "Final exam (25%)"), 
+                y=c(97.5,90,80,70,45,12.5))) + 
   labs(x='', y='Cumulative percent') + 
   theme(axis.text.x = element_blank()) +
   scale_fill_manual(values=pal)
 ```
 
-### Videos (10%)
+### Videos (5%)
 
 You will be expected to complete the assigned textbook reading and we recommend using the reading guides provided in the coursepack prior to each Monday class.  Additionally, you need to view the required videos (as shown on the [STAT 216 calendar](calendars/S23-Stat216_Calendar.pdf)) and complete the video concept check quizzes found on Gradescope by **11:59pm every Sunday**. Up until the 11:59pm Sunday deadline, you can retake the video quizzes as many times as you like by clicking Resubmit in Gradescope to open and edit any question answer. After the due date, videos will still be available to review, but the Gradescope video quiz will be closed. 
 
@@ -206,7 +206,7 @@ Every Monday and Wednesday, you will meet with your classmates and instructor to
     + WebEx should be set up by students’ teammates. If the student is uncomfortable asking, the instructor can facilitate that conversation (e.g., email the students’ teammates, cc’ing the student, and ask if anyone can setup a WebEx meeting for class). 
 
 
-### Labs (15%)
+### Labs (10%)
 
 Every Friday, you will meet with your classmates and instructor to work through that day's coursepack Rstudio group lab.  The lab will reinforce the ideas learned in the activities completed Monday and Wednesday but with the use of Rstudio for exploring and analyzing data.  
 
@@ -216,16 +216,16 @@ Every Friday, you will meet with your classmates and instructor to work through 
 * Each student will also turn in each lab for completion at the **beginning of the following class period**.
 
 
-### Assignments (15%)
+### Assignments (10%)
 
 You will complete weekly assignments in [Gradescope](https://www.gradescope.com/). These should be completed individually (meaning all answers should be written in your own words), but you may use your classmates, tutors, or your instructor/co-instructor/TA for assistance. 
 
 * Weekly assignments are due **Monday at 8pm Mountain Time each week, covering the previous week's content**.
 * The lowest assignment grade will be dropped.
 
-### Midterm exams (30%)
+### Midterm exams (40%)
 
-There will be two midterm exams (worth 15% of the course grade each). Midterm exams will be taken in class during your normal in-class time. Each exam has an group (Wednesday) and individual (Friday) component.  A practice exam will be released in D2L two weeks prior to the exam, with solutions to the practice exam released in D2L one week prior to the exam. Further details, resources, and instructions for each exam will be posted the week prior to the exam in D2L.
+There will be two midterm exams (worth 20% of the course grade each). Midterm exams will be taken in class during your normal in-class time. Each exam has an group (Wednesday) and individual (Friday) component.  A practice exam will be released in D2L two weeks prior to the exam, with solutions to the practice exam released in D2L one week prior to the exam. Further details, resources, and instructions for each exam will be posted the week prior to the exam in D2L.
 
 #### _Group portion_:
 
@@ -250,7 +250,7 @@ Individual midterm exam 1 will be **February 17th**; Individual midterm exam 2 w
 * You will **not** be required to use Rstudio on the individual midterm exams.
 
 
-### Final exam (20%)
+### Final exam (25%)
 
 The group final exam will be taken in class during your normal in-class time on the final Wednesday and Friday of classes (prior to Finals week). A practice exam will be released in D2L one week prior to the exam, with solutions to the practice exam released in D2L the Sunday prior to the exam. Further details, resources, and instructions for each exam will be posted the week prior to the exam in D2L.
 
