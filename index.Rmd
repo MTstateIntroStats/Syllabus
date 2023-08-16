@@ -1,6 +1,6 @@
 ---
 title: 'STAT 216: Introduction to Statistics'
-author: 'Spring 2023 Syllabus'
+author: 'Fall 2023 Syllabus'
 output:
   pdf_document:
     toc: yes
@@ -43,22 +43,19 @@ Phone: (406) 994-6557
 [**Melinda Yager**](http://www.math.montana.edu/directory/faculty/1582830/melinda-yager){target="_blank"}  
 email: melinda.yager@montana.edu  
 Office: Wilson 2-260  
-Phone: (406) 994-
 
 ---
 
 ## Course Supervisor
-[**Dr. Stacey Hancock**](http://www.math.montana.edu/shancock/){target="_blank"}  
+[**Dr. Mark Greenwood**](https://math.montana.edu/directory/faculty/1524138/mark-greenwood){target="_blank"}  
 email: stacey.hancock@montana.edu  
-Office: Wilson 2-195  
-Phone: (406) 994-5350 
-
+Office: Wilson 2-228  
 
 ---
 
 # Course calendars
 
-* [STAT 216 calendar](calendars/S23-Stat216_Calendar.pdf)
+* [STAT 216 calendar](calendars/F23-Stat216_Calendar.pdf)
 * [MSU academic calendar](http://catalog.montana.edu/academiccalendar/)
 * [MSU finals week schedule](https://www.montana.edu/registrar/Schedules.html) (be sure to view the **Final Week Common (Combined) Section Groupings**)
 
@@ -117,7 +114,7 @@ The *Stat 216 Coursepack* of in-class activities is available for purchase in th
 
 * [_STAT 216 Coursepack_: Preface](Coursepack-Preface.pdf)
 * [_STAT 216 Coursepack_: Chapter 1](Coursepack-Week1.pdf)
-* [_STAT 216 Coursepack_: Chapter 2](Coursepack-Week2.pdf)
+<!-- * [_STAT 216 Coursepack_: Chapter 2](Coursepack-Week2.pdf) -->
 
 ### RStudio
 We will be using the statistical software [R](https://www.r-project.org/) through the IDE [RStudio](https://rstudio.com/products/rstudio/) for data visualization and statistical analyses. 
@@ -147,7 +144,7 @@ See the [Statistical Computing](https://mtstateintrostats.github.io/IntroStatTex
  
 Stat 216 will meet 3 times per week. Each week, students will:
 
-* **read** assigned sections of the online textbook and **watch videos** on that week's content ***prior*** to attending your assigned in-person class day, including concept check video quizzes located in Gradescope,
+* **read** assigned sections of the online textbook on that week's content ***prior*** to attending your assigned in-person class day, including concept check video quizzes located in Gradescope,
 * students will work in assigned groups three class periods per week for **in-class group activities and discussion** (Mondays and Wednesdays) and **in-class Rstudio labs** (Friday), with these groups changing each unit. 
 * complete one **assignment** in [Gradescope](https://www.gradescope.com/).
 
