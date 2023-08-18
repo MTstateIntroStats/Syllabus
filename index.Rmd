@@ -2,15 +2,15 @@
 title: 'STAT 216: Introduction to Statistics'
 author: 'Fall 2023 Syllabus'
 output:
-  pdf_document:
-    toc: yes
-    toc_depth: '3'
   html_document:
     theme: cerulean
     toc: yes
     toc_depth: 3
     toc_float: yes
     css: styles.css
+  pdf_document:
+    toc: yes
+    toc_depth: '3'
 ---
 
 ```{r setup, include=FALSE}
@@ -48,7 +48,7 @@ Office: Wilson 2-260
 
 ## Course Supervisor
 [**Dr. Mark Greenwood**](https://math.montana.edu/directory/faculty/1524138/mark-greenwood){target="_blank"}  
-email: stacey.hancock@montana.edu  
+email: greenwood@montana.edu  
 Office: Wilson 2-228  
 
 ---
@@ -125,6 +125,8 @@ You will access this software through the MSU RStudio server: [rstudio.math.mont
 
 See the [Statistical Computing](https://mtstateintrostats.github.io/IntroStatTextbook/rstudio.html#alternative-options-for-accessing-rstudio) section in the Welcome chapter of our textbook for alternative options for accessing RStudio.
 
+### Required course software
+All students are required to have a word processor and spreadsheet software installed on the personal device they plan to use for this course.  We *highly* recommend the use of Word and Excel.  If you do not currently have Word and/or Excel installed on your device, you can download the Microsoft Office 365 for Students for free by following the instructions [here](https://coe.montana.edu/it/students/student-software.html)
 
 ### Learning management tools
 
@@ -144,8 +146,10 @@ See the [Statistical Computing](https://mtstateintrostats.github.io/IntroStatTex
  
 Stat 216 will meet 3 times per week. Each week, students will:
 
-* **read** assigned sections of the online textbook on that week's content ***prior*** to attending your assigned in-person class day, including concept check video quizzes located in Gradescope,
-* students will work in assigned groups three class periods per week for **in-class group activities and discussion** (Mondays and Wednesdays) and **in-class Rstudio labs** (Friday), with these groups changing each unit. 
+* **read** assigned sections of the online textbook on that week's content ***prior*** to the first day of class each week.
+* use **guided notes** from the required coursepack during lectures the first day of class each week and complete **lecture quizzes** on  [Gradescope](https://www.gradescope.com/) after class.
+* **complete** assigned out-of-class activities prior to the second day of class each week.
+* **work** in assigned groups two class periods per week for **in-class group activities and discussion** (Wednesdays) and **in-class Rstudio labs** (Friday), with these groups changing each unit. 
 * complete one **assignment** in [Gradescope](https://www.gradescope.com/).
 
 
@@ -158,20 +162,20 @@ Your grade in STAT 216 will contain the following components.
 ```{r, echo=FALSE, warning=FALSE, message=FALSE, out.width="75%", fig.align="center"}
 grades <- tribble(
   ~category,  ~percent,
-  "Videos", 5,
+  "Lecture Quizzes", 5,
   "Activities", 10,
   "Labs", 10,
   "Assignments", 10,
   "Midterm exams (2)", 40,
   "Final exam", 25
 )
-grades$category <- fct_relevel(grades$category, "Videos", "Activities", "Labs" , "Assignments", "Midterm exams (2)", "Final exam")
+grades$category <- fct_relevel(grades$category, "Lecture Quizzes", "Activities", "Labs" , "Assignments", "Midterm exams (2)", "Final exam")
 grades$location <- rep(1, 6)
 grades %>% ggplot(aes(x=location, y=percent)) +
   geom_col(aes(fill=category), col='black') + 
   guides(fill=FALSE) + 
   geom_text(aes(x=rep(1, 6), 
-                label=c("Videos (5%)",
+                label=c("Lecture Quizzes (5%)",
                         "Activities (10%)",
                         "Labs (10%)",
                         "Assignments (10%)",
@@ -183,16 +187,22 @@ grades %>% ggplot(aes(x=location, y=percent)) +
   scale_fill_manual(values=pal)
 ```
 
-### Videos (5%)
+### Lecture Quizzes (5%)
 
-You will be expected to complete the assigned textbook reading and we recommend using the reading guides provided in the coursepack prior to each Monday class.  Additionally, you need to view the required videos (as shown on the [STAT 216 calendar](calendars/S23-Stat216_Calendar.pdf)) and complete the video concept check quizzes found on Gradescope by **11:59pm every Sunday**. Up until the 11:59pm Sunday deadline, you can retake the video quizzes as many times as you like by clicking Resubmit in Gradescope to open and edit any question answer. After the due date, videos will still be available to review, but the Gradescope video quiz will be closed. 
+You will be expected to complete the assigned textbook reading and we recommend using the reading guides provided in the coursepack prior to each Monday class (as shown on the [STAT 216 calendar](calendars/F23-Stat216_Calendar.pdf)).  On Monday, your lead instructor will lead a guided lecture over the course material, after which you will need to complete a quiz over the lecture.  Lecture quizzes are found on Gradescope and due by **9pm every Tuesday**. Up until the 9pm Tuesday deadline, you can retake the lecture quizzes as many times as you like by clicking Resubmit in Gradescope to open and edit any question answer.
 
-* Video quizzes are due **Sunday at 11:59pm Mountain Time each week**.
-* The lowest video grade will be dropped.
+* Policy for missed lecture days: 
+    + We will not record or post lectures/asynchronous learning opportunities.
+    + If you email the Student Success Coordinator, [Jade Schmidt](jade.schmidt2@montana.edu), by 9pm on the date of the missed lecture, you will receive access to a set of videos covering the lecture material which can be used to complete the lecture quiz.
+
+* Lecture quizzes are due **Sunday at 9pm Mountain Time each week**.
+* The lowest lecture grade will be dropped.
 
 ### Activities (10%)
 
-Every Monday and Wednesday, you will meet with your classmates and instructor to work through that day's coursepack group activity. Attendance and completion of the activity counts towards this portion of your grade. 
+After Monday lectures, there will be an out-of-class activity to complete.  The out-of-class activity can be found in your coursepack and will be handed in at the start of class on Wednesday.  
+
+Every Wednesday during class, you will meet with your classmates and instructor to work through that day's coursepack group activity. Attendance and completion of the in-class and out-of-class activities counts towards this portion of your grade. 
 
 * Activities must be completed in the Stat 216 Coursepack. **If you prefer to complete the activity on a pdf copy using a stylus-enabled device, please speak to your instructor, and he or she will provide you with a PDF copy of the coursepack.**
 * Activities will be checked for completion at the **beginning of the following class period**.
@@ -205,9 +215,9 @@ Every Monday and Wednesday, you will meet with your classmates and instructor to
 
 ### Labs (10%)
 
-Every Friday, you will meet with your classmates and instructor to work through that day's coursepack Rstudio group lab.  The lab will reinforce the ideas learned in the activities completed Monday and Wednesday but with the use of Rstudio for exploring and analyzing data.  
+Every Friday, you will meet with your classmates and instructor to work through that day's coursepack Rstudio group lab.  The lab will reinforce the ideas learned in the activities and lecture completed Monday and Wednesday but with the use of Rstudio for exploring and analyzing data.  
 
-* Each group will turn in selected questions from the lab to Gradescope. Labs are due **Friday at 8pm Mountain Time each week**.
+* Each group will turn in selected questions from the lab to Gradescope. Labs are due **Friday at 9pm Mountain Time each week**.
     - Exceptions: There will be no labs due on exam weeks or weeks with only two class meetings due to university holidays.
 * The lowest lab grade will be dropped.
 * Each student will also turn in each lab for completion at the **beginning of the following class period**.
@@ -217,7 +227,7 @@ Every Friday, you will meet with your classmates and instructor to work through 
 
 You will complete weekly assignments in [Gradescope](https://www.gradescope.com/). These should be completed individually (meaning all answers should be written in your own words), but you may use your classmates, tutors, or your instructor/co-instructor/TA for assistance. 
 
-* Weekly assignments are due **Monday at 8pm Mountain Time each week, covering the previous week's content**.
+* Weekly assignments are due **Monday at 9pm Mountain Time each week, covering the previous week's content**.
 * The lowest assignment grade will be dropped.
 
 ### Midterm exams (40%)
@@ -301,9 +311,9 @@ The grade cutoffs may be shifted _downward_ at the end of the semester based on 
 
 # Late work policies
 
-* **Videos**: You may take the video quizzes in Gradescope as many times as you like up until the due date using the Resubmit button to re-open a quiz. Videos are available in D2L at least one week prior to the due date, so extensions on these quizzes are not given unless extenuating circumstances that prevent the student from viewing the video for that entire period.
+* **Lecture Quizzes**: You may take the lecture quizzes in Gradescope as many times as you like up until the due date using the Resubmit button to re-open a quiz. Extensions on these quizzes are not given unless extenuating circumstances are present which are communicated to the Student Success Coordinator, [Jade Schmidt](jade.schmidt2@montana.edu).
 
-* **Activities and Labs**: Attendance in this course is critical for success and is therefore required. The in-class activity and lab grades are a proxy for attendance and engagement. Students are expected to be in class during in-class activities and labs to provide support to each other and their teammates while working through the material. We will not record or post lectures/asynchronous learning opportunities. Students get a “free pass” for up to three activities per Unit, no questions asked. Illnesses/emergencies/school-related absences are included in these three; if students have extraneous circumstances, they are encouraged to talk to their instructor. For illnesses or when students cannot attend class, we recommend that the student WebEx into class with their group (or any video conferencing tool of choice). Students attending class remotely can show their activity via WebEx for credit. WebEx should be set up by students’ teammates. If the student is uncomfortable asking, the instructor can facilitate that conversation (e.g., email the students’ teammates, cc’ing the student, and ask if anyone can setup a WebEx meeting for class). If you need to miss a lab due to illness, quarantine, or other extenuating circumstances, please email your section instructor and group-mates letting them know **prior to the lab meeting**.  You may participate in the lab via video conferencing if desired or you may complete the lab on your own.  If the latter, your section instructor will determine an appropriate extension on the lab based on your individual circumstances.
+* **Activities and Labs**: Attendance in this course is critical for success and is therefore required. The in-class and out-of-class activity and lab grades are a proxy for attendance and engagement. Students are expected to be in class during in-class activities and labs to provide support to each other and their teammates while working through the material. We will not record or post lectures/asynchronous learning opportunities. Students get a “free pass” for up to three activities per Unit, no questions asked. Illnesses/emergencies/school-related absences are included in these three; if students have extraneous circumstances, they are encouraged to talk to their instructor. For illnesses or when students cannot attend class, we recommend that the student WebEx into class with their group (or any video conferencing tool of choice). Students attending class remotely can show their activity via WebEx for credit. WebEx should be set up by students’ teammates. If the student is uncomfortable asking, the instructor can facilitate that conversation (e.g., email the students’ teammates, cc’ing the student, and ask if anyone can setup a WebEx meeting for class). If you need to miss a lab due to illness, quarantine, or other extenuating circumstances, please email your section instructor and group-mates letting them know **prior to the lab meeting**.  You may participate in the lab via video conferencing if desired or you may complete the lab on your own.  If the latter, your section instructor will determine an appropriate extension on the lab based on your individual circumstances.
 
 * **Exams**: 
     - Students that are in quarantine but healthy enough to take the exam should email Student Success Coordinator [Jade Schmidt](mailto: jade.schmidt2@montana.edu) to make alternative arrangements.  Group exams may be taken remotely and proctored via WebEx but all individual exams must be taken in person.
@@ -358,3 +368,7 @@ Plagiarism is an act of academic misconduct, which carries with it consequences 
 This syllabus, course lectures and presentations, and any course materials provided throughout this term are protected by U.S. copyright laws.  Students enrolled in the course may use them for their own research and educational purposes.  However, reproducing, selling or otherwise distributing these materials without written permission of the copyright owner is expressly prohibited, including providing materials to commercial platforms such as Chegg or CourseHero.  Doing so may constitute a violation of U.S. copyright law as well as MSU’s Code of Student Conduct.
 
 
+---
+# Policy on the use of AI language models
+
+In this course, you may utilize AI language models, including ChatGPT, as a resource to support your work except during in-class exams. AI language models are powerful tools developed to generate text based on the input provided. While the AI language models can help refine your writing and coding, it is important to remember that it is an AI system and not a substitute for your critical thinking and creativity. If you choose to use this tool, apply it as a supplement and do not rely solely on its suggestions. Ultimately, you are responsible for the content and quality of your work. Therefore, you should critically evaluate ChatGPT outputs for accuracy, potential bias, and relevancy. When utilizing AI language models, it is essential to ensure that your writing and coding remains original and properly attributed, including citing outputs or text generated by ChatGPT. Please see the How to cite ChatGPT in MLA Style [resource](https://style.mla.org/citing-generative-ai/). I encourage you to use AI language models to enhance your writing and coding skills, experiment with its capabilities, and learn from its suggestions. If you have any questions or concerns regarding using AI language models for assignments, please discuss them with us.
