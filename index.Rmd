@@ -195,7 +195,7 @@ You will be expected to complete the assigned textbook reading and we recommend 
     + We will not record or post lectures/asynchronous learning opportunities.
     + If you email the Student Success Coordinator, [Jade Schmidt](jade.schmidt2@montana.edu), by 9pm on the date of the missed lecture, you will receive access to a set of videos covering the lecture material which can be used to complete the lecture quiz.
 
-* Lecture quizzes are due **Sunday at 9pm Mountain Time each week**.
+* Lecture quizzes are due **Tuesday at 9pm Mountain Time each week**.
 * The lowest lecture grade will be dropped.
 
 ### Activities (10%)
@@ -232,7 +232,7 @@ You will complete weekly assignments in [Gradescope](https://www.gradescope.com/
 
 ### Midterm exams (40%)
 
-There will be two midterm exams (worth 20% of the course grade each). Midterm exams will be taken in class during your normal in-class time. Each exam has an group (Wednesday) and individual (Friday) component.  A practice exam will be released in D2L two weeks prior to the exam, with solutions to the practice exam released in D2L one week prior to the exam. Further details, resources, and instructions for each exam will be posted the week prior to the exam in D2L.
+There will be two midterm exams (worth 20% of the course grade each). Midterm exams will be taken in class during your normal in-class time. Each exam has a group (Wednesday) and individual (Friday) component.  A practice exam will be released in D2L two weeks prior to the exam, with solutions to the practice exam released in D2L one week prior to the exam. Further details, resources, and instructions for each exam will be posted the week prior to the exam in D2L.
 
 #### _Group portion_:
 
@@ -298,8 +298,7 @@ B+|87-89.99%
 B|83-86.99%
 B-|80-82.99%
 C+|77-79.99%
-C|73-76.99%
-C-|70-72.99%
+C|70-76.99%
 D|60-69.99%
 F|<59.99%
 
