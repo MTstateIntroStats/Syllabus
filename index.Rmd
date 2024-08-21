@@ -199,7 +199,7 @@ grades %>% ggplot(aes(x=location, y=percent)) +
 To begin each topic, you will be expected to complete the assigned textbook reading and watch the assigned videos in D2L prior to class. We recommend using the reading and video guides provided in the coursepack (as shown on the [STAT 216 calendar](calendars/F24-Stat216_Calendar.pdf)). You will need to complete reading/video quizzes, which are found on Gradescope and due by **the start of class**. Up until your class time, you can retake the video/reading quizzes as many times as you like by clicking Resubmit in Gradescope to open and edit any question answer.
 
 * Video/reading quizzes are due **before your class starts on dates indicated on the course calendar**.
-* The lowest lecture grade will be dropped.
+* The lowest video/reading quiz grade will be dropped.
 
 ### Engagement (10%)
 
