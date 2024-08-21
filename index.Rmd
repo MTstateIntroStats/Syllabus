@@ -123,7 +123,7 @@ We will be using the statistical software [R](https://www.r-project.org/) throug
 
 You will access this software through the MSU RStudio server: [rstudio.math.montana.edu](https://rstudio.math.montana.edu/). Your username is your 7-character NetID (in the form x##x###, where x is a letter and # is a number), and your password is the password associated with your NetID. Your email address will not work to log in to the RStudio server.
 
-* Please note: Your netID password expires every 6 months.  It is HIGHLY recommended that you reset your netID password BEFORE attempting to login to the Rstudio server.  You can reset your netID password in the [MSU password portal](https://pwreset.montana.edu/react/).
+* Please note: Your netID password expires every 6 months.  It is HIGHLY recommended that you reset your netID password BEFORE attempting to login to the RStudio server.  You can reset your netID password in the [MSU password portal](https://pwreset.montana.edu/react/).
 
 See the [Statistical Computing](https://mtstateintrostats.github.io/IntroStatTextbook/rstudio.html#alternative-options-for-accessing-rstudio) section in the Welcome chapter of our textbook for alternative options for accessing RStudio.
 
@@ -216,7 +216,7 @@ Every class day, you will meet with your classmates and instructor team to work 
 
 ### Module Labs (10%)
 
-After all topics within a module have been completed, you will meet with your classmates and instructor team to work through a Rstudio group lab, which is provided in your coursepack and will be completed during class time.  The lab will reinforce the topics learned in the activities but with the use of Rstudio for exploring and analyzing data.  
+After all topics within a module have been completed, you will meet with your classmates and instructor team to work through a RStudio group lab, which is provided in your coursepack and will be completed during class time.  The lab will reinforce the topics learned in the activities but with the use of RStudio for exploring and analyzing data.  
 
 * Each group will turn in selected questions from the lab to Gradescope. Labs are due **at 9 pm Mountain Time on dates indicated on the course calendar**.
 * The lowest lab grade will be dropped.
@@ -241,7 +241,7 @@ Individual midterm exam 1 will be **September 18th**; Individual midterm exam 2 
 * Midterm exams are closed book, closed notes. 
 * A formula sheet will be provided to use during the exam (also released with the potential midterm exam questions).
 * You will be allowed a calculator on the midterm exams. 
-* You will **not** be required to use Rstudio on the midterm exams.
+* You will **not** be required to use RStudio on the midterm exams.
 
 The Monday following each exam, we will have a 15-minute exam reflection.  This will consist of questions from your exam which you will answer in your assigned groups.  The exam reflections will count as 5% of your midterm exam grade.  **If a student misses more than 3 classes within a unit, they will be required to complete the exam reflection on their own.**
 
@@ -259,7 +259,7 @@ Group final exam will be **December 4th and 6th (during normal class time)**.
 * The group portion of the final exam will be worth 20% of your final exam grade.
 * The group final exam is open book, open notes. 
 * You will be allowed a calculator on the group final exam. 
-* You **will** be required to use Rstudio on the group final exam.
+* You **will** be required to use RStudio on the group final exam.
 * **If you miss more than 3 class days in Unit 3, you must complete the group exam individually.**
 
 #### _Individual portion_:
@@ -271,7 +271,7 @@ Individual common hour final exam will be **Tuesday, December 10th from 6:00 to 
 * The individual final exam is closed book. 
 * You will be allowed to create a one page note sheet for the exam.  You will also be provided a one page formula sheet during the exam.
 * You will be allowed a calculator on the individual final exam. 
-* You will **not** be required to use Rstudio on the individual final exams.
+* You will **not** be required to use RStudio on the individual final exams.
 * Understand that attending that common hour exam is part of your commitment when you enroll in the course.
 
 
