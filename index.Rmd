@@ -220,7 +220,7 @@ After all topics within a module have been completed, you will meet with your cl
 
 * Each group will turn in selected questions from the lab to Gradescope. Labs are due **at 9 pm Mountain Time on dates indicated on the course calendar**.
 * The lowest lab grade will be dropped.
-* Each student will also turn in each lab for completion at the **beginning of the following class period**.
+* Each student will also turn in each lab for completion at the **beginning of the following class period** for that class period's Engagement grade.
 
 
 ### Assignments (15%)
