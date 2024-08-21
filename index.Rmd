@@ -170,20 +170,20 @@ Your grade in STAT 216 will contain the following components.
 grades <- tribble(
   ~category,  ~percent,
   "Video/Reading Quizzes", 5,
-  "Activities", 10,
+  "Engagement", 10,
   "Module Labs", 10,
   "Assignments", 15,
   "Midterm exams (2)", 30,
   "Final exam", 30
 )
-grades$category <- fct_relevel(grades$category, "Video/Reading Quizzes", "Activities", "Module Labs" , "Assignments", "Midterm exams (2)", "Final exam")
+grades$category <- fct_relevel(grades$category, "Video/Reading Quizzes", "Engagement", "Module Labs" , "Assignments", "Midterm exams (2)", "Final exam")
 grades$location <- rep(1, 6)
 grades %>% ggplot(aes(x=location, y=percent)) +
   geom_col(aes(fill=category), col='black') + 
   guides(fill=FALSE) + 
   geom_text(aes(x=rep(1, 6), 
                 label=c("Video/Reading Quizzes (5%)",
-                        "Activities (10%)",
+                        "Engagement (10%)",
                         "Module Labs (10%)",
                         "Assignments (15%)",
                         "Midterm exams (30%)",
@@ -201,7 +201,7 @@ To begin each topic, you will be expected to complete the assigned textbook read
 * Video/reading quizzes are due **before your class starts on dates indicated on the course calendar**.
 * The lowest lecture grade will be dropped.
 
-### Activities (10%)
+### Engagement (10%)
 
 Every class day, you will meet with your classmates and instructor team to work through that day's coursepack group activity. Attendance and completion of the in-class activities counts towards this portion of your grade. 
 
