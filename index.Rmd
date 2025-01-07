@@ -1,6 +1,6 @@
 ---
 title: 'STAT 216: Introduction to Statistics'
-author: 'Fall 2024 Syllabus'
+author: 'Spring 2025 Syllabus'
 output:
   html_document:
     theme: cerulean
@@ -55,7 +55,7 @@ Office: Wilson 2-195
 
 # Course calendars
 
-* [STAT 216 calendar](calendars/F24-Stat216_Calendar.pdf)
+* [STAT 216 calendar](calendars/S25-Stat216_Calendar.pdf)
 * [MSU academic calendar](http://catalog.montana.edu/academiccalendar/)
 * [MSU finals week schedule](https://www.montana.edu/registrar/Schedules.html) (be sure to view the **Final Week Common (Combined) Section Groupings**)
 
@@ -80,9 +80,9 @@ Stat 216 is designed to engage you in the statistical investigation process from
 ### CORE 2.0
 This course fulfills the Quantitative Reasoning (Q) CORE 2.0 requirement because learning probability and statistics allows us to disentangle what's really happening in nature from “noise” inherent in data collection. It allows us to evaluate claims from advertisements and results of polls and builds critical thinking skills which form the basis of statistical inference. Students completing a Core 2.0 Quantitative Reasoning (Q) course should demonstrate an ability to:
 
-Interpret and draw inferences from mathematical models such as formulas, graphs, diagrams or tables.
-Represent mathematical information numerically, symbolically and visually.
-Employ quantitative methods in symbolic systems such as, arithmetic, algebra, or geometry to solve problems.
+1. Interpret and draw inferences from mathematical models such as formulas, graphs, diagrams or tables.
+2. Represent mathematical information numerically, symbolically and visually.
+3. Employ quantitative methods in symbolic systems such as, arithmetic, algebra, or geometry to solve problems.
 
 ---
  
@@ -136,7 +136,7 @@ All students are required to have a word processor and spreadsheet software inst
   + *Important*: Make sure you are receiving email notifications for any D2L activity. In D2L, click on your name, then Notifications. Check that D2L is using an email address that you regularly check; you have the option of registering a mobile number. Check the boxes to get notifications for announcements, content, discussions, and grades. 
   + If you have a question about the course materials, computing, or logistics, please post your question to your D2L discussion board instead of emailing your instructor. This ensures all students can benefit from the responses. Other students are encouraged to respond. 
 
-- [**Gradescope**](https://www.gradescope.com/): Submit and review quizzes and assignments, review exam grades. For more details, see our [Gradescope Help for Students](http://www.math.montana.edu/courses/s216/GradescopeHelpForStudents.pdf) document
+- [**Gradescope**](https://www.gradescope.com/): Submit and review quizzes and assignments, review exam grades. For more details, see the provided Stat 216 FAQs document on D2L Content --> Primary Resources.
 
 - [**Mathematics and Statistics Center**](https://math.montana.edu/undergrad/msc/index.html): Free drop-in tutoring for 100- and 200-level math and stat courses in Romney Hall 220.
 
@@ -149,13 +149,13 @@ All students are required to have a word processor and spreadsheet software inst
 Stat 216 will meet 3 times per week. 
 
 * During class meetings, students will **complete** activities and labs in assigned groups with the assistance of the teaching team.
-* Per the [STAT 216 calendar](calendars/F24-Stat216_Calendar.pdf), the course will be broken down into topics, modules, and units.
-* To begin each topic, students will 
-  + **read** assigned sections of the online textbook on that topic's content and complete (optionally) the reading guides in the Stat 216 coursepack.
-  + **watch** assigned videos on D2L and complete (optionally) the video guides located in the Stat 216 coursepack
+* Per the [STAT 216 calendar](calendars/S25-Stat216_Calendar.pdf), the course will be broken down into modules and units.
+* To begin each module, students will 
+  + **read** assigned sections of the online textbook on that topic's content and complete (optionally) the reading guides available on D2L.
+  + **watch** assigned videos on D2L and complete the video notes located in the Stat 216 coursepack **(video note completion is checked in class)**
   + complete **video/reading** quizzes on [Gradescope](https://www.gradescope.com/) **before** their class meets.
-* Instructor-lead **Guided Activities** will take place during class, with students able to test themselves on the topic during **Activity** days.
-* After all activities within a module have been completed, students will complete a **Module Lab**, which will be completed and turned into Gradescope during class.
+* **Activities** will take place during class in assigned teams with the assistance of the instruction team. Select problems from the activity will be turned into Gradescope before class ends.
+* After all activities within a module have been completed, students will complete a **Module Lab** during class time.  The lab will serve as a review of key concepts from the module.  Select problems from the lab will be turned into Gradescope before class ends.
 * After all modules within a unit are complete, students will complete a **Midterm Exam** over the topics covered.
 * Students will also complete one **assignment** in [Gradescope](https://www.gradescope.com/) per week, typically due on Mondays.
 
@@ -169,68 +169,95 @@ Your grade in STAT 216 will contain the following components.
 ```{r, echo=FALSE, warning=FALSE, message=FALSE, out.width="75%", fig.align="center"}
 grades <- tribble(
   ~category,  ~percent,
-  "Video/Reading Quizzes", 5,
+  "Preparation", 10,
   "Engagement", 10,
   "Module Labs", 10,
-  "Assignments", 15,
+  "Assignments", 10,
   "Midterm exams (2)", 30,
   "Final exam", 30
 )
-grades$category <- fct_relevel(grades$category, "Video/Reading Quizzes", "Engagement", "Module Labs" , "Assignments", "Midterm exams (2)", "Final exam")
+grades$category <- fct_relevel(grades$category, "Preparation", "Engagement", "Module Labs" , "Assignments", "Midterm exams (2)", "Final exam")
 grades$location <- rep(1, 6)
 grades %>% ggplot(aes(x=location, y=percent)) +
   geom_col(aes(fill=category), col='black') + 
   guides(fill=FALSE) + 
   geom_text(aes(x=rep(1, 6), 
-                label=c("Video/Reading Quizzes (5%)",
+                label=c("Preparation (10%)",
                         "Engagement (10%)",
                         "Module Labs (10%)",
-                        "Assignments (15%)",
+                        "Assignments (10%)",
                         "Midterm exams (30%)",
                         "Final exam (30%)"), 
-                y=c(97.5,90,80,67.5,45,15))) + 
+                y=c(95,85,75,65,45,15))) + 
   labs(x='', y='Cumulative percent') + 
   theme(axis.text.x = element_blank()) +
   scale_fill_manual(values=pal)
 ```
 
-### Video/Reading Quizzes (5%)
+### Preparation (10%)
 
-To begin each topic, you will be expected to complete the assigned textbook reading and watch the assigned videos in D2L prior to class. We recommend using the reading and video guides provided in the coursepack (as shown on the [STAT 216 calendar](calendars/F24-Stat216_Calendar.pdf)). You will need to complete reading/video quizzes, which are found on Gradescope and due by **the start of class**. Up until your class time, you can retake the video/reading quizzes as many times as you like by clicking Resubmit in Gradescope to open and edit any question answer.
+To begin each module, you will be expected to complete the assigned textbook reading, watch the assigned videos in D2L and take complete guided notes on the videos prior to class. Guided video notes are found in the coursepack and will be checked off at the start of class the first day of the new module. You will need to complete reading/video quizzes, which are found on Gradescope and due by **the start of class**. Up until your class time, you can retake the video/reading quizzes as many times as you like by clicking Resubmit in Gradescope to open and edit any question answer.
 
 * Video/reading quizzes are due **before your class starts on dates indicated on the course calendar**.
-* The lowest video/reading quiz grade will be dropped.
+* Guided video notes, found in the coursepack purchased from the MSU Bookstore, will be **checked for completion at the start of class the first day of a new module**.
+* The lowest preparation grade will be dropped.
 
 ### Engagement (10%)
 
-Every class day, you will meet with your classmates and instructor team to work through that day's coursepack group activity. Attendance and completion of the in-class activities counts towards this portion of your grade. 
+Every class day, you will meet with your classmates and instructor team to work through that day's coursepack group activity. Attendance and completion of the in-class activities and exit tickets (reviewing select questions from the activity) counts towards this portion of your grade. 
 
 * Activities must be completed in the Stat 216 Coursepack. **If you prefer to complete the activity on a pdf copy using a stylus-enabled device, please speak to your instructor, and he or she will provide you with a PDF copy of the coursepack.**
+* As a group, you will submit an 'exit ticket' (answers to select questions from the activity) to **Gradescope at the end of each class period**.
 * Activities will be checked for completion at the **beginning of the following class period**.
 * Policy for missed activities: 
     + We will not record or post lectures/asynchronous learning opportunities.
     + Students get a “free pass” for up to three activities per Unit, no questions asked, *but students are expected to communicate any absences with their section instructor*. Illnesses/emergencies/school-related absences are included in these three; if students have extraneous circumstances, they are encouraged to talk to their instructor. 
-    + For illnesses or when students cannot attend class, we recommend that the student WebEx into class with their group (or any video conferencing tool of choice). Students attending class remotely can show their activity via WebEx for credit.
-    + WebEx should be set up by students’ teammates. If the student is uncomfortable asking, the instructor can facilitate that conversation (e.g., email the students’ teammates, cc’ing the student, and ask if anyone can setup a WebEx meeting for class). 
+    + For illnesses or when students cannot attend class, we recommend that the student video conference into class with their group. Students attending class remotely can show their activity via video conference for credit. Video conferencing should be set up by students’ teammates. If the student is uncomfortable asking, the instructor can facilitate that conversation (e.g., email the students’ teammates, cc’ing the student, and ask if anyone can setup a WebEx meeting for class). 
+    + Students who are unable to attend class remotely AND e-mail their instructor **prior to class time** regarding an absence will receive a 0 for the class activity check but will be allowed a 24-hour extension to complete the exit ticket.
 
 
 ### Module Labs (10%)
 
-After all topics within a module have been completed, you will meet with your classmates and instructor team to work through a RStudio group lab, which is provided in your coursepack and will be completed during class time.  The lab will reinforce the topics learned in the activities but with the use of RStudio for exploring and analyzing data.  
+After a module has been completed, you will meet with your classmates and instructor team to work through a RStudio group lab, which is provided in your coursepack and will be completed during class time.  The lab will reinforce the topics learned in the activities but with the use of RStudio for exploring and analyzing data.  
 
 * Each group will turn in selected questions from the lab to Gradescope. Labs are due **at 9 pm Mountain Time on dates indicated on the course calendar**.
 * The lowest lab grade will be dropped.
-* Each student will also turn in each lab for completion at the **beginning of the following class period** for that class period's Engagement grade.
+* Each student will also have the lab checked for completion at the **beginning of the following class period** for that class period's Engagement grade.
 
 
-### Assignments (15%)
+### Assignments (10%)
 
 You will complete weekly assignments in [Gradescope](https://www.gradescope.com/). These should be completed individually (meaning all answers should be written in your own words), but you may use your classmates, tutors, or your instructor/co-instructor/TA for assistance. 
 
 * Weekly assignments are due **Monday at 9pm Mountain Time each week, covering the previous week's content**.
 * The lowest assignment grade will be dropped.
+* Please review the discussion of the use of [AI](#AI) on assignments.
 
 ### Midterm exams (30%)
+
+There will be two midterm exams, each consisting two parts: a group portion and an individual portion.  Both portions will be taken in class during your normal in-class time on subsequent days. A practice individual exam will be released in D2L one week prior to the exam, with solutions to the practice exam released in D2L the Sunday prior to the exam. Further details, resources, and instructions for each exam will be posted the week prior to the exam in D2L.
+
+#### _Group portion_:
+
+Group individual exams will be **December 4th and 6th (during normal class time)**. 
+
+* The group portion of the final exam will be worth 20% of your final exam grade.
+* The group final exam is open book, open notes. 
+* You will be allowed a calculator on the group final exam. 
+* You **will** be required to use RStudio on the group final exam.
+* **If you miss more than 3 class days in Unit 3, you must complete the group exam individually.**
+
+#### _Individual portion_:
+
+Individual common hour final exam will be **TBD**. 
+
+* The individual portion of the final exam will be worth 80% of your final exam grade.
+* No potential final exam questions will be released.
+* The individual final exam is closed book. 
+* You will be allowed to create a one page note sheet for the exam.  You will also be provided a one page formula sheet during the exam.
+* You will be allowed a calculator on the individual final exam. 
+* You will **not** be required to use RStudio on the individual final exams.
+* Understand that attending that common hour exam is part of your commitment when you enroll in the course.
 
 There will be two midterm exams (worth 15% of the course grade each). Midterm exams will be taken in class during your normal in-class time. A practice exam will be released in D2L two weeks prior to the exam, with solutions to the practice exam released in D2L one week prior to the exam. Further details, resources, and instructions for each exam will be posted the week prior to the exam in D2L.
 
@@ -264,7 +291,7 @@ Group final exam will be **December 4th and 6th (during normal class time)**.
 
 #### _Individual portion_:
 
-Individual common hour final exam will be **Tuesday, December 10th from 6:00 to 7:50 pm**. 
+Individual common hour final exam will be **TBD**. 
 
 * The individual portion of the final exam will be worth 80% of your final exam grade.
 * No potential final exam questions will be released.
@@ -365,7 +392,7 @@ This syllabus, course lectures and presentations, and any course materials provi
 
 
 ---
-# Policy on the use of AI language models
+# Policy on the use of AI language models{#AI}
 
 In this course, you may utilize generative AI language models, including ChatGPT, as a resource to support your work except during in-class exams. AI language models are powerful tools developed to generate text based on the input provided. While the AI language models can help refine your writing and coding, it is important to remember that it is an AI system and not a substitute for your critical thinking and creativity. If you choose to use this tool, apply it as a supplement and do not rely solely on its suggestions. Ultimately, you are responsible for the content and quality of your work. Therefore, you should critically evaluate ChatGPT outputs for accuracy, potential bias, and relevancy. When utilizing AI language models, it is essential to ensure that your writing and coding remains original and properly attributed, including citing outputs or text generated by ChatGPT. **If you choose to use AI language models to assist you on labs or assignments, you must cite the source used. Failure to do so will result in earning a 0 on all problems in which AI language models usage has been detected.**
 
