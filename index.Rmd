@@ -50,6 +50,7 @@ Office: Wilson 2-260
 [**Dr. Stacey Hancock**](https://math.montana.edu/directory/faculty/1941032/stacey-hancock){target="_blank"}  
 email: stacey.hancock@montana.edu  
 Office: Wilson 2-195  
+Phone: (406) 994-5350
 
 ---
 
@@ -296,14 +297,14 @@ Final course grades will be determined according to the following scale.
 Letter Grade|Weighted Score
 ---|---
 A|93-100%
-A-|90-92.99%
-B+|87-89.99%
-B|83-86.99%
-B-|80-82.99%
-C+|77-79.99%
-C|70-76.99%
-D|60-69.99%
-F|<59.99%
+A-|90-92%
+B+|87-89%
+B|83-86%
+B-|80-82%
+C+|77-79%
+C|70-76%
+D|60-69%
+F|<59%
 
 The grade cutoffs may be shifted _downward_ at the end of the semester based on student performance (never upward).
 
