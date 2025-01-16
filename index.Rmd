@@ -109,7 +109,7 @@ You should have familiarity with computers and technology (e.g., Internet browsi
 Two "textbooks" are required for this course:
 
 1. [_Montana State Introductory Statistics with R_](https://mtstateintrostats.github.io/IntroStatTextbook/) --- our free, online textbook
-2. _STAT 216 Coursepack_ --- workbook with reading guides and in-class activities and labs
+2. _STAT 216 Coursepack_ --- workbook with key topics, video notes, in-class activities, and labs
 
 The *Stat 216 Coursepack* of in-class activities is available for purchase in the [MSU Bookstore](https://www.msubookstore.org/). You may purchase the coursepack in person, or you may purchase online and have the coursepack shipped to you. Students are expected to bring the coursepack to class each day and to complete the activities within the coursepack. 
 
@@ -197,7 +197,7 @@ grades %>% ggplot(aes(x=location, y=percent)) +
 
 ### Preparation (10%)
 
-To begin each module, you will be expected to complete the assigned textbook reading, watch the assigned videos in D2L and take complete guided notes on the videos prior to class. Guided video notes are found in the coursepack and will be checked off at the start of class the first day of the new module. You will need to complete reading/video quizzes, which are found on Gradescope and due by **the start of class**. Up until your class time, you can retake the video/reading quizzes as many times as you like by clicking Resubmit in Gradescope to open and edit any question answer.
+To begin each module, you will be expected to complete the assigned textbook reading, watch the assigned videos in D2L and take complete guided notes on the videos prior to class. Guided video notes are found in the coursepack and will be checked off at the start of class the first day of the new module. You will need to complete video/reading quizzes, which are found on Gradescope and due by **the start of class**. Up until your class time, you can retake the video/reading quizzes as many times as you like by clicking Resubmit in Gradescope to open and edit any question answer.
 
 * Video/reading quizzes are due **before your class starts on dates indicated on the course calendar**.
 * Guided video notes, found in the coursepack purchased from the MSU Bookstore, will be **checked for completion at the start of class the first day of a new module**.
