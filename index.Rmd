@@ -152,7 +152,7 @@ Stat 216 will meet 3 times per week.
 * During class meetings, students will **complete** activities and labs in assigned groups with the assistance of the teaching team.
 * Per the [STAT 216 calendar](calendars/S25-Stat216_Calendar.pdf), the course will be broken down into modules and units.
 * To begin each module, students will 
-  + **read** assigned sections of the online textbook on that topic's content and complete (optionally) the reading guides available on D2L.
+  + **read** assigned sections of the online textbook on that topic's content.
   + **watch** assigned videos on D2L and complete the video notes located in the Stat 216 coursepack **(video note completion is checked in class)**
   + complete **video/reading** quizzes on [Gradescope](https://www.gradescope.com/) **before** their class meets.
 * **Activities** will take place during class in assigned teams with the assistance of the instruction team. Select problems from the activity will be turned into Gradescope before class ends.
@@ -201,7 +201,7 @@ To begin each module, you will be expected to complete the assigned textbook rea
 
 * Video/reading quizzes are due **before your class starts on dates indicated on the course calendar**.
 * Guided video notes, found in the coursepack purchased from the MSU Bookstore, will be **checked for completion at the start of class the first day of a new module**.
-* The lowest preparation grade will be dropped.
+* The lowest (1) video quiz and the lowest (1) video note grade will be dropped at the end of the semester.
 
 ### Engagement (10%)
 
@@ -215,14 +215,14 @@ Every class day, you will meet with your classmates and instructor team to work 
     + Students get a “free pass” for up to three activities per Unit, no questions asked, *but students are expected to communicate any absences with their section instructor*. Illnesses/emergencies/school-related absences are included in these three; if students have extraneous circumstances, they are encouraged to talk to their instructor. 
     + For illnesses or when students cannot attend class, we recommend that the student video conference into class with their group. Students attending class remotely can show their activity via video conference for credit. Video conferencing should be set up by students’ teammates. If the student is uncomfortable asking, the instructor can facilitate that conversation (e.g., email the students’ teammates, cc’ing the student, and ask if anyone can setup a WebEx meeting for class). 
     + Students who are unable to attend class remotely AND e-mail their instructor **prior to class time** regarding an absence will receive a 0 for the class activity check but will be allowed a 24-hour extension to complete the exit ticket.
-
+* The three (3) lowest activity/lab completion check grades and the lowest (1) exit ticket grade EACH unit will be dropped.
 
 ### Module Labs (10%)
 
 After a module has been completed, you will meet with your classmates and instructor team to work through a RStudio group lab, which is provided in your coursepack and will be completed during class time.  The lab will reinforce the topics learned in the activities but with the use of RStudio for exploring and analyzing data.  
 
 * Each group will turn in selected questions from the lab to Gradescope. Labs are due **at 9 pm Mountain Time on dates indicated on the course calendar**.
-* The lowest lab grade will be dropped.
+* The lowest (1) lab grade will be dropped at the end of the semester.
 * Each student will also have the lab checked for completion at the **beginning of the following class period** for that class period's Engagement grade.
 
 
@@ -231,7 +231,7 @@ After a module has been completed, you will meet with your classmates and instru
 You will complete weekly assignments in [Gradescope](https://www.gradescope.com/). These should be completed individually (meaning all answers should be written in your own words), but you may use your classmates, tutors, or your instructor/co-instructor/TA for assistance. 
 
 * Weekly assignments are due **Monday at 9pm Mountain Time each week, covering the previous week's content**.
-* The lowest assignment grade will be dropped.
+* The lowest (1) assignment grade will be dropped at the end of the semester.
 * Please review the discussion of the use of [AI](#AI) on assignments.
 
 ### Midterm exams (30%)
