@@ -1,0 +1,972 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[margin=1in]{geometry}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={STAT 216: Introduction to Statistics},
+  pdfauthor={Spring 2025 Syllabus},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{STAT 216: Introduction to Statistics}
+\author{Spring 2025 Syllabus}
+\date{}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{3}
+\tableofcontents
+}
+\section{Instructor contact
+information}\label{instructor-contact-information}
+
+Your primary contact in STAT 216 is your instructor. If you have
+concerns that cannot be answered by your instructor, you may reach out
+to the Student Success Coordinator or the Course Supervisor.
+
+Refer to your section's \textbf{Instructor Contact Information under D2L
+Content} for your instructor and co-instructor/TA contact information.
+
+\subsection{Student Success
+Coordinator}\label{student-success-coordinator}
+
+\href{http://www.math.montana.edu/directory/faculty/1524571/jade-schmidt}{\textbf{Jade
+Schmidt}}\\
+email:
+\href{mailto:jade.schmidt2@montana.edu}{\nolinkurl{jade.schmidt2@montana.edu}}\\
+Office: Wilson 2-263\\
+Phone: (406) 994-6557
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Assistant Coordinator}\label{assistant-coordinator}
+
+\href{http://www.math.montana.edu/directory/faculty/1582830/melinda-yager}{\textbf{Melinda
+Yager}}\\
+email:
+\href{mailto:melinda.yager@montana.edu}{\nolinkurl{melinda.yager@montana.edu}}\\
+Office: Wilson 2-260
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Course Supervisor}\label{course-supervisor}
+
+\href{https://math.montana.edu/directory/faculty/1941032/stacey-hancock}{\textbf{Dr.~Stacey
+Hancock}}\\
+email:
+\href{mailto:stacey.hancock@montana.edu}{\nolinkurl{stacey.hancock@montana.edu}}\\
+Office: Wilson 2-195\\
+Phone: (406) 994-5350
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Course calendars}\label{course-calendars}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{calendars/S25-Stat216_Calendar.pdf}{STAT 216 calendar}
+\item
+  \href{http://catalog.montana.edu/academiccalendar/}{MSU academic
+  calendar}
+\item
+  \href{https://www.montana.edu/registrar/Schedules.html}{MSU finals
+  week schedule} (be sure to view the \textbf{Final Week Common
+  (Combined) Section Groupings})
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Course description}\label{course-description}
+
+Stat 216 is designed to engage you in the statistical investigation
+process from developing a research question and data collection methods
+to analyzing and communicating results. This course introduces basic
+descriptive and inferential statistics using both traditional (normal
+and \(t\)-distribution) and simulation approaches including confidence
+intervals and hypothesis testing on means (one-sample, two-sample,
+paired), proportions (one-sample, two-sample), regression and
+correlation. You will be exposed to numerous examples of real-world
+applications of statistics that are designed to help you develop a
+conceptual understanding of statistics. After taking this course, you
+should be able to:
+
+\begin{itemize}
+\tightlist
+\item
+  Understand and appreciate how statistics affects your daily life and
+  the fundamental role of statistics in all disciplines.
+\item
+  Evaluate statistics and statistical studies you encounter in your
+  other courses.
+\item
+  Critically read news stories based on statistical studies as an
+  informed consumer of data.
+\item
+  Assess the role of randomness and variability in different contexts.
+\item
+  Use basic methods to conduct and analyze statistical studies using
+  statistical software.
+\item
+  Evaluate and communicate answers to the four pillars of statistical
+  inference: How strong is the evidence of an effect? What is the size
+  of the effect? How broadly do the conclusions apply? Can we say what
+  caused the observed difference?
+\end{itemize}
+
+\subsubsection{MUS STAT 216 learning
+outcomes}\label{mus-stat-216-learning-outcomes}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Understand how to describe the characteristics of a distribution.
+\item
+  Understand how data can be collected, and how data collection dictates
+  the choice of statistical method and appropriate statistical
+  inference.
+\item
+  Interpret and communicate the outcomes of estimation and hypothesis
+  tests in the context of a problem.
+\item
+  To understand the scope of inference for a given dataset.
+\end{enumerate}
+
+\subsubsection{CORE 2.0}\label{core-2.0}
+
+This course fulfills the Quantitative Reasoning (Q) CORE 2.0 requirement
+because learning probability and statistics allows us to disentangle
+what's really happening in nature from ``noise'' inherent in data
+collection. It allows us to evaluate claims from advertisements and
+results of polls and builds critical thinking skills which form the
+basis of statistical inference. Students completing a Core 2.0
+Quantitative Reasoning (Q) course should demonstrate an ability to:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Interpret and draw inferences from mathematical models such as
+  formulas, graphs, diagrams or tables.
+\item
+  Represent mathematical information numerically, symbolically and
+  visually.
+\item
+  Employ quantitative methods in symbolic systems such as, arithmetic,
+  algebra, or geometry to solve problems.
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Prerequisites}\label{prerequisites}
+
+Entrance to STAT 216 requires at least one of the following be met:
+
+\begin{itemize}
+\tightlist
+\item
+  Grade of C- or better in a 100-level math course (or equivalent)
+\item
+  Grade of B or better M090 or the M063/M090 co-requisite
+\item
+  Level 30 on the \href{http://www.montana.edu/testing/MPLEX.html}{Math
+  Placement Exam} or a combination of a good score on Math portion of
+  SAT (540 or higher) or ACT (23 or higher) and/or good high school GPA
+
+  \begin{itemize}
+  \tightlist
+  \item
+    See the
+    \href{http://www.math.montana.edu/undergrad/documents/MHiearchyFlowchart.pdf}{Math
+    Prerequisite Flowchart} for more details.
+  \end{itemize}
+\end{itemize}
+
+You should have familiarity with computers and technology (e.g.,
+Internet browsing, word processing, opening/saving files, converting
+files to PDF format, sending and receiving e-mail, etc.).
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Course materials and
+resources}\label{course-materials-and-resources}
+
+\subsubsection{Online textbook and
+coursepack}\label{online-textbook-and-coursepack}
+
+Two ``textbooks'' are required for this course:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \href{https://mtstateintrostats.github.io/IntroStatTextbook/}{\emph{Montana
+  State Introductory Statistics with R}} --- our free, online textbook
+\item
+  \emph{STAT 216 Coursepack} --- workbook with key topics, video notes,
+  in-class activities, and labs
+\end{enumerate}
+
+The \emph{Stat 216 Coursepack} of in-class activities is available for
+purchase in the \href{https://www.msubookstore.org/}{MSU Bookstore}. You
+may purchase the coursepack in person, or you may purchase online and
+have the coursepack shipped to you. Students are expected to bring the
+coursepack to class each day and to complete the activities within the
+coursepack.
+
+\subsubsection{RStudio}\label{rstudio}
+
+We will be using the statistical software
+\href{https://www.r-project.org/}{R} through the IDE
+\href{https://rstudio.com/products/rstudio/}{RStudio} for data
+visualization and statistical analyses.
+
+You will access this software through the MSU RStudio server:
+\href{https://rstudio.math.montana.edu/}{rstudio.math.montana.edu}. Your
+username is your 7-character NetID (in the form x\#\#x\#\#\#, where x is
+a letter and \# is a number), and your password is the password
+associated with your NetID. Your email address will not work to log in
+to the RStudio server.
+
+\begin{itemize}
+\tightlist
+\item
+  Please note: Your netID password expires every 6 months. It is HIGHLY
+  recommended that you reset your netID password BEFORE attempting to
+  login to the RStudio server. You can reset your netID password in the
+  \href{https://pwreset.montana.edu/react/}{MSU password portal}.
+\end{itemize}
+
+See the
+\href{https://mtstateintrostats.github.io/IntroStatTextbook/rstudio.html\#alternative-options-for-accessing-rstudio}{Statistical
+Computing} section in the Welcome chapter of our textbook for
+alternative options for accessing RStudio.
+
+\subsubsection{Required course software}\label{required-course-software}
+
+All students are required to have a word processor and spreadsheet
+software installed on the personal device they plan to use for this
+course. We \emph{highly} recommend the use of Word and Excel. If you do
+not currently have Word and/or Excel installed on your device, you can
+download the Microsoft Office 365 for Students for free by following the
+instructions
+\href{https://coe.montana.edu/it/students/student-software.html}{here}
+
+\subsubsection{Learning management
+tools}\label{learning-management-tools}
+
+\begin{itemize}
+\item
+  \href{https://ecat1.montana.edu/}{\textbf{D2L}}: Find your instructor
+  and co-instructor/TA contact info, announcements, exploration
+  information, instructor notes, exam review material, assignment and
+  data files, discussion forums, gradebook.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \emph{Important}: Make sure you are receiving email notifications
+    for any D2L activity. In D2L, click on your name, then
+    Notifications. Check that D2L is using an email address that you
+    regularly check; you have the option of registering a mobile number.
+    Check the boxes to get notifications for announcements, content,
+    discussions, and grades.
+  \item
+    If you have a question about the course materials, computing, or
+    logistics, please post your question to your D2L discussion board
+    instead of emailing your instructor. This ensures all students can
+    benefit from the responses. Other students are encouraged to
+    respond.
+  \end{itemize}
+\item
+  \href{https://www.gradescope.com/}{\textbf{Gradescope}}: Submit and
+  review quizzes and assignments, review exam grades. For more details,
+  see the provided Stat 216 FAQs document on D2L Content
+  --\textgreater{} Primary Resources.
+\item
+  \href{https://math.montana.edu/undergrad/msc/index.html}{\textbf{Mathematics
+  and Statistics Center}}: Free drop-in tutoring for 100- and 200-level
+  math and stat courses in Romney Hall 220.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Course format and
+organization}\label{course-format-and-organization}
+
+Stat 216 will meet 3 times per week.
+
+\begin{itemize}
+\tightlist
+\item
+  During class meetings, students will \textbf{complete} activities and
+  labs in assigned groups with the assistance of the teaching team.
+\item
+  Per the \href{calendars/S25-Stat216_Calendar.pdf}{STAT 216 calendar},
+  the course will be broken down into modules and units.
+\item
+  To begin each module, students will
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{read} assigned sections of the online textbook on that
+    topic's content.
+  \item
+    \textbf{watch} assigned videos on D2L and complete the video notes
+    located in the Stat 216 coursepack \textbf{(video note completion is
+    checked in class)}
+  \item
+    complete \textbf{video/reading} quizzes on
+    \href{https://www.gradescope.com/}{Gradescope} \textbf{before} their
+    class meets.
+  \end{itemize}
+\item
+  \textbf{Activities} will take place during class in assigned teams
+  with the assistance of the instruction team. Select problems from the
+  activity will be turned into Gradescope before class ends.
+\item
+  After all activities within a module have been completed, students
+  will complete a \textbf{Module Lab} during class time. The lab will
+  serve as a review of key concepts from the module. Select problems
+  from the lab will be turned into Gradescope before class ends.
+\item
+  After all modules within a unit are complete, students will complete a
+  \textbf{Midterm Exam} over the topics covered.
+\item
+  Students will also complete one \textbf{assignment} in
+  \href{https://www.gradescope.com/}{Gradescope} per week, typically due
+  on Mondays.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Course assessment}\label{course-assessment}
+
+Your grade in STAT 216 will contain the following components.
+
+\begin{center}\includegraphics[width=0.75\linewidth]{index_files/figure-latex/unnamed-chunk-1-1} \end{center}
+
+\subsubsection{Preparation (10\%)}\label{preparation-10}
+
+To begin each module, you will be expected to complete the assigned
+textbook reading, watch the assigned videos in D2L and take complete
+guided notes on the videos prior to class. Guided video notes are found
+in the coursepack and will be checked off at the start of class the
+first day of the new module. You will need to complete video/reading
+quizzes, which are found on Gradescope and due by \textbf{the start of
+class}. Up until your class time, you can retake the video/reading
+quizzes as many times as you like by clicking Resubmit in Gradescope to
+open and edit any question answer.
+
+\begin{itemize}
+\tightlist
+\item
+  Video/reading quizzes are due \textbf{before your class starts on
+  dates indicated on the course calendar}.
+\item
+  Guided video notes, found in the coursepack purchased from the MSU
+  Bookstore, will be \textbf{checked for completion at the start of
+  class the first day of a new module}.
+\item
+  The lowest (1) video quiz and the lowest (1) video note grade will be
+  dropped at the end of the semester.
+\end{itemize}
+
+\subsubsection{Engagement (10\%)}\label{engagement-10}
+
+Every class day, you will meet with your classmates and instructor team
+to work through that day's coursepack group activity. Attendance and
+completion of the in-class activities and exit tickets (reviewing select
+questions from the activity) counts towards this portion of your grade.
+
+\begin{itemize}
+\tightlist
+\item
+  Activities must be completed in the Stat 216 Coursepack. \textbf{If
+  you prefer to complete the activity on a pdf copy using a
+  stylus-enabled device, please speak to your instructor, and he or she
+  will provide you with a PDF copy of the coursepack.}
+\item
+  As a group, you will submit an `exit ticket' (answers to select
+  questions from the activity) to \textbf{Gradescope at the end of each
+  class period}.
+\item
+  Activities will be checked for completion at the \textbf{beginning of
+  the following class period}.
+\item
+  Policy for missed activities:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    We will not record or post lectures/asynchronous learning
+    opportunities.
+  \item
+    Students get a ``free pass'' for up to three activities per Unit, no
+    questions asked, \emph{but students are expected to communicate any
+    absences with their section instructor}.
+    Illnesses/emergencies/school-related absences are included in these
+    three; if students have extraneous circumstances, they are
+    encouraged to talk to their instructor.
+  \item
+    For illnesses or when students cannot attend class, we recommend
+    that the student video conference into class with their group.
+    Students attending class remotely can show their activity via video
+    conference for credit. Video conferencing should be set up by
+    students' teammates. If the student is uncomfortable asking, the
+    instructor can facilitate that conversation (e.g., email the
+    students' teammates, cc'ing the student, and ask if anyone can setup
+    a WebEx meeting for class).
+  \item
+    Students who are unable to attend class remotely AND e-mail their
+    instructor \textbf{prior to class time} regarding an absence will
+    receive a 0 for the class activity check but will be allowed a
+    24-hour extension to complete the exit ticket.
+  \end{itemize}
+\item
+  The three (3) lowest activity/lab completion check grades and the
+  lowest (1) exit ticket grade EACH unit will be dropped.
+\end{itemize}
+
+\subsubsection{Module Labs (10\%)}\label{module-labs-10}
+
+After a module has been completed, you will meet with your classmates
+and instructor team to work through a RStudio group lab, which is
+provided in your coursepack and will be completed during class time. The
+lab will reinforce the topics learned in the activities but with the use
+of RStudio for exploring and analyzing data.
+
+\begin{itemize}
+\tightlist
+\item
+  Each group will turn in selected questions from the lab to Gradescope.
+  Labs are due \textbf{at 9 pm Mountain Time on dates indicated on the
+  course calendar}.
+\item
+  The lowest (1) lab grade will be dropped at the end of the semester.
+\item
+  Each student will also have the lab checked for completion at the
+  \textbf{beginning of the following class period} for that class
+  period's Engagement grade.
+\end{itemize}
+
+\subsubsection{Assignments (10\%)}\label{assignments-10}
+
+You will complete weekly assignments in
+\href{https://www.gradescope.com/}{Gradescope}. These should be
+completed individually (meaning all answers should be written in your
+own words), but you may use your classmates, tutors, or your
+instructor/co-instructor/TA for assistance.
+
+\begin{itemize}
+\tightlist
+\item
+  Weekly assignments are due \textbf{Monday at 9pm Mountain Time each
+  week, covering the previous week's content}.
+\item
+  The lowest (1) assignment grade will be dropped at the end of the
+  semester.
+\item
+  Please review the discussion of the use of \hyperref[AI]{AI} on
+  assignments.
+\end{itemize}
+
+\subsubsection{Midterm exams (30\%)}\label{midterm-exams-30}
+
+There will be two midterm exams, each consisting two parts: a group
+portion and an individual portion. Both portions will be taken in class
+during your normal in-class time on subsequent days (Group exams on
+Wednesdays, Individual exams on Fridays). A practice individual exam
+will be released in D2L one week prior to the exam, with solutions to
+the practice exam released in D2L the Sunday prior to the exam. Further
+details, resources, and instructions for each exam will be posted the
+week prior to the exam in D2L.
+
+\paragraph{\texorpdfstring{\emph{Group
+portion}:}{Group portion:}}\label{group-portion}
+
+Group midterm exams will be \textbf{Wednesday February 12 and Wednesday
+March 26 (during normal class time)}.
+
+\begin{itemize}
+\tightlist
+\item
+  The group portion of the midterm exams will be worth 20\% of your
+  midterm exam grade.
+\item
+  The group midterm exams are open book, open resources provided by Stat
+  216 instructors (anything posted to D2L or feedback found in
+  Gradescope)
+\item
+  You will be allowed a calculator on the group midterm exams.
+\item
+  You \textbf{will} be required to use RStudio on the group midterm
+  exams.
+\item
+  \textbf{If you miss more than 3 class days in a unit, you must
+  complete the group midterm exam for that unit individually.}
+\end{itemize}
+
+\paragraph{\texorpdfstring{\emph{Individual
+portion}:}{Individual portion:}}\label{individual-portion}
+
+Individual midterm exams will be \textbf{Friday February 14 and Friday
+March 28 (during normal class time)}.
+
+\begin{itemize}
+\tightlist
+\item
+  The individual portion of the midterm exams will be worth 80\% of your
+  midterm exam grade.
+\item
+  The individual midterm exams are closed book, closed note.
+\item
+  You will be allowed to create a one page note sheet for each
+  individual exam. You will also be provided a one page formula sheet
+  during the exam.
+\item
+  You will be allowed a calculator on the individual midterm exam.
+\item
+  You will \textbf{not} be required to use RStudio on the individual
+  midterm exams.
+\end{itemize}
+
+\subsubsection{Final exam (30\%)}\label{final-exam-30}
+
+The final exam will consist of two parts: a group portion and an
+individual portion. The group final exam will be taken in class during
+your normal in-class time on the final Wednesday and Friday of classes
+(prior to Finals week). A practice individual exam will be released in
+D2L one week prior to the exam, with solutions to the practice exam
+released in D2L the Sunday prior to the exam. Further details,
+resources, and instructions for each exam will be posted the week prior
+to the exam in D2L.
+
+The individual final exam is a common hour exam with the date/time set
+by the Registrar. \textbf{Understand that attending that common hour
+exam is part of your commitment when you enroll in the course.}
+
+\paragraph{\texorpdfstring{\emph{Group
+portion}:}{Group portion:}}\label{group-portion-1}
+
+Group final exam will be \textbf{Wednesday April 30 and Friday May 2
+(during normal class time)}.
+
+\begin{itemize}
+\tightlist
+\item
+  The group portion of the final exam will be worth 20\% of your final
+  exam grade.
+\item
+  The group final exam is open book, open notes.
+\item
+  You will be allowed a calculator on the group final exam.
+\item
+  You \textbf{will} be required to use RStudio on the group final exam.
+\item
+  \textbf{If you miss more than 3 class days in Unit 3, you must
+  complete the group final exam individually.}
+\end{itemize}
+
+\paragraph{\texorpdfstring{\emph{Individual
+portion}:}{Individual portion:}}\label{individual-portion-1}
+
+Individual common hour final exam will be \textbf{Tuesday, May 6th, from
+12:00 - 1:50 pm}.
+
+\begin{itemize}
+\tightlist
+\item
+  The individual portion of the final exam will be worth 80\% of your
+  final exam grade.
+\item
+  No potential final exam questions will be released.
+\item
+  The individual final exam is closed book.
+\item
+  You will be allowed to create a one page note sheet for the exam. You
+  will also be provided a one page formula sheet during the exam.
+\item
+  You will be allowed a calculator on the individual final exam.
+\item
+  You will \textbf{not} be required to use RStudio on the individual
+  final exams.
+\item
+  Understand that attending that common hour exam is part of your
+  commitment when you enroll in the course.
+\end{itemize}
+
+\subsubsection{Letter grades}\label{letter-grades}
+
+Final course grades will be determined according to the following scale.
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Letter Grade & Weighted Score \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+A & 93-100\% \\
+A- & 90-92\% \\
+B+ & 87-89\% \\
+B & 83-86\% \\
+B- & 80-82\% \\
+C+ & 77-79\% \\
+C & 70-76\% \\
+D & 60-69\% \\
+F & \textless59\% \\
+\end{longtable}
+
+The grade cutoffs may be shifted \emph{downward} at the end of the
+semester based on student performance (never upward).
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Late work policies}\label{late-work-policies}
+
+Note: we \textbf{highly} recommend saving your answers for each question
+while you complete all work in Gradescope. This will ensure you can
+return to labs, video/reading quizzes, exit tickets, or assignments at a
+later date without fear of losing any progress. Additionally, Gradescope
+will automatically submit any saved work when the due date passes,
+ensuring you earn up to full credit for all problems completed on time.
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Video/Reading Quizzes and Assignments}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    You may take the video/reading quizzes or assignments in Gradescope
+    as many times as you like up until the due date using the Resubmit
+    button to re-open a quiz.
+  \item
+    Extensions on these quizzes are not given unless extenuating
+    circumstances are present which are communicated to the Student
+    Success Coordinator, \href{jade.schmidt2@montana.edu}{Jade Schmidt}.
+  \item
+    For assignments, while the due dates are 9 pm on Mondays, you will
+    be allowed to turn in work until 11:59 pm on the due date.
+    Assignment submissions that are received between 9 pm and 11:59 pm
+    will receive a 5\% grade deduction.
+  \end{itemize}
+\item
+  \textbf{Exit Tickets and Labs}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    You may take the exit tickets and labs in Gradescope as many times
+    as you like up until the due date using the Resubmit button to
+    re-open an assessment.
+  \item
+    If you miss class and email your section instructor about your
+    absence \textbf{prior to class time}, you will be given a 24-hour
+    extension to complete the exit ticket or lab.
+  \item
+    If possible, it is highly recommended to attend class virtually (via
+    video conferencing with your group) to complete the lab or exit
+    ticket with your team.\\
+  \item
+    Further extensions on exit tickets or labs, or when an absence is
+    not communicated prior to class time, are not given unless
+    extenuating circumstances are present. Please email the Student
+    Success Coordinator, \href{jade.schmidt2@montana.edu}{Jade Schmidt}
+    if you feel your missed exit ticket or lab falls into this category.
+  \item
+    For labs, while the due dates are 9 pm on the day the lab is
+    completed in class, you will be allowed to turn in work until 11:59
+    pm on the due date. Lab submissions that are received between 9 pm
+    and 11:59 pm will receive a 5\% grade deduction.
+  \end{itemize}
+\item
+  \textbf{Activities}: Attendance in this course is critical for success
+  and is therefore required. The in-class activity, exit tickets, and
+  lab grades are a proxy for attendance and engagement. Students are
+  expected to be in class during in-class activities and labs to provide
+  support to each other and their teammates while working through the
+  material. We will not record or post lectures/asynchronous learning
+  opportunities. Students get a ``free pass'' for up to three class days
+  per Unit, no questions asked, but are requested to communicate with
+  their section instructor anytime they miss class.
+  Illnesses/emergencies/school-related absences are included in these
+  three; if students have extraneous circumstances, they are encouraged
+  to talk to their instructor.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    For illnesses or when students cannot attend class, we recommend
+    that the student video conference into class with their group
+    (preferably using WebEx or Zoom). Students attending class remotely
+    can show their activity and participate in the exit ticket over
+    video conference for credit. Video conferencing should be set up by
+    students' teammates. If the student is uncomfortable asking, the
+    instructor can facilitate that conversation (e.g., email the
+    students' teammates, cc'ing the student, and ask if anyone can setup
+    a WebEx meeting for class).
+  \end{itemize}
+\item
+  \textbf{Exams}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Students that are in quarantine but healthy enough to take the exam
+    should email Student Success Coordinator
+    \href{mailto:\%20jade.schmidt2@montana.edu}{Jade Schmidt} to make
+    alternative arrangements. The group exams may be taken remotely and
+    proctored via WebEx but all individual exams must be taken in
+    person.
+  \item
+    If you are ill to the point of not being able to take the exam,
+    please email Student Success Coordinator
+    \href{mailto:\%20jade.schmidt2@montana.edu}{Jade Schmidt} to make
+    alternative arrangements.\\
+  \item
+    Students who miss the exam without contacting the instructor prior
+    to the exam will receive a zero on the exam.
+  \item
+    Work is not a legitimate reason for an exam absence.
+  \end{itemize}
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{COVID-19 policies and health-related class
+absences}\label{covid-19-policies-and-health-related-class-absences}
+
+Face masks are recommended, but not required, for students, faculty and
+staff indoors on campus.
+
+Please evaluate your own health status regularly and refrain from
+attending class and other on-campus events if you are ill.~MSU students
+who miss class due to illness will be given opportunities to access
+course materials online. You are encouraged to seek appropriate medical
+attention for treatment of illness. In the event of contagious illness,
+please do not come to class or to campus to turn in work. Instead notify
+us by email about your absence as soon as practical, so that
+accommodations can be made. Please note that documentation (a Doctor's
+note) for medical excuses is not required. MSU University Health
+Partners--as part their commitment to maintain patient confidentiality,
+to encourage more appropriate use of healthcare resources, and to
+support meaningful dialogue between instructors and students--does not
+provide such documentation.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Diversity and inclusivity}\label{diversity-and-inclusivity}
+
+Respect for Diversity: It is our intent that students from all diverse
+backgrounds and perspectives be well-served by this course, that
+students' learning needs be addressed both in and out of class, and that
+the diversity that students bring to this class be viewed as a resource,
+strength and benefit. It is our intent to present materials and
+activities that are respectful of diversity: gender identity, sexual
+orientation, disability, age, socioeconomic status, ethnicity, race,
+religion, culture, perspective, and other background characteristics.
+Your suggestions about how to improve the value of diversity in this
+course are encouraged and appreciated. Please let us know ways to
+improve the effectiveness of the course for you personally or for other
+students or student groups.
+
+In addition, in scheduling exams, we have attempted to avoid conflicts
+with major religious holidays. If, however, we have inadvertently
+scheduled an exam or major deadline that creates a conflict with your
+religious observances, please let us know as soon as possible so that we
+can make other arrangements.
+
+Support for Inclusivity: We support an inclusive learning environment
+where diversity and individual differences are understood, respected,
+appreciated, and recognized as a source of strength. We expect that
+students, faculty, administrators and staff at MSU will respect
+differences and demonstrate diligence in understanding how other
+peoples' perspectives, behaviors, and worldviews may be different from
+their own.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Policy on academic
+misconduct}\label{policy-on-academic-misconduct}
+
+Students in an academic setting are responsible for approaching all
+assignments with rigor, integrity, and in compliance with the University
+Code of Student Conduct. This responsibility includes:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  consulting and analyzing sources that are relevant to the topic of
+  inquiry;
+\item
+  clearly acknowledging when they draw from the ideas or the phrasing of
+  those sources in their own writing;
+\item
+  learning and using appropriate citation conventions within the field
+  in which they are studying; and
+\item
+  asking their instructor for guidance when they are uncertain of how to
+  acknowledge the contributions of others in their thinking and writing.
+\end{enumerate}
+
+When students fail to adhere to these responsibilities, they may
+intentionally or unintentionally ``use someone else's language, ideas,
+or other original (not common-knowledge) material without properly
+acknowledging its source'' \url{http://www.wpacouncil.org}. When the act
+is intentional, the student has engaged in plagiarism.
+
+Plagiarism is an act of academic misconduct, which carries with it
+consequences including, but not limited to, receiving a course grade of
+``F'' and a report to the Office of the Dean of Students. Unfortunately,
+it is not always clear if the misuse of sources is intentional or
+unintentional, which means that you may be accused of plagiarism even if
+you do not intentionally plagiarize. If you have any questions regarding
+use and citation of sources in your academic writing, you are
+responsible for consulting with your instructor before the assignment
+due date. In addition, you can work with an MSU Writing Center tutor at
+any point in your writing process, including when you are integrating or
+citing sources. You can make an appointment and find citation resources
+at www.montana.edu/writingcenter.
+
+\textbf{ In STAT 216, assignments that include the same wording as
+another student, regardless of whether that student was cited in your
+sources, will be considered plagiarism and will be treated as such.
+Students involved in plagiarism on assignments (all parties involved)
+will receive a zero grade on that assignment. The second offense will
+result in a zero on that assignment, and the incident will be reported
+to the Dean of Students. Academic misconduct on an exam will result in a
+zero on that exam and will be reported to the Dean of Students, without
+exception.}
+
+\href{https://www.montana.edu/deanofstudents/academicmisconduct/academicmisconduct.html}{More
+information about Academic Misconduct from the Dean of Students}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Policy on intellectual
+property}\label{policy-on-intellectual-property}
+
+This syllabus, course lectures and presentations, and any course
+materials provided throughout this term are protected by U.S. copyright
+laws. Students enrolled in the course may use them for their own
+research and educational purposes. However, reproducing, selling or
+otherwise distributing these materials without written permission of the
+copyright owner is expressly prohibited, including providing materials
+to commercial platforms such as Chegg or CourseHero. Doing so may
+constitute a violation of U.S. copyright law as well as MSU's Code of
+Student Conduct.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Policy on the use of AI language models}\label{AI}
+
+In this course, you may utilize generative AI language models, including
+ChatGPT, as a resource to support your work outside of class (during
+class, you should seek assistance from group members or instructors). AI
+language models are powerful tools developed to generate text based on
+the input provided. \textbf{While the AI language models can help refine
+your writing and coding, it is important to remember that it is an AI
+system and not a substitute for your critical thinking and creativity.
+Due to the nature of statistics and this course, an AI-generated answer
+may be incomplete, overly complex, or even incorrect.} If you do not
+understand a concept or a question asked, we \emph{highly} recommend
+visiting the \href{https://math.montana.edu/undergrad/msc/}{Math and
+Stats Center}, emailing or visiting with a member of your instructional
+team, or using the search feature within the online textbook before
+turning to Google or AI.
+
+If you choose to use this tool, apply it as a supplement and do not rely
+solely on its suggestions. Ultimately, you are responsible for the
+content and quality of your work. Therefore, you should critically
+evaluate ChatGPT outputs for accuracy, potential bias, and relevancy.
+When utilizing AI language models, it is essential to ensure that your
+writing and coding remains original and properly attributed, including
+citing outputs or text generated by ChatGPT. \textbf{If you choose to
+use AI language models to assist you on labs or assignments, you must
+cite the source used. Failure to do so will result in earning a 0 on all
+problems in which AI language models usage has been detected.}
+
+Please see the How to cite ChatGPT in MLA Style
+\href{https://style.mla.org/citing-generative-ai/}{resource}. We
+encourage you to use AI language models to enhance your writing and
+coding skills, experiment with its capabilities, and learn from its
+suggestions. If you have any questions or concerns regarding using AI
+language models for assignments, please discuss them with us.
+
+\end{document}

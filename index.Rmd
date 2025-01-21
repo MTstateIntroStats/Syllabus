@@ -2,15 +2,15 @@
 title: 'STAT 216: Introduction to Statistics'
 author: 'Spring 2025 Syllabus'
 output:
+  pdf_document:
+    toc: yes
+    toc_depth: '3'
   html_document:
     theme: cerulean
     toc: yes
     toc_depth: 3
     toc_float: yes
     css: styles.css
-  pdf_document:
-    toc: yes
-    toc_depth: '3'
 ---
 
 ```{r setup, include=FALSE}
@@ -330,7 +330,7 @@ Note: we **highly** recommend saving your answers for each question while you co
  
 
 * **Activities**: Attendance in this course is critical for success and is therefore required. The in-class activity, exit tickets, and lab grades are a proxy for attendance and engagement. Students are expected to be in class during in-class activities and labs to provide support to each other and their teammates while working through the material. We will not record or post lectures/asynchronous learning opportunities. Students get a “free pass” for up to three class days per Unit, no questions asked, but are requested to communicate with their section instructor anytime they miss class. Illnesses/emergencies/school-related absences are included in these three; if students have extraneous circumstances, they are encouraged to talk to their instructor. 
-    - For illnesses or when students cannot attend class, we recommend that the student video conference into class with their group (preferrably using WebEx or Zoom). Students attending class remotely can show their activity and participate in the exit ticket over video conference for credit. Video conferencing should be set up by students’ teammates. If the student is uncomfortable asking, the instructor can facilitate that conversation (e.g., email the students’ teammates, cc’ing the student, and ask if anyone can setup a WebEx meeting for class). 
+    - For illnesses or when students cannot attend class, we recommend that the student video conference into class with their group (preferably using WebEx or Zoom). Students attending class remotely can show their activity and participate in the exit ticket over video conference for credit. Video conferencing should be set up by students’ teammates. If the student is uncomfortable asking, the instructor can facilitate that conversation (e.g., email the students’ teammates, cc’ing the student, and ask if anyone can setup a WebEx meeting for class). 
 
 
 * **Exams**: 
