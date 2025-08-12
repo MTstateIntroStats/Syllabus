@@ -1,16 +1,16 @@
 ---
 title: 'STAT 216: Introduction to Statistics'
-author: 'Spring 2025 Syllabus'
+author: 'Fall 2025 Syllabus'
 output:
-  pdf_document:
-    toc: yes
-    toc_depth: '3'
   html_document:
     theme: cerulean
     toc: yes
     toc_depth: 3
     toc_float: yes
     css: styles.css
+  pdf_document:
+    toc: yes
+    toc_depth: '3'
 ---
 
 ```{r setup, include=FALSE}
@@ -28,7 +28,7 @@ Your primary contact in STAT 216 is your instructor. If you have
 concerns that cannot be answered by your instructor, you may reach
 out to the Student Success Coordinator or the Course Supervisor.
 
-Refer to your section's **Instructor Contact Information under D2L Content** for your
+Refer to your section's **Instructor Contact Information under Canvas Content** for your
 instructor and co-instructor/TA contact information.
 
 ## Student Success Coordinator
@@ -47,16 +47,16 @@ Office: Wilson 2-260
 ---
 
 ## Course Supervisor
-[**Dr. Stacey Hancock**](https://math.montana.edu/directory/faculty/1941032/stacey-hancock){target="_blank"}  
-email: stacey.hancock@montana.edu  
-Office: Wilson 2-195  
-Phone: (406) 994-5350
+[**Dr. Mark Greenwood**](https://math.montana.edu/directory/faculty/1524138/mark-greenwood){target="_blank"}  
+email: greenwood@montana.edu  
+Office: Wilson 2-228  
+Phone: (406) 994-1962
 
 ---
 
 # Course calendars
 
-* [STAT 216 calendar](calendars/S25-Stat216_Calendar.pdf)
+* [STAT 216 calendar](calendars/F25-Stat216_Calendar.pdf)
 * [MSU academic calendar](http://catalog.montana.edu/academiccalendar/)
 * [MSU finals week schedule](https://www.montana.edu/registrar/Schedules.html) (be sure to view the **Final Week Common (Combined) Section Groupings**)
 
@@ -122,22 +122,22 @@ The *Stat 216 Coursepack* of in-class activities is available for purchase in th
 ### RStudio
 We will be using the statistical software [R](https://www.r-project.org/) through the IDE [RStudio](https://rstudio.com/products/rstudio/) for data visualization and statistical analyses. 
 
-You will access this software through the MSU RStudio server: [rstudio.math.montana.edu](https://rstudio.math.montana.edu/). Your username is your 7-character NetID (in the form x##x###, where x is a letter and # is a number), and your password is the password associated with your NetID. Your email address will not work to log in to the RStudio server.
+You will access this software through the MSU RStudio server: [rstudio.math.montana.edu](https://rstudio.math.montana.edu/). Your username is your NetID email address (in the form x11x123@student.montana.edu), and your password is the password associated with your NetID. 
 
-* Please note: Your netID password expires every 6 months.  It is HIGHLY recommended that you reset your netID password BEFORE attempting to login to the RStudio server.  You can reset your netID password in the [MSU password portal](https://pwreset.montana.edu/react/).
+* Please note: Your NetID password expires every 6 months.  It is HIGHLY recommended that you reset your NetID password BEFORE attempting to log in to the RStudio server.  You can reset your NetID password in the [MSU password portal](https://pwreset.montana.edu/react/).
 
 See the [Statistical Computing](https://mtstateintrostats.github.io/IntroStatTextbook/rstudio.html#alternative-options-for-accessing-rstudio) section in the Welcome chapter of our textbook for alternative options for accessing RStudio.
 
 ### Required course software
-All students are required to have a word processor and spreadsheet software installed on the personal device they plan to use for this course.  We *highly* recommend the use of Word and Excel.  If you do not currently have Word and/or Excel installed on your device, you can download the Microsoft Office 365 for Students for free by following the instructions [here](https://coe.montana.edu/it/students/student-software.html)
+All students are required to have a word processor and spreadsheet software installed on the personal device they plan to use for this course.  We *highly* recommend the use of Word and Excel.  If you do not currently have Word and/or Excel installed on your device, you can download the Microsoft Office 365 for Students for free by following the instructions [here](https://coe.montana.edu/it/students/student-software.html).
 
 ### Learning management tools
 
-- [**D2L**](https://ecat1.montana.edu/): Find your instructor and co-instructor/TA contact info, announcements, exploration information, instructor notes, exam review material, assignment and data files, discussion forums, gradebook.
-  + *Important*: Make sure you are receiving email notifications for any D2L activity. In D2L, click on your name, then Notifications. Check that D2L is using an email address that you regularly check; you have the option of registering a mobile number. Check the boxes to get notifications for announcements, content, discussions, and grades. 
-  + If you have a question about the course materials, computing, or logistics, please post your question to your D2L discussion board instead of emailing your instructor. This ensures all students can benefit from the responses. Other students are encouraged to respond. 
+- [**Canvas**](https://montana.instructure.com/): Find your instructor and co-instructor/TA contact information, announcements, instructor notes, exam review material, assignment and data files, discussion forums, gradebook.
+  + *Important*: Be sure to use the [help videos](https://www.montana.edu/ecat/help/learners/) provided by Montana State to learn how to navigate the learning management system, including setting your account up to receive notifications in a timely manner for any new announcements or materials posted!
+  + If you have a question about the course materials, computing, or logistics, please post your question to your Canvas discussion board instead of emailing your instructor. This ensures all students can benefit from the responses. Other students are encouraged to respond. 
 
-- [**Gradescope**](https://www.gradescope.com/): Submit and review quizzes and assignments, review exam grades. For more details, see the provided Stat 216 FAQs document on D2L Content --> Primary Resources.
+- [**Gradescope**](https://www.gradescope.com/): All work for this course will be turned into Gradescope. We recommend accessing Gradescope from WITHIN Canvas (in the Assignments tab) to complete the work and view feedback after grading is completed.
 
 - [**Mathematics and Statistics Center**](https://math.montana.edu/undergrad/msc/index.html): Free drop-in tutoring for 100- and 200-level math and stat courses in Romney Hall 220.
 
@@ -150,11 +150,11 @@ All students are required to have a word processor and spreadsheet software inst
 Stat 216 will meet 3 times per week. 
 
 * During class meetings, students will **complete** activities and labs in assigned groups with the assistance of the teaching team.
-* Per the [STAT 216 calendar](calendars/S25-Stat216_Calendar.pdf), the course will be broken down into modules and units.
+* Per the [STAT 216 calendar](calendars/F25-Stat216_Calendar.pdf), the course will be broken down into modules and units.
 * To begin each module, students will 
   + **read** assigned sections of the online textbook on that topic's content.
-  + **watch** assigned videos on D2L and complete the video notes located in the Stat 216 coursepack **(video note completion is checked in class)**
-  + complete **video/reading** quizzes on [Gradescope](https://www.gradescope.com/) **before** their class meets.
+  + **watch** assigned videos on Canvas and complete the video notes located in the Stat 216 coursepack **(video note completion is checked in class)**
+  + *OPTIONAL*: students may complete **video/reading** quizzes on Gradescope to check their understanding at any point during a module.
 * **Activities** will take place during class in assigned teams with the assistance of the instruction team. Select problems from the activity will be turned into Gradescope before class ends.
 * After all activities within a module have been completed, students will complete a **Module Lab** during class time.  The lab will serve as a review of key concepts from the module.  Select problems from the lab will be turned into Gradescope before class ends.
 * After all modules within a unit are complete, students will complete a **Midterm Exam** over the topics covered.
@@ -172,10 +172,10 @@ grades <- tribble(
   ~category,  ~percent,
   "Preparation", 10,
   "Engagement", 10,
-  "Module Labs", 10,
-  "Assignments", 10,
-  "Midterm exams (2)", 30,
-  "Final exam", 30
+  "Module Labs", 15,
+  "Assignments", 15,
+  "Midterm exams (2)", 25,
+  "Final exam", 25
 )
 grades$category <- fct_relevel(grades$category, "Preparation", "Engagement", "Module Labs" , "Assignments", "Midterm exams (2)", "Final exam")
 grades$location <- rep(1, 6)
@@ -185,11 +185,11 @@ grades %>% ggplot(aes(x=location, y=percent)) +
   geom_text(aes(x=rep(1, 6), 
                 label=c("Preparation (10%)",
                         "Engagement (10%)",
-                        "Module Labs (10%)",
-                        "Assignments (10%)",
-                        "Midterm exams (30%)",
-                        "Final exam (30%)"), 
-                y=c(95,85,75,65,45,15))) + 
+                        "Module Labs (15%)",
+                        "Assignments (15%)",
+                        "Midterm exams (25%)",
+                        "Final exam (25%)"), 
+                y=c(95,85,72.5,57.5,37.5,12.5))) + 
   labs(x='', y='Cumulative percent') + 
   theme(axis.text.x = element_blank()) +
   scale_fill_manual(values=pal)
@@ -197,11 +197,10 @@ grades %>% ggplot(aes(x=location, y=percent)) +
 
 ### Preparation (10%)
 
-To begin each module, you will be expected to complete the assigned textbook reading, watch the assigned videos in D2L and take complete guided notes on the videos prior to class. Guided video notes are found in the coursepack and will be checked off at the start of class the first day of the new module. You will need to complete video/reading quizzes, which are found on Gradescope and due by **the start of class**. Up until your class time, you can retake the video/reading quizzes as many times as you like by clicking Resubmit in Gradescope to open and edit any question answer.
+To begin each module, you will be expected to complete the assigned textbook reading, watch the assigned videos in Canvas and take complete guided notes on the videos prior to class. Guided video notes are found in the coursepack and will be checked off at the start of class the first day of the new module. 
 
-* Video/reading quizzes are due **before your class starts on dates indicated on the course calendar**.
 * Guided video notes, found in the coursepack purchased from the MSU Bookstore, will be **checked for completion at the start of class the first day of a new module**.
-* The lowest (1) video quiz and the lowest (1) video note grade will be dropped at the end of the semester.
+* OPTIONAL: You can complete video/reading quizzes, which are found on Gradescope, to check your understanding at any point during a module. You can check your answers after each question by using the Save button. If an explanation appears after you have saved your answer, that indicates your answer was correct.
 
 ### Engagement (10%)
 
@@ -217,7 +216,7 @@ Every class day, you will meet with your classmates and instructor team to work 
     + Students who are unable to attend class remotely AND e-mail their instructor **prior to class time** regarding an absence will receive a 0 for the class activity check but will be allowed a 24-hour extension to complete the exit ticket.
 * The three (3) lowest activity/lab completion check grades and the lowest (1) exit ticket grade EACH unit will be dropped.
 
-### Module Labs (10%)
+### Module Labs (15%)
 
 After a module has been completed, you will meet with your classmates and instructor team to work through a RStudio group lab, which is provided in your coursepack and will be completed during class time.  The lab will reinforce the topics learned in the activities but with the use of RStudio for exploring and analyzing data.  
 
@@ -226,7 +225,7 @@ After a module has been completed, you will meet with your classmates and instru
 * Each student will also have the lab checked for completion at the **beginning of the following class period** for that class period's Engagement grade.
 
 
-### Assignments (10%)
+### Assignments (15%)
 
 You will complete weekly assignments in [Gradescope](https://www.gradescope.com/). These should be completed individually (meaning all answers should be written in your own words), but you may use your classmates, tutors, or your instructor/co-instructor/TA for assistance. 
 
@@ -234,23 +233,23 @@ You will complete weekly assignments in [Gradescope](https://www.gradescope.com/
 * The lowest (1) assignment grade will be dropped at the end of the semester.
 * Please review the discussion of the use of [AI](#AI) on assignments.
 
-### Midterm exams (30%)
+### Midterm exams (25%)
 
-There will be two midterm exams, each consisting two parts: a group portion and an individual portion.  Both portions will be taken in class during your normal in-class time on subsequent days (Group exams on Wednesdays, Individual exams on Fridays). A practice individual exam will be released in D2L one week prior to the exam, with solutions to the practice exam released in D2L the Sunday prior to the exam. Further details, resources, and instructions for each exam will be posted the week prior to the exam in D2L.
+There will be two midterm exams, each consisting two parts: a group portion and an individual portion.  Both portions will be taken in class during your normal in-class time on subsequent days. A practice group exam will be completed in class the class meeting prior to the group portion of the midterm.  A practice individual exam will be released in Canvas one week prior to the exam, with solutions to the practice exam released the Sunday prior to the exam. Further details, resources, and instructions for each exam will be posted the week prior to the exam in Canvas.
 
 #### _Group portion_:
 
-Group midterm exams will be **Wednesday February 12 and Wednesday March 26 (during normal class time)**. 
+Group midterm exams will be **Wednesday September 17th and Monday October 20th (during normal class time)**. 
 
 * The group portion of the midterm exams will be worth 20% of your midterm exam grade.
-* The group midterm exams are open book, open resources provided by Stat 216 instructors (anything posted to D2L or feedback found in Gradescope) 
+* The group midterm exams are open book, open resources provided by Stat 216 instructors (anything posted to Canvas or feedback found in Gradescope) 
 * You will be allowed a calculator on the group midterm exams. 
 * You **will** be required to use RStudio on the group midterm exams.
 * **If you miss more than 3 class days in a unit, you must complete the group midterm exam for that unit individually.**
 
 #### _Individual portion_:
 
-Individual midterm exams will be **Friday February 14 and Friday March 28 (during normal class time)**. 
+Individual midterm exams will be **Friday September 19th and Wednesday October 22nd (during normal class time)**. 
 
 * The individual portion of the midterm exams will be worth 80% of your midterm exam grade.
 <!-- * Potential midterm exam questions will be released one week prior to the exam. All exam questions will be selected from this set. -->
@@ -261,15 +260,15 @@ Individual midterm exams will be **Friday February 14 and Friday March 28 (durin
 * You will **not** be required to use RStudio on the individual midterm exams.
 
 
-### Final exam (30%)
+### Final exam (25%)
 
-The final exam will consist of two parts: a group portion and an individual portion.  The group final exam will be taken in class during your normal in-class time on the final Wednesday and Friday of classes (prior to Finals week). A practice individual exam will be released in D2L one week prior to the exam, with solutions to the practice exam released in D2L the Sunday prior to the exam. Further details, resources, and instructions for each exam will be posted the week prior to the exam in D2L.
+The final exam will consist of two parts: a group portion and an individual portion.  The group final exam will be taken in class during your normal in-class time on the final Wednesday and Friday of classes (prior to Finals week). A practice individual exam will be released in Canvas one week prior to the exam, with solutions to the practice exam released in Canvas the Sunday prior to the exam. Further details, resources, and instructions for each exam will be posted the week prior to the exam in Canvas.
 
 The individual final exam is a common hour exam with the date/time set by the Registrar. **Understand that attending that common hour exam is part of your commitment when you enroll in the course.**
 
 #### _Group portion_:
 
-Group final exam will be **Wednesday April 30 and Friday May 2 (during normal class time)**. 
+Group final exam will be **Wednesday December 3rd and Friday December 5th (during normal class time)**. 
 
 * The group portion of the final exam will be worth 20% of your final exam grade.
 * The group final exam is open book, open notes. 
@@ -279,7 +278,7 @@ Group final exam will be **Wednesday April 30 and Friday May 2 (during normal cl
 
 #### _Individual portion_:
 
-Individual common hour final exam will be **Tuesday, May 6th, from 12:00 - 1:50 pm**. 
+Individual common hour final exam will be **TBD**. 
 
 * The individual portion of the final exam will be worth 80% of your final exam grade.
 * No potential final exam questions will be released.
