@@ -23,12 +23,12 @@ pal <- brewer.pal(6, 'Pastel1')
 ```
 
 
-# Instructor contact information  {.tabset .tabset-fade}
+# Course Supervisors Contact Information  {.tabset .tabset-fade}
 Your primary contact in STAT 216 is your instructor. If you have
 concerns that cannot be answered by your instructor, you may reach
 out to the Student Success Coordinator or the Course Supervisor.
 
-Refer to your section's **Instructor Contact Information under Canvas Content** for your
+Refer to your section's **Instructor Contact Information under Canvas Modules --> Section X** for your
 instructor and co-instructor/TA contact information.
 
 ## Student Success Coordinator
@@ -53,6 +53,90 @@ Office: Wilson 2-228
 Phone: (406) 994-1962
 
 ---
+
+# Instructor contact information  {.tabset .tabset-fade}
+Your primary contact in STAT 216 is your instructor. 
+
+---
+
+## Section Instructors
+
+The list of instructors for each section/time/location is listed below.  Click on the tab to find the contact information for your section instructor.
+
+Section 001 (8 am in Romney 211): Jeremiah Pharr
+
+Section 002 (9 am in Romney 211): Jade Schmidt
+
+Section 003 (10 am in Romney 211): Jade Schmidt
+
+Section 004 (11 am in Romney 211): Madison Alderman
+
+Section 005 (12 pm in Romney 211): Jeremiah Pharr
+
+Section 006 (1:10 pm in Romney 211): Melinda Yager
+
+Section 007 (2:10 pm in **Romney 211**): Esther Birch
+
+Section 011 (2:10 pm in **Wilson 1-119**): Jeremiah Pharr
+
+Section 008 (3:10 pm in **Romney 211**): Esther Birch
+
+Section 012 (3:10 pm in **Wilson 1-119**): Jeremiah Pharr
+
+Section 009 (4:10 pm in Romney 211*): Madison Alderman
+
+Section 010 (5:10 pm in Romney 211): Madison Alderman
+
+---
+
+## Madison Alderman
+
+**Madison Alderman**
+
+email: madisonalderman1@montana.edu
+
+office: 
+
+---
+
+## Esther Birch
+
+**Esther Birch**
+
+email: estherbirch@montana.edu
+
+office: Wilson 1-112
+
+---
+
+## Jeremiah Pharr
+
+**Jeremiah Pharr** 
+
+email: jeremiahpharr@montana.edu
+
+office: Wilson 1-112
+
+---
+
+## Jade Schmidt
+
+**Jade Schmidt**
+
+email: jade.schmidt2@montana.edu
+
+office: Wilson 2-263
+
+---
+
+## Melinda Yager
+
+**Melinda Yager**
+
+email: melinda.yager@montana.edu
+
+office: Wilson 2-260
+
 
 # Course calendars
 
