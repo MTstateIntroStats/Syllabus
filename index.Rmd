@@ -94,7 +94,7 @@ Section 010 (5:10 pm in Romney 211): Madison Alderman
 
 email: madisonalderman1@montana.edu
 
-office: 
+office: Wilson 1-112
 
 ---
 
@@ -296,8 +296,8 @@ Every class day, you will meet with your classmates and instructor team to work 
     + We will not record or post lectures/asynchronous learning opportunities.
     + Students get a “free pass” for up to three activities per Unit, no questions asked, *but students are expected to communicate any absences with their section instructor*. Illnesses/emergencies/school-related absences are included in these three; if students have extraneous circumstances, they are encouraged to talk to their instructor. 
     + For illnesses or when students cannot attend class, we recommend that the student video conference into class with their group. Students attending class remotely can show their activity via video conference for credit. Video conferencing should be set up by students’ teammates. If the student is uncomfortable asking, the instructor can facilitate that conversation (e.g., email the students’ teammates, cc’ing the student, and ask if anyone can setup a WebEx meeting for class). 
-    + Students who are unable to attend class remotely AND e-mail their instructor **prior to class time** regarding an absence will receive a 0 for the class activity check but will be allowed a 24-hour extension to complete the exit ticket.
-* The three (3) lowest activity/lab completion check grades and the lowest (1) exit ticket grade EACH unit will be dropped.
+    + Students who are unable to attend class remotely AND e-mail their instructor **the day of the missed class** regarding an absence will be allowed a 24-hour extension to complete the exit ticket.
+* The three (3) lowest exit ticket grades EACH unit will be dropped.
 
 ### Module Labs (15%)
 
@@ -396,23 +396,21 @@ The grade cutoffs may be shifted _downward_ at the end of the semester based on 
 
 # Late work policies
 
-Note: we **highly** recommend saving your answers for each question while you complete all work in Gradescope.  This will ensure you can return to labs, video/reading quizzes, exit tickets, or assignments at a later date without fear of losing any progress.  Additionally, Gradescope will automatically submit any saved work when the due date passes, ensuring you earn up to full credit for all problems completed on time.
+Note: we **highly** recommend saving your answers for each question while you complete all work in Gradescope.  This will ensure you can return to labs, exit tickets, or assignments at a later date without fear of losing any progress.  Additionally, Gradescope will automatically submit any saved work when the due date passes, ensuring you earn up to full credit for all problems completed on time.
 
-* **Video/Reading Quizzes and Assignments**: 
-    - You may take the video/reading quizzes or assignments in Gradescope as many times as you like up until the due date using the Resubmit button to re-open a quiz. 
-    - Extensions on these quizzes are not given unless extenuating circumstances are present which are communicated to the Student Success Coordinator, [Jade Schmidt](jade.schmidt2@montana.edu).
-    - For assignments, while the due dates are 9 pm on Mondays, you will be allowed to turn in work until 11:59 pm on the due date.  Assignment submissions that are received between 9 pm and 11:59 pm will receive a 5% grade deduction. 
+* **Assignments**: 
+    - For assignments, while the due dates are 9 pm on Mondays, you will be allowed to turn in work until 11:59 pm on the due date.  Assignment submissions that are received between 9 pm and 11:59 pm will receive a 5% grade deduction. Extensions on assignments are not given unless extenuating circumstances are present which are communicated to the Student Success Coordinator, [Jade Schmidt](jade.schmidt2@montana.edu).
     
 * **Exit Tickets and Labs**: 
     - You may take the exit tickets and labs in Gradescope as many times as you like up until the due date using the Resubmit button to re-open an assessment.
-    - If you miss class and email your section instructor about your absence **prior to class time**, you will be given a 24-hour extension to complete the exit ticket or lab.
+    - If you miss class and email your section instructor about your absence **the day class is missed**, you will be given a 24-hour extension to complete the exit ticket or lab.
     - If possible, it is highly recommended to attend class virtually (via video conferencing with your group) to complete the lab or exit ticket with your team.  
     - Further extensions on exit tickets or labs, or when an absence is not communicated prior to class time, are not given unless extenuating circumstances are present. Please email the Student Success Coordinator, [Jade Schmidt](jade.schmidt2@montana.edu) if you feel your missed exit ticket or lab falls into this category.
     - For labs, while the due dates are 9 pm on the day the lab is completed in class, you will be allowed to turn in work until 11:59 pm on the due date.  Lab submissions that are received between 9 pm and 11:59 pm will receive a 5% grade deduction. 
- 
 
-* **Activities**: Attendance in this course is critical for success and is therefore required. The in-class activity, exit tickets, and lab grades are a proxy for attendance and engagement. Students are expected to be in class during in-class activities and labs to provide support to each other and their teammates while working through the material. We will not record or post lectures/asynchronous learning opportunities. Students get a “free pass” for up to three class days per Unit, no questions asked, but are requested to communicate with their section instructor anytime they miss class. Illnesses/emergencies/school-related absences are included in these three; if students have extraneous circumstances, they are encouraged to talk to their instructor. 
-    - For illnesses or when students cannot attend class, we recommend that the student video conference into class with their group (preferably using WebEx or Zoom). Students attending class remotely can show their activity and participate in the exit ticket over video conference for credit. Video conferencing should be set up by students’ teammates. If the student is uncomfortable asking, the instructor can facilitate that conversation (e.g., email the students’ teammates, cc’ing the student, and ask if anyone can setup a WebEx meeting for class). 
+
+<!-- * **Activities**: Attendance in this course is critical for success and is therefore required. The in-class activity, exit tickets, and lab grades are a proxy for attendance and engagement. Students are expected to be in class during in-class activities and labs to provide support to each other and their teammates while working through the material. We will not record or post lectures/asynchronous learning opportunities. Students get a “free pass” for up to three class days per Unit, no questions asked, but are requested to communicate with their section instructor anytime they miss class. Illnesses/emergencies/school-related absences are included in these three; if students have extraneous circumstances, they are encouraged to talk to their instructor.  -->
+<!--     - For illnesses or when students cannot attend class, we recommend that the student video conference into class with their group (preferably using WebEx or Zoom). Students attending class remotely can show their activity and participate in the exit ticket over video conference for credit. Video conferencing should be set up by students’ teammates. If the student is uncomfortable asking, the instructor can facilitate that conversation (e.g., email the students’ teammates, cc’ing the student, and ask if anyone can setup a WebEx meeting for class).  -->
 
 
 * **Exams**: 
