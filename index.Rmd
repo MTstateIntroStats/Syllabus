@@ -2,15 +2,15 @@
 title: 'STAT 216: Introduction to Statistics'
 author: 'Fall 2025 Syllabus'
 output:
-  pdf_document:
-    toc: yes
-    toc_depth: '3'
   html_document:
     theme: cerulean
     toc: yes
     toc_depth: 3
     toc_float: yes
     css: styles.css
+  pdf_document:
+    toc: yes
+    toc_depth: '3'
 ---
 
 ```{r setup, include=FALSE}
@@ -287,14 +287,13 @@ To begin each module, you will be expected to complete the assigned textbook rea
 
 ### Engagement (10%)
 
-Every class day, you will meet with your classmates and instructor team to work through that day's coursepack group activity. Attendance and completion of the in-class activities and exit tickets (reviewing select questions from the activity) counts towards this portion of your grade. 
+Every class day, you will meet with your classmates and instructor team to work through that day's coursepack group activity. Exit tickets (reviewing select questions from the activity) grades make up this portion of your grade. 
 
 * Activities must be completed in the Stat 216 Coursepack. **If you prefer to complete the activity on a pdf copy using a stylus-enabled device, please speak to your instructor, and he or she will provide you with a PDF copy of the coursepack.**
-* As a group, you will submit an 'exit ticket' (answers to select questions from the activity) to **Gradescope at the end of each class period**.
-* Activities will be checked for completion at the **beginning of the following class period**.
-* Policy for missed activities: 
+* As a group, you will submit an 'exit ticket' (answers to select question(s) from the activity) to **Gradescope at the end of each class period**.
+* Policy for missed activities/exit tickets: 
     + We will not record or post lectures/asynchronous learning opportunities.
-    + Students get a “free pass” for up to three activities per Unit, no questions asked, *but students are expected to communicate any absences with their section instructor*. Illnesses/emergencies/school-related absences are included in these three; if students have extraneous circumstances, they are encouraged to talk to their instructor. 
+    + Students get a “free pass” for up to three activities/exit tickets per Unit, no questions asked, *but students are expected to communicate any absences with their section instructor*. Illnesses/emergencies/school-related absences are included in these three; if students have extraneous circumstances, they are encouraged to talk to their instructor. 
     + For illnesses or when students cannot attend class, we recommend that the student video conference into class with their group. Students attending class remotely can show their activity via video conference for credit. Video conferencing should be set up by students’ teammates. If the student is uncomfortable asking, the instructor can facilitate that conversation (e.g., email the students’ teammates, cc’ing the student, and ask if anyone can setup a WebEx meeting for class). 
     + Students who are unable to attend class remotely AND e-mail their instructor **the day of the missed class** regarding an absence will be allowed a 24-hour extension to complete the exit ticket.
 * The three (3) lowest exit ticket grades EACH unit will be dropped.
