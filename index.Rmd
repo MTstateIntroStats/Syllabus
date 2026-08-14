@@ -1,6 +1,6 @@
 ---
 title: 'STAT 216: Introduction to Statistics'
-author: 'Spring 2026 Syllabus'
+author: 'Fall 2026 Syllabus'
 output:
   html_document:
     theme: cerulean
@@ -58,27 +58,43 @@ Your primary contact in STAT 216 is your section instructor. Please contact your
 
 ## Section Instructors
 
-The list of instructors for each section/time/location is listed below.  Click on the tab to find the contact information for your section instructor.  Note that all sections meet in Romney 211.
+The list of instructors for each section/time/location is listed below.  Click on the tab to find the contact information for your section instructor.  Note that all sections meet in Romney 211, unless noted otherwise below.
 
-Section 001 (8 - 8:50 am): Jeremiah Pharr
+Section 001 (8 - 8:50 am): Jade Schmidt
 
-Section 002 (9 - 9:50 am): Jeremiah Pharr
+Section 002 (9 - 9:50 am): Jade Schmidt 
 
-Section 003 (10 - 10:50 am): Jade Schmidt
+Section 003 (10 - 10:50 am): Esther Birch
 
-Section 004 (11 - 11:50 am): Jade Schmidt
+Section 004 (11 - 11:50 am): Esther Birch
 
-Section 005 (12 - 12:50 pm): Madison Alderman
+Section 005 (12 - 12:50 pm): Melinda Yager
 
 Section 006 (1:10 - 2 pm): Melinda Yager
 
-Section 007 (2:10 - 3 pm): Esther Birch
+Section 007 (2:10 - 3 pm): Jeremiah Pharr
 
-Section 008 (3:10 - 4 pm): Esther Birch
+Section 011 (2:10 - 3 pm) in WILSON 1-119: DJ Moritz 
+
+Section 008 (3:10 - 4 pm): Jeremiah Pharr
+
+Section 012 (3:10 - 4 pm) in WILSON 1-119: McBeth Ahortor 
 
 Section 009 (4:10 - 5 pm): Madison Alderman
 
 Section 010 (5:10 - 6 pm): Madison Alderman
+
+
+
+---
+
+## McBeth Ahortor
+
+**McBeth Ahortor**
+
+email: mcbethahortor@montana.edu
+
+office: Wilson 2-226
 
 ---
 
@@ -99,6 +115,17 @@ office: Wilson 1-112
 email: estherbirch@montana.edu
 
 office: Wilson 1-112
+
+---
+
+
+## DJ Moritz
+
+**DJ Moritz**
+
+email: dennismoritz@montana.edu
+
+office: Wilson 2-245
 
 ---
 
