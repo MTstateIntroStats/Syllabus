@@ -249,12 +249,12 @@ grades <- tribble(
   ~category,  ~percent,
   "Preparation", 10,
   "Engagement", 10,
+  "Assignments", 10,
   "Module Labs", 15,
-  "Assignments", 15,
-  "Midterm exams (2)", 25,
+  "Midterm exams (2)", 30,
   "Final exam", 25
 )
-grades$category <- fct_relevel(grades$category, "Preparation", "Engagement", "Module Labs" , "Assignments", "Midterm exams (2)", "Final exam")
+grades$category <- fct_relevel(grades$category, "Preparation", "Engagement", "Assignments", "Module Labs", "Midterm exams (2)", "Final exam")
 grades$location <- rep(1, 6)
 grades %>% ggplot(aes(x=location, y=percent)) +
   geom_col(aes(fill=category), col='black') + 
@@ -262,11 +262,11 @@ grades %>% ggplot(aes(x=location, y=percent)) +
   geom_text(aes(x=rep(1, 6), 
                 label=c("Preparation (10%)",
                         "Engagement (10%)",
+                        "Assignments (10%)",
                         "Module Labs (15%)",
-                        "Assignments (15%)",
-                        "Midterm exams (25%)",
+                        "Midterm exams (30%)",
                         "Final exam (25%)"), 
-                y=c(95,85,72.5,57.5,37.5,12.5))) + 
+                y=c(95,85,75,62.5,40,12.5))) + 
   labs(x='', y='Cumulative percent') + 
   theme(axis.text.x = element_blank()) +
   scale_fill_manual(values=pal)
@@ -296,6 +296,14 @@ Every class day, you will meet with your classmates and instructor team to work 
     + Students who are unable to attend class remotely AND e-mail their instructor **the day of the missed class** regarding an absence will be allowed a 24-hour extension to complete the exit ticket.
 * The three (3) lowest exit ticket grades EACH unit will be dropped.
 
+### Assignments (10%)
+
+You will complete weekly assignments in [Gradescope](https://www.gradescope.com/). These should be completed individually (meaning all answers should be written in your own words), but you may use your classmates, tutors, or your instructor/co-instructor/TA for assistance. 
+
+* Weekly assignments are due **Monday at 9pm Mountain Time each week, covering the previous week's content**.
+* The lowest (1) assignment grade will be dropped at the end of the semester.
+* Please review the discussion of the use of [AI](#AI) on assignments.
+
 ### Module Labs (15%)
 
 After a module has been completed, you will meet with your classmates and instructor team to work through a RStudio group lab, which is provided in your coursepack and will be completed during class time.  The lab will reinforce the topics learned in the activities but with the use of RStudio for exploring and analyzing data.  
@@ -305,15 +313,7 @@ After a module has been completed, you will meet with your classmates and instru
 * Please review the discussion of the use of [AI](#AI) on labs.
 
 
-### Assignments (15%)
-
-You will complete weekly assignments in [Gradescope](https://www.gradescope.com/). These should be completed individually (meaning all answers should be written in your own words), but you may use your classmates, tutors, or your instructor/co-instructor/TA for assistance. 
-
-* Weekly assignments are due **Monday at 9pm Mountain Time each week, covering the previous week's content**.
-* The lowest (1) assignment grade will be dropped at the end of the semester.
-* Please review the discussion of the use of [AI](#AI) on assignments.
-
-### Midterm exams (25%)
+### Midterm exams (30%)
 
 There will be two midterm exams, each consisting two parts: a group portion and an individual portion.  Both portions will be taken in class during your normal class time on subsequent days. A practice group exam will be completed in class the class meeting prior to the group portion of the midterm.  A practice individual exam will be released in Canvas one week prior to the exam, with solutions to the practice exam released the Sunday prior to the exam. Further details, resources, and instructions for each exam will be posted the week prior to the exam in Canvas.
 
