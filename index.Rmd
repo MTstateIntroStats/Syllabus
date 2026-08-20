@@ -160,7 +160,7 @@ office: Wilson 2-260
 
 # Course calendars
 
-* [STAT 216 calendar](calendars/S26-Stat216_Calendar.pdf)
+* [STAT 216 calendar](calendars/F26-Stat216_Calendar.pdf)
 * [MSU academic calendar](http://catalog.montana.edu/academiccalendar/)
 * [MSU finals week schedule](https://www.montana.edu/registrar/Schedules.html) (be sure to view the **Final Week Common (Combined) Section Groupings**)
 
