@@ -346,7 +346,7 @@ There will be two midterm exams, each consisting two parts: a group portion and 
 
 #### _Group portion_:
 
-Group midterm exams will be **Wednesday February 11th and Wednesday March 25th (during normal class time)**. 
+Group midterm exams will be **Friday, September 25th and Wednesday, October 28th (during normal class time)**. 
 
 * The group portion of the midterm exams will be worth 20% of your midterm exam grade.
 * The group midterm exams are open book, open resources provided by Stat 216 instructors (anything posted to Canvas or feedback found in Gradescope) 
@@ -356,7 +356,7 @@ Group midterm exams will be **Wednesday February 11th and Wednesday March 25th (
 
 #### _Individual portion_:
 
-Individual midterm exams will be **Friday February 13th and Friday, March 27th (during normal class time)**. 
+Individual midterm exams will be **Monday, September 28th and Friday, October 30th (during normal class time)**. 
 
 * The individual portion of the midterm exams will be worth 80% of your midterm exam grade.
 * The individual midterm exams are closed book, closed note. 
@@ -373,7 +373,7 @@ The final exam will consist of two parts: a group portion and an individual port
 
 #### _Group portion_:
 
-Group final exam will be **Wednesday April 29th and Friday May 1st (during normal class time)**. 
+Group final exam will be **Wednesday, December 9th and Friday, December 11th (during normal class time)**. 
 
 * The group portion of the final exam will be worth 20% of your final exam grade.
 * The group final exam is open book, open notes. 
@@ -383,7 +383,7 @@ Group final exam will be **Wednesday April 29th and Friday May 1st (during norma
 
 #### _Individual portion_:
 
-Individual common hour final exam will be **Thursday, May 7th from 10 - 11:50 am**.
+Individual common hour final exam will be **set by the registrars office the first month of Fall semester.  This will likely be Thursday, December 17th from 6 - 7:50 pm.**.
 
 * The individual portion of the final exam will be worth 80% of your final exam grade.
 * The individual final exam is closed book. 
