@@ -215,7 +215,9 @@ Two "textbooks" are required for this course:
 1. [_Montana State Introductory Statistics with R_](https://mtstateintrostats.github.io/IntroStatTextbook/) --- our free, online textbook
 2. _STAT 216 Coursepack_ --- workbook with key topics, video notes, in-class activities, and labs
 
-The *Stat 216 Coursepack* of in-class activities is available for purchase in the [MSU Bookstore](https://www.msubookstore.org/). You may purchase the coursepack in person, or you may purchase online and have the coursepack shipped to you. Students are expected to bring the coursepack to class each day and to complete the activities within the coursepack. 
+The *Stat 216 Coursepack* of in-class activities is available for purchase in the [MSU Bookstore](https://www.msubookstore.org/). You may purchase the coursepack in person, or you may purchase online and have the coursepack shipped to you. Students are expected to bring the coursepack to class each day and to complete the activities within the coursepack.
+
+If you prefer to complete activities on a pdf copy using a stylus-enabled device, please speak to your instructor, and he or she will provide you with a PDF copy of the coursepack.  
 
 <!-- Chapter 1 of the coursepack is provided here if you do not have the coursepack by your first day of class.   -->
 
