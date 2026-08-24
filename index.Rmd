@@ -256,7 +256,7 @@ All students are required to have a word processor and spreadsheet software inst
 Stat 216 will meet 3 times per week. 
 
 * During class meetings, students will **complete** activities and labs in assigned groups with the assistance of the teaching team.
-* Per the [STAT 216 calendar](calendars/S26-Stat216_Calendar.pdf), the course will be broken down into modules and units.
+* Per the [STAT 216 calendar](calendars/F26-Stat216_Calendar.pdf), the course will be broken down into modules and units.
 * To begin each module, students will 
   + **read** assigned sections of the online textbook on that topic's content.
   + **watch** assigned videos on Canvas and complete video notes (either those located in the Stat 216 coursepack or by taking your own notes on the assigned videos) **(video note completion is checked in class)**
